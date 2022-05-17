@@ -53,7 +53,21 @@ Assertions
 - assertLinesMatch
 #### Notas Clase:</br>
 Hacemos trabajo en mesas de calcular areas y testear con Assertions. 
+```java
+//Primero importamos los test 
+y creamos una clase con ...Test
+y hacemos 
+@Test 
+public void probarMayrEdad(){
+        //se crean las personas a probar
+        Persona persona1 = new Persona("Delfina", 15);
+        Persona persona2 = new Persona("Lara", 21);
 
+        //Pruebas
+        Assertions.assertTrue(persona2.esMayorDeEdad(), "La persona 2 es mayor de edad");
+        Assertions.assertFalse(persona1.esMayorDeEdad(), "La persona 1 es menor de edad");
+    }
+```
 ## Modulo n
 
 ## Clase n
