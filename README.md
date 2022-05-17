@@ -52,6 +52,7 @@ Assertions
 - assertTimeout and assertTimeoutPreemptively
 - assertLinesMatch
 #### Notas Clase:</br>
+Hacemos trabajo en mesas de calcular areas y testear con Assertions. 
 
 ## Modulo n
 
