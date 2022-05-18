@@ -1,0 +1,35 @@
+@startuml
+abstract class Menu {
+    -precioBase: double
+
+    + Menu(precioBase: double)
+
+    + abstract calcularCosto() : double
+    + armadoMenu(): String
+
+}
+
+class MenuInfantil {
+    -cantidadJuguete: int
+
+    + calcularCosto() : double
+}
+
+class MenuVeggie {
+    -recargoEspecias: double
+    -recargoSalsas: int
+
+    +agregarAdicionales(int cantidadEspecias, int cantidadSalsas)
+    + calcularCosto() : double
+}
+
+class MenuClassic {
+
+    + calcularCosto() : double
+
+}
+
+Menu --|> MenuClassic : pedidos
+Menu --|> MenuVeggie : pedidos
+Menu --|> MenuInfantil : pedidos
+@enduml
