@@ -1,0 +1,64 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam Shadowing true
+
+skinparam class {
+    ArrowColor Purple
+    BackgroundColor Pink
+    BorderColor Purple
+}
+
+skinparam note {
+    BackgroundColor LightYellow
+    BorderColor Purple
+}
+
+namespace procesadoresMenues #A9F5F2 {
+    abstract class ProcesadorDeMenus<<abstract>> {
+        + procesarMenu() : void
+        # {abstract} armar() : Menu
+        # {abstract} calcularPrecioDeVenta(menu : Menu) : double
+    }
+
+    class ProcesadorDeMenuVegetariano extends ProcesadorDeMenus {
+        # armar() : Menu
+        # calcularPrecioDeVenta(menu : Menu) : double
+    }
+
+    class ProcesadorDeMenuAdulto extends ProcesadorDeMenus {
+        # armar() : Menu
+        # calcularPrecioDeVenta(menu : Menu) : double
+    }
+
+    class ProcesadorDeMenuInfantil extends ProcesadorDeMenus {
+        # armar() : Menu
+        # calcularPrecioDeVenta(menu : Menu) : double
+    }
+}
+
+namespace menues #D0F5A9 {
+    abstract class Menu<<abstract>> {
+        - precioBase : double
+        + {abstract} mostrarInformacion() : void
+    }
+
+    class MenuVegetariano extends Menu {
+        - condimiento : String
+        + mostrarInformacion() : void
+    }
+
+    class MenuAdulto extends Menu {
+        - oferta : String
+        + mostrarInformacion() : void
+    }
+
+    class MenuInfantil extends Menu {
+        - sorpresa : String
+        - costoSorpresa : double
+        + mostrarInformacion() : void
+    }
+}
+
+procesadoresMenues ..> menues
+
+@enduml

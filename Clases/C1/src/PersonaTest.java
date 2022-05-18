@@ -1,5 +1,5 @@
+import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
 
 class PersonaTest {
     @Test
@@ -13,3 +13,4 @@ class PersonaTest {
         Assertions.assertFalse(persona1.esMayorDeEdad(), "La persona 1 es menor de edad");
     }
 }
+
