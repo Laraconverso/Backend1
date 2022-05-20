@@ -1,6 +1,6 @@
 # Backend I
 
-Estado: Cursando
+Estado: Cursando --> Revisar material faltante 
 
 # Notas de clases y mesas
 
@@ -155,12 +155,15 @@ Notas de clase
 Notas de material
 
 - ***Patrón Proxy***
+AGREGAR ANOTACIONES 
 
 Notas de clase
+Trabajamos sobre un proyecto de paginas bloqueadas y en la mesas sobre un proyecto de Spotify (usuarios Free y Premium que tienen permitido descargar canciones).
 
 ## Clase 6 - Integradora II
 
 Notas de clase
+
 
 ## Clase 7
 
