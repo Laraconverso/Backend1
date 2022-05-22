@@ -200,6 +200,7 @@ Notas de clase
 
 ## Clase 10
 Notas de material
+***Logging(trazas y debug)***
 - ***¿Qué es Log4j?***
 Es una libreria de Java utilizada para generar mensajes de logging de una forma limpia, sencilla, permitiendo filtrarlos por importancia y pudiendo configurar su salida tanto por consola, fichero u otras diferentes. </br>
 Ventajas: Permite tener un registro de lo que está pasando en nuestros sistemas, lo que nos posibilita entender mejor los errores.</br>
@@ -223,10 +224,10 @@ Notas de clase
 
 ## Clase 11
 Notas de material
-
+- ***Acceso a base de datos***
 Notas de clase
 
-## Clase 12
+## Clase 12 - Integradora
 Notas de material
 
 Notas de clase
