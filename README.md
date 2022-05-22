@@ -163,7 +163,7 @@ Trabajamos sobre un proyecto de paginas bloqueadas y en la mesas sobre un proyec
 ## Clase 6 - Integradora II
 
 Notas de clase
-
+Hacemos un repaso de los patros vistos esta semana y la actividad de un repaso del patron proxy. El ej se encuentra resuelto en la carpeta de la clase correspondiente
 
 ## Clase 7
 

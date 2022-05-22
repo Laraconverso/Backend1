@@ -1,2 +1,6 @@
-package com.company;public interface ISerie {
+package com.company;
+
+public interface ISerie {
+
+    public String getSerie(String nombre);
 }
