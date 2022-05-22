@@ -54,7 +54,7 @@ Notas de material
     
     Tests unitarios y de integración, necesitamos saber si nuestro sistema cumple con las especificaciones o mejorar una parte de código.
     
-    ![Captura de Pantalla 2022-05-16 a la(s) 01.22.35.png](Backend%20I%205c88e9bc8b164c06811f1ce0858d6da5/Captura_de_Pantalla_2022-05-16_a_la(s)_01.22.35.png)
+    //imagen
     
     - Assertions
         - assertArrayEquals
@@ -69,7 +69,9 @@ Notas de material
         - assertTimeout and assertTimeoutPreemptively
         - assertLinesMatch
 - ***Tests Unitarios***
+
 - ***JUnit***
+
 
 Notas de clase
 
@@ -95,9 +97,7 @@ Notas de material
 
 - ***Patrón Template Method***
     
-    ![Backend%20I%205c88e9bc8b164c06811f1ce0858d6da5/Untitled.png](Backend%20I%205c88e9bc8b164c06811f1ce0858d6da5/Untitled.png)
-    
-    ![Backend%20I%205c88e9bc8b164c06811f1ce0858d6da5/Untitled%201.png](Backend%20I%205c88e9bc8b164c06811f1ce0858d6da5/Untitled%201.png)
+    //imagenes x2
     
     ### Ventajas
     
@@ -113,14 +113,14 @@ Notas de material
     
     [Backend%20I%205c88e9bc8b164c06811f1ce0858d6da5/Ejemplo_de_Patrn_Template_Method.pdf](Backend%20I%205c88e9bc8b164c06811f1ce0858d6da5/Ejemplo_de_Patrn_Template_Method.pdf)
     
-    [cocinero.zip](Backend%20I%205c88e9bc8b164c06811f1ce0858d6da5/cocinero.zip)
     
-
 Notas de clase
+Ejercicio de la mesa se encuentra en la carpta correspondiente.
 
 ## Clase 3 - Integradora I
 
 Notas de clase
+Ejercicio de la mesa se encuentra en la carpta correspondiente.
 
 ## Clase 4
 
@@ -128,9 +128,9 @@ Notas de material
 
 - ***Patrón cadena de responsabilidad***
     
-    ![Backend%20I%205c88e9bc8b164c06811f1ce0858d6da5/Untitled%202.png](Backend%20I%205c88e9bc8b164c06811f1ce0858d6da5/Untitled%202.png)
+    //imagen
     
-    ![Backend%20I%205c88e9bc8b164c06811f1ce0858d6da5/Untitled%203.png](Backend%20I%205c88e9bc8b164c06811f1ce0858d6da5/Untitled%203.png)
+    //imagen
     
     ### Ventajas
     
@@ -145,10 +145,9 @@ Notas de material
     
     [Backend%20I%205c88e9bc8b164c06811f1ce0858d6da5/Ejemplo_Cadena_de_Responsabilidad.pdf](Backend%20I%205c88e9bc8b164c06811f1ce0858d6da5/Ejemplo_Cadena_de_Responsabilidad.pdf)
     
-    [creditos.zip](Backend%20I%205c88e9bc8b164c06811f1ce0858d6da5/creditos.zip)
-    
 
 Notas de clase
+Ejercicio de la mesa se encuentra en la carpta correspondiente.
 
 ## Clase 5
 
@@ -163,10 +162,76 @@ Trabajamos sobre un proyecto de paginas bloqueadas y en la mesas sobre un proyec
 ## Clase 6 - Integradora II
 
 Notas de clase
-Hacemos un repaso de los patros vistos esta semana y la actividad de un repaso del patron proxy. El ej se encuentra resuelto en la carpeta de la clase correspondiente
+Hacemos un repaso de los patros vistos esta semana y la actividad de un repaso del patron proxy. El ej se encuentra resuelto en la carpeta de la clase correspondiente.
 
 ## Clase 7
 
+Notas de material
+- ***Patron Flyweight***
+    --> menos instancias y decoracion 
+    Patron de tipo estructural
+    Bajo uso de memoria, en vez de crear nuevo sobjetos los guarda en cache y lo logra reutilizando objetos creados en otras instancias. 
+    El cliente: objeto que dispara la ejecucion. 
+    Flyweight factory: fabrica de objetos ligeros
+    Flyweight: objetos a reutilizar 
+    <img src="./fotos_teoria/flyweight.png">
+
+
+
+Notas de clase
+
+## Clase 8
+
+Notas de material
+- ***Patron Facade***
+    Patron estructural
+    Ventajas:
+    - software mas flexible y facil de expandir
+    - Menos uso de objetos que tratan con el cliente
+    - reducimos el acoplamiento entre el clientey los subsistemas.
+    Desventaja:
+    - Alto grado de dependencia en la interfaz de la fachada.
+Notas de clase
+
+## Clase 9- integradora
+Notas de material
+
+Notas de clase
+
+## Clase 10
+Notas de material
+- ***¿Qué es Log4j?***
+Es una libreria de Java utilizada para generar mensajes de logging de una forma limpia, sencilla, permitiendo filtrarlos por importancia y pudiendo configurar su salida tanto por consola, fichero u otras diferentes. </br>
+Ventajas: Permite tener un registro de lo que está pasando en nuestros sistemas, lo que nos posibilita entender mejor los errores.</br>
+Desventajas:La única desventaja es que a veces los archivos se hacen muy grandes y ocupan mucho espacio. Es por ello que debemos elegir bien qué tipo de información queremos almacenar.</br>
+<img src="./fotos_teroia/log4j.png">
+
+- Niveles de registro
+Por defecto Log4j tiene niveles de prioridad para los mensajes, entre ellos se encuentran:
+     - OFF: Este es el nivel de mínimo detalle, deshabilita todos los logs.
+    - FATAL: Se utiliza para mensajes críticos del sistema, generalmente después de guardar el mensaje, el programa se cierra.
+    - ERROR: Indica eventos de error que aún podrían permitir que la aplicación continúe ejecutándose.
+    - WARN: Se utiliza para mensajes de alerta sobre eventos.
+    - INFO: Se refiere a mensajes informativos que resaltan el progreso de la aplicación en un nivel aproximado.
+    - DEBUG: Designa los eventos informativos detallados más útiles para depurar una aplicación.
+    - TRACE: Se utiliza para mostrar mensajes con un mayor nivel de detalle que debug.
+    - ALL: Es el nivel de máximo detalle, habilita todos los logs.
+
+Notas de clase
+//Ver instalacion de log4j
+//ver practica logging
+
+## Clase 11
+Notas de material
+
+Notas de clase
+
+## Clase 12
+Notas de material
+
+Notas de clase
+
+## Clase  13
 Notas de material
 
 Notas de clase
