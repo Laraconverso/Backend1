@@ -1,0 +1,4 @@
+[2022-05-2521:40:21] [INFO ] [Main:10] Comienza la operación de división
+[2022-05-2521:40:21] [ERROR] [Main:14] División por cero
+java.lang.ArithmeticException: / by zero
+	at com.company.Main.main(Main.java:11)
