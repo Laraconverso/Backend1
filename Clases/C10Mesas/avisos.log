@@ -2,3 +2,7 @@
 [2022-05-2521:40:21] [ERROR] [Main:14] División por cero
 java.lang.ArithmeticException: / by zero
 	at com.company.Main.main(Main.java:11)
+[2022-05-2522:04:18] [ERROR] [Main:23] La lista no puede estar vacÃ­a
+[2022-05-2522:04:18] [INFO ] [Main:29] La lista tiene entre 1  y 5 elementos
+[2022-05-2522:04:18] [INFO ] [Main:35] La lista tiene entre 1  y 10 elementos
+[2022-05-2522:04:18] [INFO ] [Main:44] El promedio es 4.5
