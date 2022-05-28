@@ -1,0 +1,493 @@
+[2022-05-2720:28:02] [INFO ] [Main:15] h2 cargado :)
+[2022-05-2720:32:58] [INFO ] [Main:19] h2 cargado :)
+[2022-05-2720:32:59] [INFO ] [Main:24] Conexion extablecida :)
+[2022-05-2720:36:42] [INFO ] [Main:20] h2 cargado :)
+[2022-05-2720:36:43] [INFO ] [Main:25] Conexion extablecida :)
+[2022-05-2720:36:44] [ERROR] [Main:37] Error de conexion :(
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP TABLE IF [*]usuarios; CREATE TABLE usuarios(id INT PRIMARY KEY, nombre VARCHAR2, apellido VARCHAR2)"; se esperaba "EXISTS"
+Syntax error in SQL statement "DROP TABLE IF [*]usuarios; CREATE TABLE usuarios(id INT PRIMARY KEY, nombre VARCHAR2, apellido VARCHAR2)"; expected "EXISTS"; SQL statement:
+DROP TABLE IF usuarios; CREATE TABLE usuarios(id INT PRIMARY KEY, nombre VARCHAR2, apellido VARCHAR2) [42001-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.getSyntaxError(DbException.java:261)
+	at org.h2.command.Parser.getSyntaxError(Parser.java:907)
+	at org.h2.command.Parser.read(Parser.java:5743)
+	at org.h2.command.Parser.readIfExists(Parser.java:2130)
+	at org.h2.command.Parser.parseDrop(Parser.java:2208)
+	at org.h2.command.Parser.parsePrepared(Parser.java:776)
+	at org.h2.command.Parser.parse(Parser.java:691)
+	at org.h2.command.Parser.parse(Parser.java:666)
+	at org.h2.command.Parser.prepareCommand(Parser.java:568)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:237)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at com.company.Main.main(Main.java:30)
+[2022-05-2720:37:25] [INFO ] [Main:20] h2 cargado :)
+[2022-05-2720:37:27] [INFO ] [Main:25] Conexion extablecida :)
+[2022-05-2720:37:27] [INFO ] [Main:31] Se creo la tabla correctamente
+[2022-05-2720:54:07] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2720:54:09] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2720:54:09] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2720:54:09] [ERROR] [Main:66] Error de conexion :(
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "JUAN" no encontrada
+Column "JUAN" not found; SQL statement:
+INSERT INTO usuarios VALUES (1, Juan, Perez, 30);  [42122-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:244)
+	at org.h2.expression.ExpressionColumn.optimizeOther(ExpressionColumn.java:226)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:213)
+	at org.h2.command.dml.Insert.doPrepare(Insert.java:300)
+	at org.h2.command.dml.DataChangeStatement.prepare(DataChangeStatement.java:37)
+	at org.h2.command.Parser.prepareCommand(Parser.java:574)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:237)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at com.company.Main.main(Main.java:34)
+[2022-05-2720:55:31] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2720:55:33] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2720:55:33] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2720:55:33] [ERROR] [Main:66] Error de conexion :(
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.USUARIOS(ID) ( /* key:1 */ 1, 'Juan', 'Perez', 30)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.USUARIOS(ID) ( /* key:1 */ 1, 'Juan', 'Perez', 30)"; SQL statement:
+INSERT INTO usuarios VALUES (1, 'Melanie', 'Martinez', 22) [23505-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:120)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:252)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at com.company.Main.main(Main.java:36)
+[2022-05-2720:55:47] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2720:55:49] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2720:55:49] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2720:55:49] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2720:55:49] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2720:55:49] [INFO ] [Main:51] Se elimino el registro con id=1
+[2022-05-2720:56:06] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2720:56:08] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2720:56:08] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2720:56:08] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2720:56:08] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2720:56:08] [INFO ] [Main:51] Se elimino el registro con id=1
+[2022-05-2720:57:54] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2720:57:57] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2720:57:57] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2720:57:57] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2720:57:57] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2720:57:58] [INFO ] [Main:51] Se elimino el registro con id=1
+[2022-05-2720:57:58] [INFO ] [Main:65] Se actualizo la tabla
+[2022-05-2720:58:25] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2720:58:26] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2720:58:26] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2720:58:26] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2720:58:26] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2720:58:27] [INFO ] [Main:51] Se elimino el registro con id=1
+[2022-05-2720:58:27] [INFO ] [Main:65] Se actualizo la tabla
+[2022-05-2720:58:27] [ERROR] [Main:77] Error de conexion :(
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:554)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcResultSet.checkClosed(JdbcResultSet.java:3536)
+	at org.h2.jdbc.JdbcResultSet.next(JdbcResultSet.java:124)
+	at com.company.Main.main(Main.java:69)
+[2022-05-2720:59:29] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2720:59:31] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2720:59:31] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2720:59:31] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2720:59:31] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2720:59:32] [INFO ] [Main:51] Se elimino el registro con id=1
+[2022-05-2720:59:32] [INFO ] [Main:65] Se actualizo la tabla
+[2022-05-2721:01:03] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:01:04] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2721:01:04] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2721:01:04] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2721:01:04] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2721:01:05] [INFO ] [Main:51] Se elimino el registro con id=1
+[2022-05-2721:01:05] [INFO ] [Main:65] Se actualizo la tabla
+[2022-05-2721:16:32] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:16:35] [ERROR] [Main:78] Error de conexion :(
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: null. Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:165)
+	at org.h2.mvstore.db.Store.<init>(Store.java:144)
+	at org.h2.engine.Database.<init>(Database.java:324)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at com.company.Main.main(Main.java:21)
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: /Users/Lara/test.mv.db [2.1.212/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:1004)
+	at org.h2.mvstore.FileStore.open(FileStore.java:163)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:449)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:4118)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	... 10 more
+[2022-05-2721:17:25] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:17:27] [ERROR] [Main:78] Error de conexion :(
+org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Nombre de usuario ó password incorrecto
+Wrong user name or password [28000-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:510)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.validateUserAndPassword(Engine.java:393)
+	at org.h2.engine.Engine.createSession(Engine.java:206)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at com.company.Main.main(Main.java:21)
+[2022-05-2721:18:00] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:18:01] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2721:18:02] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2721:18:02] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2721:18:02] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2721:18:02] [INFO ] [Main:51] Se elimino el registro con id=1
+[2022-05-2721:18:02] [INFO ] [Main:65] Se actualizo la tabla
+[2022-05-2721:19:01] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:19:04] [ERROR] [Main:78] Error de conexion :(
+org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Nombre de usuario ó password incorrecto
+Wrong user name or password [28000-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:510)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.validateUserAndPassword(Engine.java:393)
+	at org.h2.engine.Engine.createSession(Engine.java:206)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at com.company.Main.main(Main.java:21)
+[2022-05-2721:19:21] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:19:24] [ERROR] [Main:78] Error de conexion :(
+org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Nombre de usuario ó password incorrecto
+Wrong user name or password [28000-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:510)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.validateUserAndPassword(Engine.java:393)
+	at org.h2.engine.Engine.createSession(Engine.java:206)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at com.company.Main.main(Main.java:21)
+[2022-05-2721:19:36] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:19:37] [ERROR] [Main:78] Error de conexion :(
+org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Nombre de usuario ó password incorrecto
+Wrong user name or password [28000-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:510)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.validateUserAndPassword(Engine.java:393)
+	at org.h2.engine.Engine.createSession(Engine.java:206)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at com.company.Main.main(Main.java:21)
+[2022-05-2721:22:14] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:22:15] [ERROR] [Main:78] Error de conexion :(
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: null. Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:165)
+	at org.h2.mvstore.db.Store.<init>(Store.java:144)
+	at org.h2.engine.Database.<init>(Database.java:324)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at com.company.Main.main(Main.java:21)
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: /Users/Lara/test.mv.db [2.1.212/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:1004)
+	at org.h2.mvstore.FileStore.open(FileStore.java:163)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:449)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:4118)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	... 10 more
+[2022-05-2721:22:30] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:22:31] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2721:22:31] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2721:22:31] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2721:22:31] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2721:22:31] [INFO ] [Main:51] Se elimino el registro con id=1
+[2022-05-2721:22:31] [INFO ] [Main:65] Se actualizo la tabla
+[2022-05-2721:28:46] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:28:47] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2721:28:47] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2721:28:47] [ERROR] [Main:79] Error de conexion :(
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.TEST(ID) ( /* key:1 */ 1, 'Juan', 'Perez', 30, 'Peru')"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.TEST(ID) ( /* key:1 */ 1, 'Juan', 'Perez', 30, 'Peru')"; SQL statement:
+INSERT INTO test VALUES (1, 'Melanie', 'Martinez', 22, 'Peru') [23505-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:120)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:252)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at com.company.Main.main(Main.java:36)
+[2022-05-2721:36:44] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:36:46] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2721:36:46] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2721:36:46] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2721:36:46] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2721:36:46] [INFO ] [Main:51] Se actualizo la tabla
+[2022-05-2721:36:46] [DEBUG] [Main:53] SELECT * FROM test WHERE id=1
+[2022-05-2721:37:40] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:37:42] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2721:37:42] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2721:37:42] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2721:37:42] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2721:37:42] [INFO ] [Main:51] Se actualizo la tabla
+[2022-05-2721:37:42] [DEBUG] [Main:54] rs6: org.h2.result.LocalResult@353d0772 columns: 5 rows: 1 pos: -1
+[2022-05-2721:42:50] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:42:51] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2721:42:51] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2721:42:51] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2721:42:52] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2721:42:52] [INFO ] [Main:51] Se actualizo la tabla
+[2022-05-2721:42:52] [DEBUG] [Main:57] rs6: org.h2.result.LocalResult@a9cd3b1 columns: 5 rows: 1 pos: 1
+[2022-05-2721:45:53] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:45:54] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2721:45:54] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2721:45:54] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2721:45:54] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2721:45:54] [INFO ] [Main:51] Se actualizo la tabla
+[2022-05-2721:45:54] [ERROR] [Main:85] Error de conexion :(
+org.h2.jdbc.JdbcSQLNonTransientException: No hay datos disponibles.
+No data is available [2000-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:497)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcResultSet.checkOnValidRow(JdbcResultSet.java:3552)
+	at org.h2.jdbc.JdbcResultSet.getInternal(JdbcResultSet.java:3570)
+	at org.h2.jdbc.JdbcResultSet.getIntInternal(JdbcResultSet.java:344)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:319)
+	at com.company.Main.main(Main.java:54)
+[2022-05-2721:48:14] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:48:16] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2721:48:16] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2721:48:16] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2721:48:16] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2721:48:16] [INFO ] [Main:51] Se actualizo la tabla
+[2022-05-2721:48:16] [ERROR] [Main:85] Error de conexion :(
+org.h2.jdbc.JdbcSQLNonTransientException: No hay datos disponibles.
+No data is available [2000-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:497)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcResultSet.checkOnValidRow(JdbcResultSet.java:3552)
+	at org.h2.jdbc.JdbcResultSet.getInternal(JdbcResultSet.java:3570)
+	at org.h2.jdbc.JdbcResultSet.getIntInternal(JdbcResultSet.java:344)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:319)
+	at com.company.Main.main(Main.java:54)
+[2022-05-2721:48:56] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:48:58] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2721:48:58] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2721:48:58] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2721:48:58] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2721:48:58] [INFO ] [Main:51] Se actualizo la tabla
+[2022-05-2721:48:58] [DEBUG] [Main:55] 1-RoquePerez30Peru
+[2022-05-2721:48:58] [DEBUG] [Main:55] 2-HarryStyles26Peru
+[2022-05-2721:48:58] [DEBUG] [Main:55] 3-MelanieMartinez22Peru
+[2022-05-2721:49:37] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:49:38] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2721:49:38] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2721:49:38] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2721:49:38] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2721:49:38] [INFO ] [Main:51] Se actualizo la tabla
+[2022-05-2721:49:38] [DEBUG] [Main:55] 1-RoquePerez30Peru
+[2022-05-2721:50:01] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:50:03] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2721:50:03] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2721:50:03] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2721:50:03] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2721:50:03] [INFO ] [Main:51] Se actualizo la tabla
+[2022-05-2721:50:03] [DEBUG] [Main:55] 1-Roque- Perez- - 30- Peru- 
+[2022-05-2721:51:01] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:51:02] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2721:51:03] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2721:51:03] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2721:51:03] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2721:51:03] [INFO ] [Main:51] Se actualizo la tabla
+[2022-05-2721:51:03] [DEBUG] [Main:55] SELECT * FROM test WHERE id=1
+[2022-05-2721:51:19] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:51:20] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2721:51:20] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2721:51:20] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2721:51:20] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2721:51:20] [INFO ] [Main:51] Se actualizo la tabla
+[2022-05-2721:51:21] [DEBUG] [Main:55] rs6: org.h2.result.LocalResult@353d0772 columns: 5 rows: 1 pos: 0
+[2022-05-2721:53:03] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:53:04] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2721:53:04] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2721:53:04] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2721:53:04] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2721:53:04] [INFO ] [Main:51] Se actualizo la tabla
+[2022-05-2721:53:04] [ERROR] [Main:86] Error de conexion :(
+org.h2.jdbc.JdbcSQLNonTransientException: No hay datos disponibles.
+No data is available [2000-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:497)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcResultSet.checkOnValidRow(JdbcResultSet.java:3552)
+	at org.h2.jdbc.JdbcResultSet.getInternal(JdbcResultSet.java:3570)
+	at org.h2.jdbc.JdbcResultSet.getIntInternal(JdbcResultSet.java:344)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:319)
+	at com.company.Main.main(Main.java:55)
+[2022-05-2721:57:22] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:57:23] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2721:57:23] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2721:57:23] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2721:57:23] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2721:57:23] [INFO ] [Main:51] Se actualizo la tabla
+[2022-05-2721:57:41] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:57:42] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2721:57:42] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2721:57:42] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2721:57:43] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2721:57:43] [INFO ] [Main:51] Se actualizo la tabla
+[2022-05-2721:57:43] [DEBUG] [Main:59] 1
+[2022-05-2721:58:14] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:58:15] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2721:58:15] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2721:58:15] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2721:58:15] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2721:58:15] [INFO ] [Main:51] Se actualizo la tabla
+[2022-05-2721:58:15] [DEBUG] [Main:59] 1
+[2022-05-2721:59:00] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2721:59:01] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2721:59:01] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2721:59:01] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2721:59:01] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2721:59:01] [INFO ] [Main:51] Se actualizo la tabla
+[2022-05-2721:59:01] [DEBUG] [Main:55] 1-Roque- Perez- - 30- Peru
+[2022-05-2722:01:14] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2722:01:16] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2722:01:16] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2722:01:16] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2722:01:16] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2722:01:16] [INFO ] [Main:51] Se actualizo la tabla
+[2022-05-2722:01:16] [DEBUG] [Main:55] 1-Roque- Perez- - 30- Peru
+[2022-05-2722:01:16] [DEBUG] [Main:75] 1-Roque- Perez- - 30- Peru
+[2022-05-2722:01:16] [INFO ] [Main:79] Se elimino el registro con id=1
+[2022-05-2722:01:39] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2722:01:40] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2722:01:40] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2722:01:40] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2722:01:40] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2722:01:40] [INFO ] [Main:51] Se actualizo la tabla
+[2022-05-2722:01:40] [DEBUG] [Main:55] 1-Roque- Perez- - 30- Peru
+[2022-05-2722:01:40] [INFO ] [Main:75] Eliminamos a 1-Roque- Perez- - 30- Peru
+[2022-05-2722:01:40] [INFO ] [Main:79] Se elimino el registro con id=1
+[2022-05-2722:04:57] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2722:04:58] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2722:04:58] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2722:04:58] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2722:04:58] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2722:04:58] [INFO ] [Main:51] Se actualizo la tabla
+[2022-05-2722:04:58] [DEBUG] [Main:55] 1-Roque- Perez- - 30- Peru
+[2022-05-2722:04:58] [INFO ] [Main:75] Eliminamos a 1-Roque- Perez- - 30- Peru
+[2022-05-2722:04:58] [INFO ] [Main:79] Se elimino el registro con id=1
+[2022-05-2722:04:58] [INFO ] [Main:100] Se elimino el registro con edad=22
+[2022-05-2722:05:59] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2722:06:01] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2722:06:02] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2722:06:02] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2722:06:02] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2722:06:02] [INFO ] [Main:51] Se actualizo la tabla
+[2022-05-2722:06:02] [DEBUG] [Main:55] 1-Roque- Perez- - 30- Peru
+[2022-05-2722:06:02] [INFO ] [Main:75] Eliminamos a 1-Roque- Perez- - 30- Peru
+[2022-05-2722:06:02] [INFO ] [Main:79] Se elimino el registro con id=1
+[2022-05-2722:06:02] [INFO ] [Main:96] Eliminamos a 3-Melanie- Martinez- - 22- Peru
+[2022-05-2722:06:02] [INFO ] [Main:100] Se elimino el registro con edad=22
+[2022-05-2722:06:57] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2722:06:58] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2722:06:58] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2722:06:58] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2722:06:58] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2722:06:58] [INFO ] [Main:51] Se actualizo la tabla
+[2022-05-2722:06:58] [DEBUG] [Main:55] 1-Roque- Perez- - 30- Peru
+[2022-05-2722:06:58] [INFO ] [Main:75] Eliminamos a 1-Roque- Perez- - 30- Peru
+[2022-05-2722:06:58] [INFO ] [Main:79] Se elimino el registro con id=1
+[2022-05-2722:06:58] [INFO ] [Main:96] Eliminamos a 3-Melanie- Martinez- 22- Peru
+[2022-05-2722:06:58] [INFO ] [Main:99] Se elimino el registro con edad=22
+[2022-05-2722:09:38] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2722:09:39] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2722:09:39] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2722:09:39] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2722:09:39] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2722:09:39] [INFO ] [Main:51] Se actualizo la tabla
+[2022-05-2722:09:39] [DEBUG] [Main:55] 1-Roque- Perez- - 30- Peru
+[2022-05-2722:09:39] [INFO ] [Main:75] Eliminamos a 1-Roque- Perez- - 30- Peru
+[2022-05-2722:09:39] [INFO ] [Main:79] Se elimino el registro con id=1
+[2022-05-2722:09:39] [INFO ] [Main:96] Eliminamos a 3-Melanie- Martinez- 22- Peru
+[2022-05-2722:09:39] [INFO ] [Main:99] Se elimino el registro con edad=22
+[2022-05-2722:10:33] [INFO ] [Main:17] h2 cargado :)
+[2022-05-2722:10:34] [INFO ] [Main:22] Conexion extablecida :)
+[2022-05-2722:10:34] [INFO ] [Main:28] Se creo la tabla correctamente
+[2022-05-2722:10:34] [INFO ] [Main:37] Registros insertados :)
+[2022-05-2722:10:34] [INFO ] [Main:42] Se consulta correctamente la tabla
+[2022-05-2722:10:34] [INFO ] [Main:51] Se actualizo la tabla
+[2022-05-2722:10:34] [DEBUG] [Main:55] 1-Roque- Perez- - 30- Peru
+[2022-05-2722:10:34] [INFO ] [Main:75] Eliminamos a 1-Roque- Perez- - 30- Peru
+[2022-05-2722:10:34] [INFO ] [Main:79] Se elimino el registro con id=1
+[2022-05-2722:10:34] [INFO ] [Main:96] Eliminamos a 3-Melanie- Martinez- 22- Peru
+[2022-05-2722:10:34] [INFO ] [Main:99] Se elimino el registro con edad=22
