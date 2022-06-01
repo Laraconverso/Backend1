@@ -16,7 +16,7 @@ public class MedicamentoDaoH2 implements IDao<Medicamento> {
     private final static String DB_PASSWORD= "sa";
     private final static String SQL_TABLE_CREATE = "DROP TABLE IF EXISTS medicamentos; CREATE TABLE medicamentos(id INT PRIMARY KEY, codigo INT, nombre varchar(100), laboratorio varchar(100), cantidad INT, precio DOUBLE);";
     private final static String SQL_TABLE_INSERT = "INSERT INTO medicamentos (id, codigo, nombre, laboratorio, cantidad, precio) VALUES (?,?,?,?,?,?);";
-    private final static String SQL_TABLE_SEARCH = "SELECT medicamento WHERE";
+    private final static String SQL_TABLE_SEARCH = "SELECT * FROM medicamentos WHERE id=?";
    // private final static String SQL_TABLE_UPDATE =" UPDATE medicamentos SET nombre=? WHERE id=?;";
 
     Connection connection = null;
@@ -55,10 +55,52 @@ public class MedicamentoDaoH2 implements IDao<Medicamento> {
     }
 
     @Override
-    public Medicamento buscar(Long id) {
+    public Medicamento buscar(Integer id) {
+        logger.info("Buscando medicamento");
+
+        Medicamento medicamento = null;
+
+        //crear la consulta
+        try {
+            Class.forName(DB_JDBC_DRIVER);
+            connection = DriverManager.getConnection(DB_URL,DB_USER,DB_PASSWORD);
+            logger.info("Se establecio la conexion.");
+            Statement statement = connection.createStatement();
+
+            //ejecutar la consulta
+            PreparedStatement psSearch= connection.prepareStatement(SQL_TABLE_SEARCH);
+            psSearch.setInt(1, id);
+            //obtener el resultado (Result Set)
+            ResultSet rs1 = psSearch.executeQuery();
+            logger.info("Realizando la busqueda...");
 
 
+            //Armar un objeto con los datos obtenidos y retornarlo
+            while(rs1.next()) {
+                int id_ = rs1.getInt("id");
+                int cod_ = rs1.getInt("codigo");
+                String nombre_ = rs1.getString("nombre");
+                String laboratorio_ = rs1.getString("laboratorio");
+                int cant_ = rs1.getInt("cantidad");
+                double precio_ = rs1.getDouble("precio");
 
-        return null;
+                medicamento = new Medicamento(id_, cod_, nombre_, laboratorio_, cant_, precio_);
+
+            }
+
+            if(medicamento == null){
+                logger.info("Se realizo la busqueda .... El medicamento no existe.");
+            }else{
+                logger.info("Se realizo la busqueda " + medicamento.getNombre());
+            }
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            logger.error("No se pudo realizar la busqueda");
+        }
+
+
+        return medicamento;
     }
 }

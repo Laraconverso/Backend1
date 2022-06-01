@@ -18,7 +18,7 @@ public class MedicamentoService {
         return medicamentoDao.guardar(medicamento);
     }
 
-    public Medicamento buscar (Long id){
+    public Medicamento buscar (Integer id){
         return medicamentoDao.buscar(id);
     }
 

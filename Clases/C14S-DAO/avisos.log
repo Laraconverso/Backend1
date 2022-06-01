@@ -1,3 +1,123 @@
 [2022-05-3121:54:22] [ERROR] [MedicamentoDaoH2:49] No se guardo el medicamento ;( 
 [2022-05-3121:55:09] [INFO ] [MedicamentoDaoH2:33] Se creo la tabla exitosamente. :) 
 [2022-05-3121:55:09] [INFO ] [MedicamentoDaoH2:45] Se guardo el medicamento. :) 
+[2022-05-3123:24:51] [INFO ] [MedicamentoDaoH2:28] Guardando el medicamento ...
+[2022-05-3123:24:53] [INFO ] [MedicamentoDaoH2:32] Se establecio la conexion.
+[2022-05-3123:24:54] [INFO ] [MedicamentoDaoH2:35] Se creo la tabla exitosamente. :) 
+[2022-05-3123:24:54] [INFO ] [MedicamentoDaoH2:47] Se guardo el medicamento. :) 
+[2022-05-3123:24:54] [INFO ] [MedicamentoDaoH2:28] Guardando el medicamento ...
+[2022-05-3123:24:54] [INFO ] [MedicamentoDaoH2:32] Se establecio la conexion.
+[2022-05-3123:24:54] [INFO ] [MedicamentoDaoH2:35] Se creo la tabla exitosamente. :) 
+[2022-05-3123:24:54] [INFO ] [MedicamentoDaoH2:47] Se guardo el medicamento. :) 
+[2022-05-3123:24:54] [INFO ] [MedicamentoDaoH2:59] Buscando medicamento
+[2022-05-3123:24:54] [INFO ] [MedicamentoDaoH2:67] Se establecio la conexion.
+[2022-05-3123:24:54] [ERROR] [MedicamentoDaoH2:92] No se pudo realizar la busqueda
+[2022-05-3123:24:54] [INFO ] [MedicamentoDaoH2:59] Buscando medicamento
+[2022-05-3123:24:54] [INFO ] [MedicamentoDaoH2:67] Se establecio la conexion.
+[2022-05-3123:24:54] [ERROR] [MedicamentoDaoH2:92] No se pudo realizar la busqueda
+[2022-05-3123:25:49] [INFO ] [MedicamentoDaoH2:59] Buscando medicamento
+[2022-05-3123:25:53] [INFO ] [MedicamentoDaoH2:67] Se establecio la conexion.
+[2022-05-3123:25:53] [ERROR] [MedicamentoDaoH2:92] No se pudo realizar la busqueda
+[2022-05-3123:32:00] [INFO ] [MedicamentoDaoH2:28] Guardando el medicamento ...
+[2022-05-3123:32:03] [INFO ] [MedicamentoDaoH2:32] Se establecio la conexion.
+[2022-05-3123:32:03] [INFO ] [MedicamentoDaoH2:35] Se creo la tabla exitosamente. :) 
+[2022-05-3123:32:03] [INFO ] [MedicamentoDaoH2:47] Se guardo el medicamento. :) 
+[2022-05-3123:32:03] [INFO ] [MedicamentoDaoH2:59] Buscando medicamento
+[2022-05-3123:32:03] [INFO ] [MedicamentoDaoH2:67] Se establecio la conexion.
+[2022-05-3123:32:03] [ERROR] [MedicamentoDaoH2:94] No se pudo realizar la busqueda
+[2022-05-3123:35:52] [INFO ] [MedicamentoDaoH2:28] Guardando el medicamento ...
+[2022-05-3123:35:53] [ERROR] [MedicamentoDaoH2:51] No se guardo el medicamento ;( 
+[2022-05-3123:35:53] [INFO ] [MedicamentoDaoH2:59] Buscando medicamento
+[2022-05-3123:35:53] [ERROR] [MedicamentoDaoH2:94] No se pudo realizar la busqueda
+[2022-05-3123:36:34] [INFO ] [MedicamentoDaoH2:28] Guardando el medicamento ...
+[2022-05-3123:36:36] [INFO ] [MedicamentoDaoH2:32] Se establecio la conexion.
+[2022-05-3123:36:36] [INFO ] [MedicamentoDaoH2:35] Se creo la tabla exitosamente. :) 
+[2022-05-3123:36:37] [INFO ] [MedicamentoDaoH2:47] Se guardo el medicamento. :) 
+[2022-05-3123:36:37] [INFO ] [MedicamentoDaoH2:59] Buscando medicamento
+[2022-05-3123:36:37] [INFO ] [MedicamentoDaoH2:67] Se establecio la conexion.
+[2022-05-3123:36:37] [ERROR] [MedicamentoDaoH2:94] No se pudo realizar la busqueda
+[2022-05-3123:42:38] [INFO ] [MedicamentoDaoH2:28] Guardando el medicamento ...
+[2022-05-3123:42:41] [INFO ] [MedicamentoDaoH2:32] Se establecio la conexion.
+[2022-05-3123:42:41] [INFO ] [MedicamentoDaoH2:35] Se creo la tabla exitosamente. :) 
+[2022-05-3123:42:42] [INFO ] [MedicamentoDaoH2:47] Se guardo el medicamento. :) 
+[2022-05-3123:42:42] [INFO ] [MedicamentoDaoH2:59] Buscando medicamento
+[2022-05-3123:42:42] [INFO ] [MedicamentoDaoH2:67] Se establecio la conexion.
+[2022-05-3123:42:42] [INFO ] [MedicamentoDaoH2:84] Realizando la busqueda...
+[2022-05-3123:42:42] [INFO ] [MedicamentoDaoH2:100] Se realizo la busqueda
+[2022-05-3123:44:23] [INFO ] [MedicamentoDaoH2:28] Guardando el medicamento ...
+[2022-05-3123:44:25] [INFO ] [MedicamentoDaoH2:32] Se establecio la conexion.
+[2022-05-3123:44:25] [INFO ] [MedicamentoDaoH2:35] Se creo la tabla exitosamente. :) 
+[2022-05-3123:44:25] [INFO ] [MedicamentoDaoH2:47] Se guardo el medicamento. :) 
+[2022-05-3123:44:25] [INFO ] [MedicamentoDaoH2:59] Buscando medicamento
+[2022-05-3123:44:25] [INFO ] [MedicamentoDaoH2:67] Se establecio la conexion.
+[2022-05-3123:44:25] [INFO ] [MedicamentoDaoH2:75] Realizando la busqueda...
+[2022-05-3123:44:25] [INFO ] [MedicamentoDaoH2:91] Se realizo la busquedacom.company.model.Medicamento@13e39c73
+[2022-05-3123:44:48] [INFO ] [MedicamentoDaoH2:28] Guardando el medicamento ...
+[2022-05-3123:44:50] [INFO ] [MedicamentoDaoH2:32] Se establecio la conexion.
+[2022-05-3123:44:50] [INFO ] [MedicamentoDaoH2:35] Se creo la tabla exitosamente. :) 
+[2022-05-3123:44:50] [INFO ] [MedicamentoDaoH2:47] Se guardo el medicamento. :) 
+[2022-05-3123:44:50] [INFO ] [MedicamentoDaoH2:59] Buscando medicamento
+[2022-05-3123:44:50] [INFO ] [MedicamentoDaoH2:67] Se establecio la conexion.
+[2022-05-3123:44:50] [INFO ] [MedicamentoDaoH2:75] Realizando la busqueda...
+[2022-05-3123:44:50] [INFO ] [MedicamentoDaoH2:91] Se realizo la busquedaIbuprofeno
+[2022-05-3123:45:09] [INFO ] [MedicamentoDaoH2:28] Guardando el medicamento ...
+[2022-05-3123:45:11] [INFO ] [MedicamentoDaoH2:32] Se establecio la conexion.
+[2022-05-3123:45:11] [INFO ] [MedicamentoDaoH2:35] Se creo la tabla exitosamente. :) 
+[2022-05-3123:45:11] [INFO ] [MedicamentoDaoH2:47] Se guardo el medicamento. :) 
+[2022-05-3123:45:11] [INFO ] [MedicamentoDaoH2:59] Buscando medicamento
+[2022-05-3123:45:11] [INFO ] [MedicamentoDaoH2:67] Se establecio la conexion.
+[2022-05-3123:45:11] [INFO ] [MedicamentoDaoH2:75] Realizando la busqueda...
+[2022-05-3123:45:11] [INFO ] [MedicamentoDaoH2:91] Se realizo la busqueda Ibuprofeno
+[2022-05-3123:45:11] [INFO ] [MedicamentoDaoH2:59] Buscando medicamento
+[2022-05-3123:45:11] [INFO ] [MedicamentoDaoH2:67] Se establecio la conexion.
+[2022-05-3123:45:11] [ERROR] [MedicamentoDaoH2:95] No se pudo realizar la busqueda
+[2022-05-3123:45:35] [INFO ] [MedicamentoDaoH2:28] Guardando el medicamento ...
+[2022-05-3123:45:38] [INFO ] [MedicamentoDaoH2:32] Se establecio la conexion.
+[2022-05-3123:45:38] [INFO ] [MedicamentoDaoH2:35] Se creo la tabla exitosamente. :) 
+[2022-05-3123:45:38] [INFO ] [MedicamentoDaoH2:47] Se guardo el medicamento. :) 
+[2022-05-3123:45:38] [INFO ] [MedicamentoDaoH2:59] Buscando medicamento
+[2022-05-3123:45:38] [INFO ] [MedicamentoDaoH2:67] Se establecio la conexion.
+[2022-05-3123:45:38] [INFO ] [MedicamentoDaoH2:75] Realizando la busqueda...
+[2022-05-3123:45:38] [INFO ] [MedicamentoDaoH2:91] Se realizo la busqueda Ibuprofeno
+[2022-05-3123:45:38] [INFO ] [MedicamentoDaoH2:59] Buscando medicamento
+[2022-05-3123:45:38] [INFO ] [MedicamentoDaoH2:67] Se establecio la conexion.
+[2022-05-3123:45:38] [INFO ] [MedicamentoDaoH2:75] Realizando la busqueda...
+[2022-05-3123:45:38] [ERROR] [MedicamentoDaoH2:95] No se pudo realizar la busqueda
+[2022-05-3123:47:13] [INFO ] [MedicamentoDaoH2:59] Buscando medicamento
+[2022-05-3123:47:15] [INFO ] [MedicamentoDaoH2:67] Se establecio la conexion.
+[2022-05-3123:47:15] [INFO ] [MedicamentoDaoH2:75] Realizando la busqueda...
+[2022-05-3123:47:15] [INFO ] [MedicamentoDaoH2:91] Se realizo la busqueda 
+[2022-05-3123:47:15] [INFO ] [MedicamentoDaoH2:59] Buscando medicamento
+[2022-05-3123:47:15] [INFO ] [MedicamentoDaoH2:67] Se establecio la conexion.
+[2022-05-3123:47:15] [ERROR] [MedicamentoDaoH2:95] No se pudo realizar la busqueda
+[2022-05-3123:47:30] [INFO ] [MedicamentoDaoH2:59] Buscando medicamento
+[2022-05-3123:47:32] [INFO ] [MedicamentoDaoH2:67] Se establecio la conexion.
+[2022-05-3123:47:32] [INFO ] [MedicamentoDaoH2:75] Realizando la busqueda...
+[2022-05-3123:47:32] [INFO ] [MedicamentoDaoH2:91] Se realizo la busqueda 
+[2022-05-3123:47:32] [INFO ] [MedicamentoDaoH2:59] Buscando medicamento
+[2022-05-3123:47:32] [INFO ] [MedicamentoDaoH2:67] Se establecio la conexion.
+[2022-05-3123:47:32] [INFO ] [MedicamentoDaoH2:75] Realizando la busqueda...
+[2022-05-3123:47:32] [INFO ] [MedicamentoDaoH2:91] Se realizo la busqueda 
+[2022-05-3123:50:25] [INFO ] [MedicamentoDaoH2:59] Buscando medicamento
+[2022-05-3123:50:26] [INFO ] [MedicamentoDaoH2:67] Se establecio la conexion.
+[2022-05-3123:50:26] [INFO ] [MedicamentoDaoH2:75] Realizando la busqueda...
+[2022-05-3123:50:26] [INFO ] [MedicamentoDaoH2:92] Se realizo la busqueda .... El medicamento es no existe.
+[2022-05-3123:58:04] [INFO ] [MedicamentoDaoH2:28] Guardando el medicamento ...
+[2022-05-3123:58:05] [INFO ] [MedicamentoDaoH2:32] Se establecio la conexion.
+[2022-05-3123:58:05] [INFO ] [MedicamentoDaoH2:35] Se creo la tabla exitosamente. :) 
+[2022-05-3123:58:05] [INFO ] [MedicamentoDaoH2:47] Se guardo el medicamento. :) 
+[2022-06-0100:00:12] [INFO ] [MedicamentoDaoH2:28] Guardando el medicamento ...
+[2022-06-0100:00:13] [INFO ] [MedicamentoDaoH2:32] Se establecio la conexion.
+[2022-06-0100:00:13] [INFO ] [MedicamentoDaoH2:35] Se creo la tabla exitosamente. :) 
+[2022-06-0100:00:13] [INFO ] [MedicamentoDaoH2:47] Se guardo el medicamento. :) 
+[2022-06-0100:00:13] [INFO ] [MedicamentoDaoH2Test:20] Se ejecuto el test
+[2022-06-0100:01:48] [INFO ] [MedicamentoDaoH2:59] Buscando medicamento
+[2022-06-0100:01:49] [INFO ] [MedicamentoDaoH2:67] Se establecio la conexion.
+[2022-06-0100:01:49] [INFO ] [MedicamentoDaoH2:75] Realizando la busqueda...
+[2022-06-0100:01:49] [INFO ] [MedicamentoDaoH2:94] Se realizo la busqueda Ibuprofeno
+[2022-06-0100:01:49] [INFO ] [MedicamentoDaoH2Test:27] Se ejecuto el test de buscar
+[2022-06-0100:01:49] [INFO ] [MedicamentoDaoH2:28] Guardando el medicamento ...
+[2022-06-0100:01:49] [INFO ] [MedicamentoDaoH2:32] Se establecio la conexion.
+[2022-06-0100:01:49] [INFO ] [MedicamentoDaoH2:35] Se creo la tabla exitosamente. :) 
+[2022-06-0100:01:49] [INFO ] [MedicamentoDaoH2:47] Se guardo el medicamento. :) 
+[2022-06-0100:01:49] [INFO ] [MedicamentoDaoH2Test:20] Se ejecuto el test de guardar
