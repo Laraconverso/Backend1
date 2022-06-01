@@ -14,7 +14,7 @@ public class MedicamentoDaoH2 implements IDao<Medicamento> {
     private final static String DB_URL= "jdbc:h2:~/bd_farmacia";
     private final static String DB_USER= "sa";
     private final static String DB_PASSWORD= "sa";
-    private final static String SQL_TABLE_CREATE = "DROP TABLE IF EXISTS medicamentos; CREATE TABLE medicamentos(id INT PRIMARY KEY, codigo INT, nombre varchar(100), laboratorio varchar(100), cantidad INT, precio DOUBLE);";
+    private final static String SQL_TABLE_CREATE = "CREATE TABLE IF NOT EXISTS medicamentos(id INT AUTO_INCREMENT PRIMARY KEY, codigo INT, nombre varchar(100), laboratorio varchar(100), cantidad INT, precio DOUBLE);";
     private final static String SQL_TABLE_INSERT = "INSERT INTO medicamentos (id, codigo, nombre, laboratorio, cantidad, precio) VALUES (?,?,?,?,?,?);";
     private final static String SQL_TABLE_SEARCH = "SELECT * FROM medicamentos WHERE id=?";
    // private final static String SQL_TABLE_UPDATE =" UPDATE medicamentos SET nombre=? WHERE id=?;";
