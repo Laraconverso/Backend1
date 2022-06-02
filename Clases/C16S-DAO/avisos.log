@@ -1,0 +1,507 @@
+[2022-05-3122:20:49] [ INFO ] [MedicamentoDaoH2:19] Guardando el medicamento: com.company.model.Medicamento@262b2c86
+[2022-05-3122:21:28] [ INFO ] [MedicamentoDaoH2:19] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-05-3122:25:15] [ INFO ] [MedicamentoDaoH2:23] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-05-3122:25:41] [ INFO ] [MedicamentoDaoH2:23] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-05-3122:25:41] [ INFO ] [MedicamentoDaoH2:30] Conexión establecida!!
+[2022-05-3122:31:49] [ INFO ] [MedicamentoDaoH2:28] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-05-3122:31:50] [ INFO ] [MedicamentoDaoH2:35] Conexión establecida!!
+[2022-05-3122:31:50] [ INFO ] [MedicamentoDaoH2:41] Tabla medicamentos creada!!
+[2022-05-3122:32:59] [ INFO ] [MedicamentoDaoH2:27] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-05-3122:33:00] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-05-3122:33:55] [ INFO ] [MedicamentoDaoH2:28] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-05-3122:33:56] [ INFO ] [MedicamentoDaoH2:35] Conexión establecida!!
+[2022-05-3122:33:56] [ INFO ] [MedicamentoDaoH2:41] Tabla medicamentos creada!!
+[2022-05-3122:38:22] [ INFO ] [MedicamentoDaoH2:25] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-05-3122:38:22] [ INFO ] [MedicamentoDaoH2:33] Conexión establecida!!
+[2022-05-3122:38:22] [ INFO ] [MedicamentoDaoH2:39] Tabla medicamentos creada!!
+[2022-05-3122:38:37] [ INFO ] [MedicamentoDaoH2:25] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-05-3122:38:37] [ INFO ] [MedicamentoDaoH2:33] Conexión establecida!!
+[2022-05-3122:38:37] [ INFO ] [MedicamentoDaoH2:39] Tabla medicamentos creada!!
+[2022-05-3122:38:37] [ INFO ] [MedicamentoDaoH2:57] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-05-3122:50:17] [ INFO ] [MedicamentoDaoH2:25] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-05-3122:50:17] [ INFO ] [MedicamentoDaoH2:33] Conexión establecida!!
+[2022-05-3122:50:17] [ INFO ] [MedicamentoDaoH2:39] Tabla medicamentos creada!!
+[2022-05-3122:50:17] [ INFO ] [MedicamentoDaoH2:56] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-05-3122:50:17] [ INFO ] [MedicamentoDaoH2:70] Buscando el medicamento con ID: 1
+[2022-05-3123:11:35] [ INFO ] [MedicamentoDaoH2:25] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-05-3123:11:35] [ INFO ] [MedicamentoDaoH2:33] Conexión establecida!!
+[2022-05-3123:11:35] [ INFO ] [MedicamentoDaoH2:39] Tabla medicamentos creada!!
+[2022-05-3123:11:35] [ INFO ] [MedicamentoDaoH2:56] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-05-3123:11:35] [ INFO ] [MedicamentoDaoH2:70] Buscando el medicamento con id: 1
+[2022-05-3123:11:35] [ INFO ] [MedicamentoDaoH2:80] Conexión establecida!!
+[2022-05-3123:11:35] [ INFO ] [MedicamentoDaoH2:90] Sentencia SELECT ejecutada!!
+[2022-05-3123:11:35] [ INFO ] [MedicamentoDaoH2:104] Obtenido el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-05-3123:18:49] [ INFO ] [MedicamentoDaoH2:28] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-05-3123:18:49] [ INFO ] [MedicamentoDaoH2:36] Conexión establecida!!
+[2022-05-3123:18:49] [ INFO ] [MedicamentoDaoH2:42] Tabla medicamentos creada!!
+[2022-05-3123:18:49] [ INFO ] [MedicamentoDaoH2:59] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-05-3123:18:49] [ INFO ] [MedicamentoDaoH2:73] Buscando el medicamento con id: 1
+[2022-05-3123:18:49] [ INFO ] [MedicamentoDaoH2:83] Conexión establecida!!
+[2022-05-3123:18:49] [ INFO ] [MedicamentoDaoH2:93] Sentencia SELECT ejecutada!!
+[2022-05-3123:18:49] [ INFO ] [MedicamentoDaoH2:107] Obtenido el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-05-3123:19:05] [ INFO ] [MedicamentoDaoH2:27] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-05-3123:19:05] [ INFO ] [MedicamentoDaoH2:35] Conexión establecida!!
+[2022-05-3123:19:05] [ ERROR] [MedicamentoDaoH2:62] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "MEDICAMENTOS" ya existe
+Table "MEDICAMENTOS" already exists; SQL statement:
+CREATE TABLE medicamentos (id int primary key,codigo int,nombre varchar(255),laboratorio varchar (255),cantidad int,precio double) [42101-210]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:521)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:496)
+	at org.h2.message.DbException.get(DbException.java:227)
+	at org.h2.message.DbException.get(DbException.java:203)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:88)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:252)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at com.company.dao.impl.MedicamentoDaoH2.guardar(MedicamentoDaoH2.java:40)
+	at com.company.dao.impl.MedicamentoDaoH2.guardar(MedicamentoDaoH2.java:9)
+	at com.company.service.MedicamentoService.guardar(MedicamentoService.java:18)
+	at com.company.Main.main(Main.java:16)
+[2022-05-3123:19:05] [ INFO ] [MedicamentoDaoH2:72] Buscando el medicamento con id: 1
+[2022-05-3123:19:05] [ INFO ] [MedicamentoDaoH2:82] Conexión establecida!!
+[2022-05-3123:19:05] [ INFO ] [MedicamentoDaoH2:92] Sentencia SELECT ejecutada!!
+[2022-05-3123:19:05] [ INFO ] [MedicamentoDaoH2:106] Obtenido el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-05-3123:19:27] [ INFO ] [MedicamentoDaoH2:27] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-05-3123:19:27] [ INFO ] [MedicamentoDaoH2:35] Conexión establecida!!
+[2022-05-3123:19:27] [ INFO ] [MedicamentoDaoH2:41] Tabla medicamentos creada!!
+[2022-05-3123:19:27] [ ERROR] [MedicamentoDaoH2:62] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.MEDICAMENTOS(ID) ( /* key:0 */ 1, 123, 'Paracetamol', 'Bayer', 1, CAST(150.0 AS DOUBLE PRECISION))"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.MEDICAMENTOS(ID) ( /* key:0 */ 1, 123, 'Paracetamol', 'Bayer', 1, CAST(150.0 AS DOUBLE PRECISION))"; SQL statement:
+insert into medicamentos (id,codigo, nombre, laboratorio, cantidad, precio) VALUES (?,?,?,?,?,?) [23505-210]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:527)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:496)
+	at org.h2.message.DbException.get(DbException.java:227)
+	at org.h2.message.DbException.get(DbException.java:203)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:120)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:61)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at com.company.dao.impl.MedicamentoDaoH2.guardar(MedicamentoDaoH2.java:56)
+	at com.company.dao.impl.MedicamentoDaoH2.guardar(MedicamentoDaoH2.java:9)
+	at com.company.service.MedicamentoService.guardar(MedicamentoService.java:18)
+	at com.company.Main.main(Main.java:16)
+[2022-05-3123:19:27] [ INFO ] [MedicamentoDaoH2:72] Buscando el medicamento con id: 1
+[2022-05-3123:19:27] [ INFO ] [MedicamentoDaoH2:82] Conexión establecida!!
+[2022-05-3123:19:27] [ INFO ] [MedicamentoDaoH2:92] Sentencia SELECT ejecutada!!
+[2022-05-3123:19:27] [ INFO ] [MedicamentoDaoH2:106] Obtenido el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-05-3123:19:43] [ INFO ] [MedicamentoDaoH2:27] Guardando el medicamento: Medicamento{id=2, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-05-3123:19:43] [ INFO ] [MedicamentoDaoH2:35] Conexión establecida!!
+[2022-05-3123:19:43] [ INFO ] [MedicamentoDaoH2:41] Tabla medicamentos creada!!
+[2022-05-3123:19:43] [ INFO ] [MedicamentoDaoH2:58] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-05-3123:19:43] [ INFO ] [MedicamentoDaoH2:72] Buscando el medicamento con id: 2
+[2022-05-3123:19:43] [ INFO ] [MedicamentoDaoH2:82] Conexión establecida!!
+[2022-05-3123:19:43] [ INFO ] [MedicamentoDaoH2:92] Sentencia SELECT ejecutada!!
+[2022-05-3123:19:43] [ INFO ] [MedicamentoDaoH2:106] Obtenido el medicamento: Medicamento{id=2, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0108:39:38] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=2, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0108:39:38] [ ERROR] [MedicamentoDaoH2:61] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: null. Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-210]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:697)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:496)
+	at org.h2.message.DbException.get(DbException.java:216)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:161)
+	at org.h2.mvstore.db.Store.<init>(Store.java:140)
+	at org.h2.engine.Database.<init>(Database.java:324)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at com.company.dao.impl.MedicamentoDaoH2.guardar(MedicamentoDaoH2.java:33)
+	at com.company.dao.impl.MedicamentoDaoH2.guardar(MedicamentoDaoH2.java:9)
+	at com.company.service.MedicamentoService.guardar(MedicamentoService.java:18)
+	at com.company.Main.main(Main.java:16)
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/Roque/db_medicamentos.mv.db [2.1.210/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:1004)
+	at org.h2.mvstore.FileStore.open(FileStore.java:163)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:444)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:4056)
+	at org.h2.mvstore.db.Store.<init>(Store.java:129)
+	... 13 more
+[2022-06-0108:39:38] [ INFO ] [MedicamentoDaoH2:71] Buscando el medicamento con id: 2
+[2022-06-0108:39:51] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=2, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0108:39:52] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0108:39:52] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0108:39:52] [ INFO ] [MedicamentoDaoH2:57] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0108:39:52] [ INFO ] [MedicamentoDaoH2:71] Buscando el medicamento con id: 2
+[2022-06-0108:39:52] [ INFO ] [MedicamentoDaoH2:81] Conexión establecida!!
+[2022-06-0108:39:52] [ INFO ] [MedicamentoDaoH2:91] Sentencia SELECT ejecutada!!
+[2022-06-0108:39:52] [ INFO ] [MedicamentoDaoH2:105] Obtenido el medicamento: Medicamento{id=2, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0108:40:01] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=2, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0108:40:02] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0108:40:02] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0108:40:02] [ INFO ] [MedicamentoDaoH2:57] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0108:40:02] [ INFO ] [MedicamentoDaoH2:71] Buscando el medicamento con id: 2
+[2022-06-0108:40:02] [ INFO ] [MedicamentoDaoH2:81] Conexión establecida!!
+[2022-06-0108:40:02] [ INFO ] [MedicamentoDaoH2:91] Sentencia SELECT ejecutada!!
+[2022-06-0108:40:02] [ INFO ] [MedicamentoDaoH2:105] Obtenido el medicamento: Medicamento{id=2, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0108:40:07] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=2, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0108:40:07] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0108:40:07] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0108:40:07] [ INFO ] [MedicamentoDaoH2:57] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0108:40:07] [ INFO ] [MedicamentoDaoH2:71] Buscando el medicamento con id: 2
+[2022-06-0108:40:07] [ INFO ] [MedicamentoDaoH2:81] Conexión establecida!!
+[2022-06-0108:40:07] [ INFO ] [MedicamentoDaoH2:91] Sentencia SELECT ejecutada!!
+[2022-06-0108:40:07] [ INFO ] [MedicamentoDaoH2:105] Obtenido el medicamento: Medicamento{id=2, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0108:41:11] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0108:41:11] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0108:41:11] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0108:41:11] [ INFO ] [MedicamentoDaoH2:57] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0108:41:11] [ INFO ] [MedicamentoDaoH2:71] Buscando el medicamento con id: 1
+[2022-06-0108:41:11] [ INFO ] [MedicamentoDaoH2:81] Conexión establecida!!
+[2022-06-0108:41:11] [ INFO ] [MedicamentoDaoH2:91] Sentencia SELECT ejecutada!!
+[2022-06-0108:41:11] [ INFO ] [MedicamentoDaoH2:105] Obtenido el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0108:41:16] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0108:41:16] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0108:41:16] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0108:41:16] [ ERROR] [MedicamentoDaoH2:61] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.MEDICAMENTOS(ID) ( /* key:0 */ 1, 123, 'Paracetamol', 'Bayer', 1, CAST(150.0 AS DOUBLE PRECISION))"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.MEDICAMENTOS(ID) ( /* key:0 */ 1, 123, 'Paracetamol', 'Bayer', 1, CAST(150.0 AS DOUBLE PRECISION))"; SQL statement:
+insert into medicamentos (id,codigo, nombre, laboratorio, cantidad, precio) VALUES (?,?,?,?,?,?) [23505-210]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:527)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:496)
+	at org.h2.message.DbException.get(DbException.java:227)
+	at org.h2.message.DbException.get(DbException.java:203)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:120)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:61)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at com.company.dao.impl.MedicamentoDaoH2.guardar(MedicamentoDaoH2.java:55)
+	at com.company.dao.impl.MedicamentoDaoH2.guardar(MedicamentoDaoH2.java:9)
+	at com.company.service.MedicamentoService.guardar(MedicamentoService.java:18)
+	at com.company.Main.main(Main.java:16)
+[2022-06-0108:41:16] [ INFO ] [MedicamentoDaoH2:71] Buscando el medicamento con id: 1
+[2022-06-0108:41:16] [ INFO ] [MedicamentoDaoH2:81] Conexión establecida!!
+[2022-06-0108:41:16] [ INFO ] [MedicamentoDaoH2:91] Sentencia SELECT ejecutada!!
+[2022-06-0108:41:16] [ INFO ] [MedicamentoDaoH2:105] Obtenido el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0108:42:22] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0108:42:22] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0108:42:22] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0108:42:22] [ ERROR] [MedicamentoDaoH2:62] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.MEDICAMENTOS(ID) ( /* key:0 */ 1, 123, 'Paracetamol', 'Bayer', 1, CAST(150.0 AS DOUBLE PRECISION))"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.MEDICAMENTOS(ID) ( /* key:0 */ 1, 123, 'Paracetamol', 'Bayer', 1, CAST(150.0 AS DOUBLE PRECISION))"; SQL statement:
+insert into medicamentos (codigo, nombre, laboratorio, cantidad, precio) VALUES (?,?,?,?,?) [23505-210]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:527)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:496)
+	at org.h2.message.DbException.get(DbException.java:227)
+	at org.h2.message.DbException.get(DbException.java:203)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:120)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:61)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at com.company.dao.impl.MedicamentoDaoH2.guardar(MedicamentoDaoH2.java:56)
+	at com.company.dao.impl.MedicamentoDaoH2.guardar(MedicamentoDaoH2.java:9)
+	at com.company.service.MedicamentoService.guardar(MedicamentoService.java:18)
+	at com.company.Main.main(Main.java:16)
+[2022-06-0108:42:22] [ INFO ] [MedicamentoDaoH2:72] Buscando el medicamento con id: 1
+[2022-06-0108:42:22] [ INFO ] [MedicamentoDaoH2:82] Conexión establecida!!
+[2022-06-0108:42:22] [ INFO ] [MedicamentoDaoH2:92] Sentencia SELECT ejecutada!!
+[2022-06-0108:42:22] [ INFO ] [MedicamentoDaoH2:106] Obtenido el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0108:43:45] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0108:43:46] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0108:43:46] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0108:43:46] [ ERROR] [MedicamentoDaoH2:62] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.MEDICAMENTOS(ID) ( /* key:0 */ 2, 123, 'Paracetamol', 'Bayer', 1, CAST(150.0 AS DOUBLE PRECISION))"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.MEDICAMENTOS(ID) ( /* key:0 */ 2, 123, 'Paracetamol', 'Bayer', 1, CAST(150.0 AS DOUBLE PRECISION))"; SQL statement:
+insert into medicamentos (codigo, nombre, laboratorio, cantidad, precio) VALUES (?,?,?,?,?) [23505-210]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:527)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:496)
+	at org.h2.message.DbException.get(DbException.java:227)
+	at org.h2.message.DbException.get(DbException.java:203)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:120)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:61)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at com.company.dao.impl.MedicamentoDaoH2.guardar(MedicamentoDaoH2.java:56)
+	at com.company.dao.impl.MedicamentoDaoH2.guardar(MedicamentoDaoH2.java:9)
+	at com.company.service.MedicamentoService.guardar(MedicamentoService.java:18)
+	at com.company.Main.main(Main.java:16)
+[2022-06-0108:57:23] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0108:57:23] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0108:57:23] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0108:57:23] [ INFO ] [MedicamentoDaoH2:59] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0108:57:40] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0108:57:40] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0108:57:40] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0108:57:40] [ INFO ] [MedicamentoDaoH2:59] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0108:58:08] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0108:58:08] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0108:58:08] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0108:58:08] [ INFO ] [MedicamentoDaoH2:59] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0109:00:06] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:00:06] [ ERROR] [MedicamentoDaoH2:63] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: null. Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-210]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:697)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:496)
+	at org.h2.message.DbException.get(DbException.java:216)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:161)
+	at org.h2.mvstore.db.Store.<init>(Store.java:140)
+	at org.h2.engine.Database.<init>(Database.java:324)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at com.company.dao.impl.MedicamentoDaoH2.guardar(MedicamentoDaoH2.java:33)
+	at com.company.dao.impl.MedicamentoDaoH2.guardar(MedicamentoDaoH2.java:9)
+	at com.company.service.MedicamentoService.guardar(MedicamentoService.java:18)
+	at com.company.Main.main(Main.java:17)
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/Roque/db_medicamentos.mv.db [2.1.210/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:1004)
+	at org.h2.mvstore.FileStore.open(FileStore.java:163)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:444)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:4056)
+	at org.h2.mvstore.db.Store.<init>(Store.java:129)
+	... 13 more
+[2022-06-0109:00:12] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:00:13] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0109:00:13] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0109:00:13] [ ERROR] [MedicamentoDaoH2:63] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLDataException: Valor Invalido "6" para el parametro "parameterIndex"
+Invalid value "6" for parameter "parameterIndex" [90008-210]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:665)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:496)
+	at org.h2.message.DbException.get(DbException.java:227)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:302)
+	at org.h2.jdbc.JdbcPreparedStatement.setParameter(JdbcPreparedStatement.java:1395)
+	at org.h2.jdbc.JdbcPreparedStatement.setDouble(JdbcPreparedStatement.java:716)
+	at com.company.dao.impl.MedicamentoDaoH2.guardar(MedicamentoDaoH2.java:54)
+	at com.company.dao.impl.MedicamentoDaoH2.guardar(MedicamentoDaoH2.java:9)
+	at com.company.service.MedicamentoService.guardar(MedicamentoService.java:18)
+	at com.company.Main.main(Main.java:17)
+[2022-06-0109:00:34] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:00:34] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0109:00:34] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0109:00:34] [ INFO ] [MedicamentoDaoH2:59] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0109:02:05] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:02:05] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0109:02:05] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0109:02:05] [ ERROR] [MedicamentoDaoH2:63] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: La columna "ID" no permite valores nulos (NULL)
+NULL not allowed for column "ID"; SQL statement:
+insert into medicamentos (codigo, nombre, laboratorio, cantidad, precio) VALUES (?,?,?,?,?) [23502-210]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:527)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:496)
+	at org.h2.message.DbException.get(DbException.java:227)
+	at org.h2.message.DbException.get(DbException.java:203)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:365)
+	at org.h2.table.Table.convertInsertRow(Table.java:931)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:167)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:61)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at com.company.dao.impl.MedicamentoDaoH2.guardar(MedicamentoDaoH2.java:57)
+	at com.company.dao.impl.MedicamentoDaoH2.guardar(MedicamentoDaoH2.java:9)
+	at com.company.service.MedicamentoService.guardar(MedicamentoService.java:18)
+	at com.company.Main.main(Main.java:17)
+[2022-06-0109:03:33] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:03:33] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0109:03:33] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0109:03:33] [ INFO ] [MedicamentoDaoH2:59] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0109:03:37] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:03:37] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0109:03:37] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0109:03:37] [ INFO ] [MedicamentoDaoH2:59] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0109:03:40] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:03:40] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0109:03:40] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0109:03:40] [ INFO ] [MedicamentoDaoH2:59] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0109:05:16] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:05:16] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0109:05:16] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0109:05:16] [ INFO ] [MedicamentoDaoH2:59] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0109:05:20] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:05:20] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0109:05:20] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0109:05:20] [ INFO ] [MedicamentoDaoH2:59] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0109:09:47] [ INFO ] [MedicamentoDaoH2:27] Guardando el medicamento: Medicamento{id=null, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:09:47] [ ERROR] [MedicamentoDaoH2:64] Error relacionado con la base de datos
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: null. Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-210]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:697)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:496)
+	at org.h2.message.DbException.get(DbException.java:216)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:161)
+	at org.h2.mvstore.db.Store.<init>(Store.java:140)
+	at org.h2.engine.Database.<init>(Database.java:324)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at com.company.dao.impl.MedicamentoDaoH2.guardar(MedicamentoDaoH2.java:34)
+	at com.company.dao.impl.MedicamentoDaoH2.guardar(MedicamentoDaoH2.java:9)
+	at com.company.service.MedicamentoService.guardar(MedicamentoService.java:18)
+	at com.company.Main.main(Main.java:17)
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/Roque/db_medicamentos1.mv.db [2.1.210/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:1004)
+	at org.h2.mvstore.FileStore.open(FileStore.java:163)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:444)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:4056)
+	at org.h2.mvstore.db.Store.<init>(Store.java:129)
+	... 13 more
+[2022-06-0109:10:10] [ INFO ] [MedicamentoDaoH2:27] Guardando el medicamento: Medicamento{id=null, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:10:10] [ INFO ] [MedicamentoDaoH2:35] Conexión establecida!!
+[2022-06-0109:10:10] [ INFO ] [MedicamentoDaoH2:41] Tabla medicamentos creada!!
+[2022-06-0109:10:10] [ INFO ] [MedicamentoDaoH2:60] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0109:10:49] [ INFO ] [MedicamentoDaoH2:27] Guardando el medicamento: Medicamento{id=null, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:10:49] [ INFO ] [MedicamentoDaoH2:35] Conexión establecida!!
+[2022-06-0109:10:49] [ INFO ] [MedicamentoDaoH2:41] Tabla medicamentos creada!!
+[2022-06-0109:10:49] [ INFO ] [MedicamentoDaoH2:60] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0109:10:49] [ INFO ] [MedicamentoDaoH2:74] Buscando el medicamento con id: 1
+[2022-06-0109:10:49] [ INFO ] [MedicamentoDaoH2:84] Conexión establecida!!
+[2022-06-0109:10:49] [ INFO ] [MedicamentoDaoH2:94] Sentencia SELECT ejecutada!!
+[2022-06-0109:10:49] [ INFO ] [MedicamentoDaoH2:108] Obtenido el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:11:48] [ INFO ] [MedicamentoDaoH2:27] Guardando el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:11:48] [ INFO ] [MedicamentoDaoH2:35] Conexión establecida!!
+[2022-06-0109:11:48] [ INFO ] [MedicamentoDaoH2:41] Tabla medicamentos creada!!
+[2022-06-0109:11:48] [ INFO ] [MedicamentoDaoH2:60] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0109:11:48] [ INFO ] [MedicamentoDaoH2:74] Buscando el medicamento con id: 1
+[2022-06-0109:11:48] [ INFO ] [MedicamentoDaoH2:84] Conexión establecida!!
+[2022-06-0109:11:48] [ INFO ] [MedicamentoDaoH2:94] Sentencia SELECT ejecutada!!
+[2022-06-0109:11:48] [ INFO ] [MedicamentoDaoH2:108] Obtenido el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:14:58] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=null, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:14:59] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0109:14:59] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0109:14:59] [ INFO ] [MedicamentoDaoH2:59] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0109:14:59] [ INFO ] [MedicamentoDaoH2:73] Buscando el medicamento con id: 1
+[2022-06-0109:14:59] [ INFO ] [MedicamentoDaoH2:83] Conexión establecida!!
+[2022-06-0109:14:59] [ INFO ] [MedicamentoDaoH2:93] Sentencia SELECT ejecutada!!
+[2022-06-0109:14:59] [ INFO ] [MedicamentoDaoH2:107] Obtenido el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:16:25] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=null, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:16:25] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0109:16:25] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0109:16:25] [ INFO ] [MedicamentoDaoH2:59] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0109:16:25] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=null, codigo=456, nombre='Omeprazol', laboratorio='Bayer', cantidad=1, precio=1800.0}
+[2022-06-0109:16:25] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0109:16:25] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0109:16:25] [ INFO ] [MedicamentoDaoH2:59] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0109:46:16] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=null, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:46:16] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0109:46:16] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0109:46:16] [ INFO ] [MedicamentoDaoH2:59] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0109:46:23] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=null, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:46:23] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0109:46:23] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0109:46:23] [ INFO ] [MedicamentoDaoH2:59] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0109:47:09] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=null, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:47:10] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0109:47:10] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0109:47:10] [ INFO ] [MedicamentoDaoH2:59] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0109:47:10] [ INFO ] [MedicamentoDaoH2:73] Buscando el medicamento con id: 1
+[2022-06-0109:47:10] [ INFO ] [MedicamentoDaoH2:83] Conexión establecida!!
+[2022-06-0109:47:10] [ INFO ] [MedicamentoDaoH2:93] Sentencia SELECT ejecutada!!
+[2022-06-0109:47:10] [ INFO ] [MedicamentoDaoH2:107] Obtenido el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:47:19] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=null, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:47:19] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0109:47:19] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0109:47:19] [ INFO ] [MedicamentoDaoH2:59] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0109:47:19] [ INFO ] [MedicamentoDaoH2:73] Buscando el medicamento con id: 105
+[2022-06-0109:47:19] [ INFO ] [MedicamentoDaoH2:83] Conexión establecida!!
+[2022-06-0109:47:19] [ INFO ] [MedicamentoDaoH2:93] Sentencia SELECT ejecutada!!
+[2022-06-0109:48:32] [ INFO ] [MedicamentoDaoH2:73] Buscando el medicamento con id: 1
+[2022-06-0109:48:33] [ INFO ] [MedicamentoDaoH2:83] Conexión establecida!!
+[2022-06-0109:48:33] [ INFO ] [MedicamentoDaoH2:93] Sentencia SELECT ejecutada!!
+[2022-06-0109:48:33] [ INFO ] [MedicamentoDaoH2:107] Obtenido el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:48:42] [ INFO ] [MedicamentoDaoH2:73] Buscando el medicamento con id: 105
+[2022-06-0109:48:42] [ INFO ] [MedicamentoDaoH2:83] Conexión establecida!!
+[2022-06-0109:48:42] [ INFO ] [MedicamentoDaoH2:93] Sentencia SELECT ejecutada!!
+[2022-06-0109:49:05] [ INFO ] [MedicamentoDaoH2:73] Buscando el medicamento con id: 105
+[2022-06-0109:49:05] [ INFO ] [MedicamentoDaoH2:83] Conexión establecida!!
+[2022-06-0109:49:05] [ INFO ] [MedicamentoDaoH2:93] Sentencia SELECT ejecutada!!
+[2022-06-0109:49:11] [ INFO ] [MedicamentoDaoH2:73] Buscando el medicamento con id: 1
+[2022-06-0109:49:11] [ INFO ] [MedicamentoDaoH2:83] Conexión establecida!!
+[2022-06-0109:49:11] [ INFO ] [MedicamentoDaoH2:93] Sentencia SELECT ejecutada!!
+[2022-06-0109:49:11] [ INFO ] [MedicamentoDaoH2:107] Obtenido el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:49:15] [ INFO ] [MedicamentoDaoH2:73] Buscando el medicamento con id: 1
+[2022-06-0109:49:15] [ INFO ] [MedicamentoDaoH2:83] Conexión establecida!!
+[2022-06-0109:49:15] [ INFO ] [MedicamentoDaoH2:93] Sentencia SELECT ejecutada!!
+[2022-06-0109:49:15] [ INFO ] [MedicamentoDaoH2:107] Obtenido el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:49:15] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=null, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:49:15] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0109:49:15] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0109:49:15] [ INFO ] [MedicamentoDaoH2:59] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0109:49:15] [ INFO ] [MedicamentoDaoH2:73] Buscando el medicamento con id: 1
+[2022-06-0109:49:15] [ INFO ] [MedicamentoDaoH2:83] Conexión establecida!!
+[2022-06-0109:49:15] [ INFO ] [MedicamentoDaoH2:93] Sentencia SELECT ejecutada!!
+[2022-06-0109:49:15] [ INFO ] [MedicamentoDaoH2:107] Obtenido el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:51:06] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=null, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0109:51:07] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0109:51:07] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0109:51:07] [ INFO ] [MedicamentoDaoH2:59] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0109:51:07] [ INFO ] [MedicamentoDaoH2:73] Buscando el medicamento con id: 1
+[2022-06-0109:51:07] [ INFO ] [MedicamentoDaoH2:83] Conexión establecida!!
+[2022-06-0109:51:07] [ INFO ] [MedicamentoDaoH2:93] Sentencia SELECT ejecutada!!
+[2022-06-0109:51:07] [ INFO ] [MedicamentoDaoH2:107] Obtenido el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0120:27:19] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=null, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0120:27:19] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0120:27:20] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0120:27:20] [ INFO ] [MedicamentoDaoH2:59] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0120:27:20] [ INFO ] [MedicamentoDaoH2:73] Buscando el medicamento con id: 1
+[2022-06-0120:27:20] [ INFO ] [MedicamentoDaoH2:83] Conexión establecida!!
+[2022-06-0120:27:20] [ INFO ] [MedicamentoDaoH2:93] Sentencia SELECT ejecutada!!
+[2022-06-0120:27:20] [ INFO ] [MedicamentoDaoH2:107] Obtenido el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0120:29:00] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=null, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0120:29:00] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0120:29:00] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0120:29:00] [ INFO ] [MedicamentoDaoH2:59] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0120:29:00] [ INFO ] [MedicamentoDaoH2:73] Buscando el medicamento con id: 1
+[2022-06-0120:29:00] [ INFO ] [MedicamentoDaoH2:83] Conexión establecida!!
+[2022-06-0120:29:00] [ INFO ] [MedicamentoDaoH2:93] Sentencia SELECT ejecutada!!
+[2022-06-0120:29:00] [ INFO ] [MedicamentoDaoH2:107] Obtenido el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0120:51:14] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=null, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0120:51:14] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0120:51:14] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0120:51:14] [ INFO ] [MedicamentoDaoH2:59] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0120:51:14] [ INFO ] [MedicamentoDaoH2:73] Buscando el medicamento con id: 1
+[2022-06-0120:51:14] [ INFO ] [MedicamentoDaoH2:83] Conexión establecida!!
+[2022-06-0120:51:14] [ INFO ] [MedicamentoDaoH2:93] Sentencia SELECT ejecutada!!
+[2022-06-0120:51:14] [ INFO ] [MedicamentoDaoH2:107] Obtenido el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0120:51:55] [ INFO ] [MedicamentoDaoH2:26] Guardando el medicamento: Medicamento{id=null, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0120:51:55] [ INFO ] [MedicamentoDaoH2:34] Conexión establecida!!
+[2022-06-0120:51:55] [ INFO ] [MedicamentoDaoH2:40] Tabla medicamentos creada!!
+[2022-06-0120:51:55] [ INFO ] [MedicamentoDaoH2:59] Insertado nuevo registro en la Tabla medicamentos!!
+[2022-06-0120:51:55] [ INFO ] [MedicamentoDaoH2:73] Buscando el medicamento con id: 25
+[2022-06-0120:51:55] [ INFO ] [MedicamentoDaoH2:83] Conexión establecida!!
+[2022-06-0120:51:55] [ INFO ] [MedicamentoDaoH2:93] Sentencia SELECT ejecutada!!
+[2022-06-0120:54:03] [ INFO ] [MedicamentoDaoH2:73] Buscando el medicamento con id: 1
+[2022-06-0120:54:46] [ INFO ] [MedicamentoDaoH2:73] Buscando el medicamento con id: 1
+[2022-06-0120:54:46] [ INFO ] [MedicamentoDaoH2:83] Conexión establecida!!
+[2022-06-0120:54:46] [ INFO ] [MedicamentoDaoH2:93] Sentencia SELECT ejecutada!!
+[2022-06-0120:54:46] [ INFO ] [MedicamentoDaoH2:107] Obtenido el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
+[2022-06-0120:55:04] [ INFO ] [MedicamentoDaoH2:73] Buscando el medicamento con id: 18
+[2022-06-0120:55:04] [ INFO ] [MedicamentoDaoH2:83] Conexión establecida!!
+[2022-06-0120:55:04] [ INFO ] [MedicamentoDaoH2:93] Sentencia SELECT ejecutada!!
+[2022-06-0120:55:54] [ INFO ] [MedicamentoDaoH2:73] Buscando el medicamento con id: 1
+[2022-06-0120:55:54] [ INFO ] [MedicamentoDaoH2:83] Conexión establecida!!
+[2022-06-0120:55:54] [ INFO ] [MedicamentoDaoH2:93] Sentencia SELECT ejecutada!!
+[2022-06-0120:55:55] [ INFO ] [MedicamentoDaoH2:107] Obtenido el medicamento: Medicamento{id=1, codigo=123, nombre='Paracetamol', laboratorio='Bayer', cantidad=1, precio=150.0}
