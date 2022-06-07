@@ -1,0 +1,644 @@
+[2022-06-0223:58:23] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0223:58:23] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0223:58:23] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0223:58:23] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0223:58:23] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0223:58:23] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0223:58:23] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0223:58:23] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0223:58:23] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0223:58:23] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0223:58:23] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 3
+   - Odontologo{id=1'matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2'matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3'matricula=320, nombre='Lihuen', apellido='Aprile'}
+[2022-06-0301:04:41] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:04:41] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:04:41] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:10:22] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0301:10:22] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 1
+   - Odontologo{id=1, matricula=125, nombre='Marcela', apellido='Dimaria'}
+[2022-06-0301:15:40] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:15:40] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:15:40] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:15:40] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:15:40] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:15:40] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:15:40] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:15:40] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:15:40] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:15:40] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:15:40] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:15:40] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:15:40] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:15:40] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:15:40] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:15:40] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0301:15:40] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 6
+   - Odontologo{id=1, matricula=125, nombre='Marcela', apellido='Dimaria'}
+   - Odontologo{id=2, matricula=320, nombre='Susana', apellido='Gimenez'}
+   - Odontologo{id=3, matricula=985, nombre='Pedro', apellido='Parker'}
+   - Odontologo{id=4, matricula=34, nombre='Felipe', apellido='Pelozzi'}
+   - Odontologo{id=5, matricula=856, nombre='Mirtha', apellido='Legrand'}
+   - Odontologo{id=6, matricula=953, nombre='Sadie', apellido='Sink'}
+[2022-06-0301:17:07] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:17:07] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:17:07] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:17:07] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:17:07] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:17:07] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:17:07] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:17:07] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:17:07] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:17:07] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:17:07] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:17:07] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:17:07] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:17:07] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:17:07] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:17:07] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0301:17:07] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 5
+   - Odontologo{id=1, matricula=320, nombre='Susana', apellido='Gimenez'}
+   - Odontologo{id=2, matricula=985, nombre='Pedro', apellido='Parker'}
+   - Odontologo{id=3, matricula=34, nombre='Felipe', apellido='Pelozzi'}
+   - Odontologo{id=4, matricula=856, nombre='Mirtha', apellido='Legrand'}
+   - Odontologo{id=5, matricula=953, nombre='Sadie', apellido='Sink'}
+[2022-06-0301:17:08] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:17:08] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:17:08] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:18:40] [ ERROR] [OdontologoDaoH2:52] Error en la insercion de registro en la base de datos.
+[2022-06-0301:18:40] [ ERROR] [OdontologoDaoH2:52] Error en la insercion de registro en la base de datos.
+[2022-06-0301:18:40] [ ERROR] [OdontologoDaoH2:52] Error en la insercion de registro en la base de datos.
+[2022-06-0301:18:40] [ ERROR] [OdontologoDaoH2:52] Error en la insercion de registro en la base de datos.
+[2022-06-0301:18:41] [ ERROR] [OdontologoDaoH2:52] Error en la insercion de registro en la base de datos.
+[2022-06-0301:18:41] [ ERROR] [OdontologoDaoH2:89] Error al enlistar todos los odontologos.
+[2022-06-0301:18:41] [ ERROR] [OdontologoDaoH2:52] Error en la insercion de registro en la base de datos.
+[2022-06-0301:18:57] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:18:57] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:18:57] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:18:57] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:18:57] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:18:57] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:18:57] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:18:57] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:18:57] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:18:57] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:18:57] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:18:57] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:18:57] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:18:57] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:18:57] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:18:57] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0301:18:57] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 5
+   - Odontologo{id=1, matricula=320, nombre='Susana', apellido='Gimenez'}
+   - Odontologo{id=2, matricula=985, nombre='Pedro', apellido='Parker'}
+   - Odontologo{id=3, matricula=34, nombre='Felipe', apellido='Pelozzi'}
+   - Odontologo{id=4, matricula=856, nombre='Mirtha', apellido='Legrand'}
+   - Odontologo{id=5, matricula=953, nombre='Sadie', apellido='Sink'}
+[2022-06-0301:18:57] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:18:57] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:18:57] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:20:24] [ ERROR] [OdontologoDaoH2:52] Error en la insercion de registro en la base de datos.
+[2022-06-0301:20:24] [ ERROR] [OdontologoDaoH2:52] Error en la insercion de registro en la base de datos.
+[2022-06-0301:20:24] [ ERROR] [OdontologoDaoH2:52] Error en la insercion de registro en la base de datos.
+[2022-06-0301:20:24] [ ERROR] [OdontologoDaoH2:52] Error en la insercion de registro en la base de datos.
+[2022-06-0301:20:24] [ ERROR] [OdontologoDaoH2:52] Error en la insercion de registro en la base de datos.
+[2022-06-0301:20:24] [ ERROR] [OdontologoDaoH2:89] Error al enlistar todos los odontologos.
+[2022-06-0301:20:24] [ ERROR] [OdontologoDaoH2:52] Error en la insercion de registro en la base de datos.
+[2022-06-0301:20:33] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:20:33] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:20:33] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:20:33] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:20:33] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:20:33] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:20:33] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:20:33] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:20:33] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:20:33] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:20:33] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:20:33] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:20:33] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:20:33] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:20:33] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:20:33] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0301:20:33] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 5
+   - Odontologo{id=1, matricula=320, nombre='Susana', apellido='Gimenez'}
+   - Odontologo{id=2, matricula=985, nombre='Pedro', apellido='Parker'}
+   - Odontologo{id=3, matricula=34, nombre='Felipe', apellido='Pelozzi'}
+   - Odontologo{id=4, matricula=856, nombre='Mirtha', apellido='Legrand'}
+   - Odontologo{id=5, matricula=953, nombre='Sadie', apellido='Sink'}
+[2022-06-0301:20:33] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:20:33] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:20:33] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:22:37] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:22:37] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:22:37] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:22:37] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:22:37] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:22:37] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:22:37] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:22:37] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:22:37] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:22:37] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:22:37] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:22:37] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:22:37] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:22:37] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:22:37] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:22:37] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0301:22:37] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 11
+   - Odontologo{id=1, matricula=320, nombre='Susana', apellido='Gimenez'}
+   - Odontologo{id=2, matricula=985, nombre='Pedro', apellido='Parker'}
+   - Odontologo{id=3, matricula=34, nombre='Felipe', apellido='Pelozzi'}
+   - Odontologo{id=4, matricula=856, nombre='Mirtha', apellido='Legrand'}
+   - Odontologo{id=5, matricula=953, nombre='Sadie', apellido='Sink'}
+   - Odontologo{id=6, matricula=125, nombre='Marcela', apellido='Dimaria'}
+   - Odontologo{id=7, matricula=320, nombre='Susana', apellido='Gimenez'}
+   - Odontologo{id=8, matricula=985, nombre='Pedro', apellido='Parker'}
+   - Odontologo{id=9, matricula=34, nombre='Felipe', apellido='Pelozzi'}
+   - Odontologo{id=10, matricula=856, nombre='Mirtha', apellido='Legrand'}
+   - Odontologo{id=11, matricula=953, nombre='Sadie', apellido='Sink'}
+[2022-06-0301:22:37] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:22:37] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:22:37] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:23:35] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:23:35] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:23:35] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:23:35] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:23:35] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:23:35] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:23:35] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:23:35] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:23:35] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:23:35] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:23:35] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:23:35] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:23:35] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:23:35] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:23:35] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:23:35] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0301:23:35] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 5
+   - Odontologo{id=1, matricula=320, nombre='Susana', apellido='Gimenez'}
+   - Odontologo{id=2, matricula=985, nombre='Pedro', apellido='Parker'}
+   - Odontologo{id=3, matricula=34, nombre='Felipe', apellido='Pelozzi'}
+   - Odontologo{id=4, matricula=856, nombre='Mirtha', apellido='Legrand'}
+   - Odontologo{id=5, matricula=953, nombre='Sadie', apellido='Sink'}
+[2022-06-0301:23:35] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:23:35] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:23:35] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:23:43] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:23:43] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:23:43] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:23:43] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:23:43] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:23:43] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:23:43] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:23:43] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:23:43] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:23:43] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:23:43] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:23:43] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:23:43] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:23:43] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:23:43] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:23:43] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0301:23:44] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 11
+   - Odontologo{id=1, matricula=320, nombre='Susana', apellido='Gimenez'}
+   - Odontologo{id=2, matricula=985, nombre='Pedro', apellido='Parker'}
+   - Odontologo{id=3, matricula=34, nombre='Felipe', apellido='Pelozzi'}
+   - Odontologo{id=4, matricula=856, nombre='Mirtha', apellido='Legrand'}
+   - Odontologo{id=5, matricula=953, nombre='Sadie', apellido='Sink'}
+   - Odontologo{id=6, matricula=125, nombre='Marcela', apellido='Dimaria'}
+   - Odontologo{id=7, matricula=320, nombre='Susana', apellido='Gimenez'}
+   - Odontologo{id=8, matricula=985, nombre='Pedro', apellido='Parker'}
+   - Odontologo{id=9, matricula=34, nombre='Felipe', apellido='Pelozzi'}
+   - Odontologo{id=10, matricula=856, nombre='Mirtha', apellido='Legrand'}
+   - Odontologo{id=11, matricula=953, nombre='Sadie', apellido='Sink'}
+[2022-06-0301:23:44] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:23:44] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:23:44] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:24:18] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:24:18] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:24:18] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:24:18] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:24:18] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:24:18] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:24:18] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:24:18] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:24:18] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:24:18] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:24:18] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:24:18] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:24:18] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:24:18] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:24:18] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:24:18] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0301:24:18] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 5
+   - Odontologo{id=1, matricula=320, nombre='Susana', apellido='Gimenez'}
+   - Odontologo{id=2, matricula=985, nombre='Pedro', apellido='Parker'}
+   - Odontologo{id=3, matricula=34, nombre='Felipe', apellido='Pelozzi'}
+   - Odontologo{id=4, matricula=856, nombre='Mirtha', apellido='Legrand'}
+   - Odontologo{id=5, matricula=953, nombre='Sadie', apellido='Sink'}
+[2022-06-0301:24:18] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:24:18] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:24:18] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:27:26] [ ERROR] [OdontologoDaoH2:52] Error en la insercion de registro en la base de datos.
+[2022-06-0301:27:27] [ ERROR] [OdontologoDaoH2:52] Error en la insercion de registro en la base de datos.
+[2022-06-0301:27:27] [ ERROR] [OdontologoDaoH2:52] Error en la insercion de registro en la base de datos.
+[2022-06-0301:27:27] [ ERROR] [OdontologoDaoH2:52] Error en la insercion de registro en la base de datos.
+[2022-06-0301:27:27] [ ERROR] [OdontologoDaoH2:52] Error en la insercion de registro en la base de datos.
+[2022-06-0301:27:27] [ ERROR] [OdontologoDaoH2:89] Error al enlistar todos los odontologos.
+[2022-06-0301:27:27] [ ERROR] [OdontologoDaoH2:52] Error en la insercion de registro en la base de datos.
+[2022-06-0301:27:37] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:27:37] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:27:37] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:27:37] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:27:37] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:27:37] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:27:37] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:27:37] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:27:37] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:27:37] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:27:37] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:27:37] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:27:37] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:27:37] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:27:37] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:27:37] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0301:27:38] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 5
+   - Odontologo{id=1, matricula=320, nombre='Susana', apellido='Gimenez'}
+   - Odontologo{id=2, matricula=985, nombre='Pedro', apellido='Parker'}
+   - Odontologo{id=3, matricula=34, nombre='Felipe', apellido='Pelozzi'}
+   - Odontologo{id=4, matricula=856, nombre='Mirtha', apellido='Legrand'}
+   - Odontologo{id=5, matricula=953, nombre='Sadie', apellido='Sink'}
+[2022-06-0301:27:38] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:27:38] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:27:38] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:31:46] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:31:46] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:31:46] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:31:46] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:31:46] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:31:46] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:31:46] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:31:46] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:31:46] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:31:46] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:31:46] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:31:46] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:31:46] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:31:46] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:31:46] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:31:46] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0301:31:46] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 11
+   - Odontologo{id=1, matricula=320, nombre='Susana', apellido='Gimenez'}
+   - Odontologo{id=2, matricula=985, nombre='Pedro', apellido='Parker'}
+   - Odontologo{id=3, matricula=34, nombre='Felipe', apellido='Pelozzi'}
+   - Odontologo{id=4, matricula=856, nombre='Mirtha', apellido='Legrand'}
+   - Odontologo{id=5, matricula=953, nombre='Sadie', apellido='Sink'}
+   - Odontologo{id=6, matricula=125, nombre='Marcela', apellido='Dimaria'}
+   - Odontologo{id=7, matricula=320, nombre='Susana', apellido='Gimenez'}
+   - Odontologo{id=8, matricula=985, nombre='Pedro', apellido='Parker'}
+   - Odontologo{id=9, matricula=34, nombre='Felipe', apellido='Pelozzi'}
+   - Odontologo{id=10, matricula=856, nombre='Mirtha', apellido='Legrand'}
+   - Odontologo{id=11, matricula=953, nombre='Sadie', apellido='Sink'}
+[2022-06-0301:31:46] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:31:46] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:31:46] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:32:38] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:32:38] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:32:38] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:32:38] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:32:38] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:32:38] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:32:38] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:32:38] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:32:38] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:32:38] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:32:38] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:32:38] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:32:38] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:32:38] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:32:38] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:32:38] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0301:32:39] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 5
+   - Odontologo{id=1, matricula=320, nombre='Susana', apellido='Gimenez'}
+   - Odontologo{id=2, matricula=985, nombre='Pedro', apellido='Parker'}
+   - Odontologo{id=3, matricula=34, nombre='Felipe', apellido='Pelozzi'}
+   - Odontologo{id=4, matricula=856, nombre='Mirtha', apellido='Legrand'}
+   - Odontologo{id=5, matricula=953, nombre='Sadie', apellido='Sink'}
+[2022-06-0301:32:39] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:32:39] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:32:39] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:33:21] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:33:21] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:33:21] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:33:21] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:33:21] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:33:21] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:33:21] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:33:21] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:33:21] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:33:21] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:33:21] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:33:21] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:33:21] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:33:21] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:33:21] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:33:21] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0301:33:21] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 5
+   - Odontologo{id=1, matricula=320, nombre='Susana', apellido='Gimenez'}
+   - Odontologo{id=2, matricula=985, nombre='Pedro', apellido='Parker'}
+   - Odontologo{id=3, matricula=34, nombre='Felipe', apellido='Pelozzi'}
+   - Odontologo{id=4, matricula=856, nombre='Mirtha', apellido='Legrand'}
+   - Odontologo{id=5, matricula=953, nombre='Sadie', apellido='Sink'}
+[2022-06-0301:33:21] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:33:21] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:33:21] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:36:41] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:36:41] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:36:41] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:36:41] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:36:41] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:36:41] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:36:41] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:36:41] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:36:41] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:36:41] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0301:36:41] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 9
+   - Odontologo{id=1, matricula=320, nombre='Susana', apellido='Gimenez'}
+   - Odontologo{id=2, matricula=985, nombre='Pedro', apellido='Parker'}
+   - Odontologo{id=3, matricula=34, nombre='Felipe', apellido='Pelozzi'}
+   - Odontologo{id=4, matricula=856, nombre='Mirtha', apellido='Legrand'}
+   - Odontologo{id=5, matricula=953, nombre='Sadie', apellido='Sink'}
+   - Odontologo{id=6, matricula=125, nombre='Marcela', apellido='Dimaria'}
+   - Odontologo{id=7, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=8, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=9, matricula=320, nombre='Lihuen', apellido='Aprile'}
+[2022-06-0301:37:01] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:37:01] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:37:01] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:37:01] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:37:01] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:37:01] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:37:01] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:37:01] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:37:01] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:37:01] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0301:37:01] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 3
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+[2022-06-0301:37:15] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0301:37:15] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 3
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+[2022-06-0301:37:15] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:37:15] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:37:15] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:39:55] [ ERROR] [OdontologoDaoH2:89] Error al enlistar todos los odontologos.
+[2022-06-0301:39:55] [ ERROR] [OdontologoDaoH2:52] Error en la insercion de registro en la base de datos.
+[2022-06-0301:40:07] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0301:40:07] [ ERROR] [OdontologoDaoH2:89] Error al enlistar todos los odontologos.
+[2022-06-0301:40:07] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:40:07] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:40:07] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:43:25] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:43:25] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:43:25] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:43:25] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:43:25] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:43:25] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:43:25] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:43:25] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:43:25] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:43:25] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0301:43:26] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 3
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+[2022-06-0301:43:53] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:43:53] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:43:53] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:43:53] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:43:53] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:43:53] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:43:53] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:43:53] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:43:53] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:43:53] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0301:43:53] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 3
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+[2022-06-0301:43:53] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:43:53] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:43:53] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:45:17] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:45:17] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:45:17] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:45:17] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:45:17] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:45:17] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:45:17] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:45:17] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:45:17] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:45:17] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0301:45:17] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 3
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+[2022-06-0301:45:17] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:45:17] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:45:17] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:45:54] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:45:55] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:45:55] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:45:55] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:45:55] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:45:55] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:45:55] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:45:55] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:45:55] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:45:55] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0301:45:55] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 3
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+[2022-06-0301:45:55] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:45:55] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:45:55] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:46:59] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:46:59] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:46:59] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:46:59] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:46:59] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:46:59] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:46:59] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:46:59] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:46:59] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0301:46:59] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0301:46:59] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 3
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+[2022-06-0301:46:59] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0301:46:59] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0301:46:59] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0312:58:16] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0312:58:16] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0312:58:16] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0312:58:16] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0312:58:16] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0312:58:16] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0312:58:16] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0312:58:16] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0312:58:16] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0312:58:16] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0312:58:16] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 7
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+   - Odontologo{id=4, matricula=125, nombre='Marcela', apellido='Dimaria'}
+   - Odontologo{id=5, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=6, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=7, matricula=320, nombre='Lihuen', apellido='Aprile'}
+[2022-06-0312:58:16] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0312:58:16] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0312:58:16] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:00:25] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:00:25] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:00:25] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:00:25] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:00:25] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:00:25] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:00:25] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:00:25] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:00:25] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:00:25] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0313:00:25] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 3
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+[2022-06-0313:00:25] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:00:25] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:00:25] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:01:06] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:01:06] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:01:06] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:01:06] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:01:06] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:01:06] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:01:06] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:01:06] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:01:06] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:01:06] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0313:01:06] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 3
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+[2022-06-0313:01:06] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:01:06] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:01:06] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:05:52] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:05:52] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:05:52] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:05:52] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:05:52] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:05:52] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:05:52] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:05:52] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:05:52] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:05:52] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0313:05:52] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 7
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+   - Odontologo{id=4, matricula=125, nombre='Marcela', apellido='Dimaria'}
+   - Odontologo{id=5, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=6, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=7, matricula=320, nombre='Lihuen', apellido='Aprile'}
+[2022-06-0313:05:52] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:05:53] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:05:53] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:06:28] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:06:28] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:06:28] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:06:28] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:06:28] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:06:28] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:06:28] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:06:28] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:06:28] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:06:28] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0313:06:28] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 3
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+[2022-06-0313:06:28] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:06:28] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:06:28] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:10:09] [ ERROR] [OdontologoDaoH2:52] Error en la insercion de registro en la base de datos.
+[2022-06-0313:10:09] [ ERROR] [OdontologoDaoH2:52] Error en la insercion de registro en la base de datos.
+[2022-06-0313:10:09] [ ERROR] [OdontologoDaoH2:52] Error en la insercion de registro en la base de datos.
+[2022-06-0313:10:09] [ ERROR] [OdontologoDaoH2:89] Error al enlistar todos los odontologos.
+[2022-06-0313:10:09] [ ERROR] [OdontologoDaoH2:52] Error en la insercion de registro en la base de datos.
+[2022-06-0313:10:24] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:10:24] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:10:24] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:10:24] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:10:24] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:10:24] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:10:24] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:10:24] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:10:24] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:10:24] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0313:10:24] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 7
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+   - Odontologo{id=4, matricula=125, nombre='Marcela', apellido='Dimaria'}
+   - Odontologo{id=5, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=6, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=7, matricula=320, nombre='Lihuen', apellido='Aprile'}
+[2022-06-0313:10:24] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:10:24] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:10:24] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:12:38] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:12:38] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:12:38] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:12:38] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:12:38] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:12:38] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:12:38] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:12:38] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:12:38] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:12:38] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0313:12:38] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 1
+   - Odontologo{id=1, matricula=320, nombre='Lihuen', apellido='Aprile'}
+[2022-06-0313:12:38] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:12:38] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:12:38] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:13:59] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:13:59] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:13:59] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:13:59] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:13:59] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:13:59] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:13:59] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:13:59] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:13:59] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
+[2022-06-0313:13:59] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0313:13:59] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 3
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+[2022-06-0313:13:59] [ INFO ] [OdontologoDaoH2:67] Conexion con la BD establecida.
+[2022-06-0313:13:59] [ INFO ] [OdontologoDaoH2:85] Odontologos encontrados: 3
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+[2022-06-0313:14:00] [ INFO ] [OdontologoDaoH2:31] Conexion con la BD establecida.
+[2022-06-0313:14:00] [ INFO ] [OdontologoDaoH2:36] Tabla de odontologos creada.
+[2022-06-0313:14:00] [ INFO ] [OdontologoDaoH2:48] Se inserto el registro en la tabla de odontologos.
