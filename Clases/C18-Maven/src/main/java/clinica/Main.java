@@ -1,11 +1,14 @@
-import dao.impl.PacienteDaoH2;
-import model.Domicilio;
-import model.Paciente;
-import service.PacienteService;
+package clinica;
+
+import clinica.dao.impl.PacienteDaoH2;
+import clinica.model.Domicilio;
+import clinica.model.Paciente;
+import clinica.service.PacienteService;
 
 import java.util.Date;
 
 public class Main {
+
 
     public static void main(String[] args) {
         // Pruebas si usar JUNIT

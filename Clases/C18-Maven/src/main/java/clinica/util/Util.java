@@ -1,4 +1,4 @@
-package util;
+package clinica.util;
 
 import java.sql.Timestamp;
 import java.util.Date;

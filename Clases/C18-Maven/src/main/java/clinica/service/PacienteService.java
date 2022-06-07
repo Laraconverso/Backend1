@@ -1,9 +1,8 @@
-package service;
+package clinica.service;
 
 
-import dao.IDao;
-import model.Paciente;
-
+import clinica.dao.IDao;
+import clinica.model.Paciente;
 import java.util.Date;
 import java.util.List;
 

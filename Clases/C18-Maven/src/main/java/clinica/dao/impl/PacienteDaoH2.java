@@ -1,10 +1,10 @@
-package dao.impl;
+package clinica.dao.impl;
 
-import dao.IDao;
-import model.Domicilio;
-import model.Paciente;
-import util.Util;
 
+import clinica.dao.IDao;
+import clinica.model.Domicilio;
+import clinica.model.Paciente;
+import clinica.util.Util;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +13,7 @@ public class PacienteDaoH2 implements IDao<Paciente> {
 
     private final static String DB_JDBC_DRIVER = "org.h2.Driver";
     //con la instruccion INIT=RUNSCRIPT cuando se conecta a la base ejecuta el script de sql que esta en dicho archivo
-    private final static String DB_URL = "jdbc:h2:~/db_clinica15;INIT=RUNSCRIPT FROM 'create.sql'";
+    private final static String DB_URL = "jdbc:h2:~/BD_clinica;INIT=RUNSCRIPT FROM 'create.sql'";
     private final static String DB_USER ="sa";
     private final static String DB_PASSWORD = "sa";
 
