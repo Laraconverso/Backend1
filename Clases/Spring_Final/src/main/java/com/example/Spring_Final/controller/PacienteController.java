@@ -4,12 +4,10 @@ package com.example.Spring_Final.controller;
 import com.example.Spring_Final.dao.impl.PacienteDaoH2;
 import com.example.Spring_Final.model.Paciente;
 import com.example.Spring_Final.service.PacienteService;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -19,27 +17,31 @@ public class PacienteController {
     private PacienteService pacienteService= new PacienteService(new PacienteDaoH2());
 
     @GetMapping
-    public List<Paciente> buscarTodosPacientes(){
+    public List<Paciente> buscarTodos(){
         return pacienteService.buscarTodos();
     }
 
-    @GetMapping
-    public Paciente registrar(Paciente paciente){
+    @PostMapping
+    public Paciente registrar(@RequestBody Paciente paciente){
         return pacienteService.guardar(paciente);
     }
 
     @PutMapping
-    public Paciente actualizar(Paciente paciente){
-        return pacienteService.actualizar(paciente);
+    public ResponseEntity<Paciente> actualizar(@RequestBody Paciente paciente){
+        ResponseEntity<Paciente> response;
+        
+        pacienteService.actualizar(paciente);
+        response = ResponseEntity.ok(paciente);
+        return response;
     }
 
     @GetMapping("/{id}")
-    public Paciente buscarPorId(int id){
+    public Paciente buscarPorId(@PathVariable int id){
         return pacienteService.buscar(id);
     }
 
     @DeleteMapping("/{id}")
-    public Paciente eliminarPorId(@PathVariable int id){
+    public Paciente eliminar(@PathVariable int id){
         return pacienteService.buscar(id);
     }
 
