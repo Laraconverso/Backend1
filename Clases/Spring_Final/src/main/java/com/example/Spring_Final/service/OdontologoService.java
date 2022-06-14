@@ -19,6 +19,10 @@ public class OdontologoService {
         return odontologoDao.guardar(od);
     }
 
+    public Odontologo buscar(int id){
+        return odontologoDao.buscar(id);
+    }
+
     public List<Odontologo> buscarTodos(){
         return odontologoDao.buscarTodos();
     }
