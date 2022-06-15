@@ -1,0 +1,49 @@
+[2022-06-1420:45:34] [INFO ] [OdontologoDaoH2:140] Odontologos encontrados: 4
+   - Odontologo{id=1, matricula=234, nombre='Pancho', apellido='Dionez'}
+   - Odontologo{id=2, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=3, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=4, matricula=320, nombre='Lihuen', apellido='Aprile'}
+[2022-06-1420:47:03] [INFO ] [OdontologoDaoH2:140] Odontologos encontrados: 8
+   - Odontologo{id=1, matricula=234, nombre='Pancho', apellido='Dionez'}
+   - Odontologo{id=2, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=3, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=4, matricula=320, nombre='Lihuen', apellido='Aprile'}
+   - Odontologo{id=5, matricula=125, nombre='Marcela', apellido='Dimaria'}
+   - Odontologo{id=6, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=7, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=8, matricula=320, nombre='Lihuen', apellido='Aprile'}
+[2022-06-1420:50:06] [INFO ] [OdontologoDaoH2:140] Odontologos encontrados: 3
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+[2022-06-1422:17:18] [INFO ] [OdontologoDaoH2:140] Odontologos encontrados: 4
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+   - Odontologo{id=4, matricula=125, nombre='Marcela', apellido='Dimaria'}
+[2022-06-1422:18:37] [INFO ] [OdontologoDaoH2:140] Odontologos encontrados: 4
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+   - Odontologo{id=4, matricula=125, nombre='Marcela', apellido='Dimaria'}
+[2022-06-1422:20:10] [INFO ] [OdontologoDaoH2:140] Odontologos encontrados: 4
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+   - Odontologo{id=4, matricula=125, nombre='Marcela', apellido='Dimaria'}
+[2022-06-1422:26:50] [INFO ] [OdontologoDaoH2:140] Odontologos encontrados: 4
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+   - Odontologo{id=4, matricula=125, nombre='Marcela', apellido='Dimaria'}
+[2022-06-1422:30:28] [INFO ] [OdontologoDaoH2:140] Odontologos encontrados: 4
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+   - Odontologo{id=4, matricula=125, nombre='Marcela', apellido='Dimaria'}
+[2022-06-1422:30:38] [INFO ] [OdontologoDaoH2:140] Odontologos encontrados: 5
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+   - Odontologo{id=4, matricula=125, nombre='Marcela', apellido='Dimaria'}
+   - Odontologo{id=5, matricula=145, nombre='Otro', apellido='Odonto'}

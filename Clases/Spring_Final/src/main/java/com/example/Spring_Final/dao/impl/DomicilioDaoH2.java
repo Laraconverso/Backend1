@@ -16,7 +16,7 @@ public class DomicilioDaoH2 implements IDao<Domicilio> {
 //    private final static String DB_USER ="sa";
 //    private final static String DB_PASSWORD = "sa";
 
-    private final static com.example.Spring_Final.dao.impl.ConfiguracionJDBC configuracionJDBC = new com.example.Spring_Final.dao.impl.ConfiguracionJDBC();
+    private final static ConfiguracionJDBC configuracionJDBC = new ConfiguracionJDBC();
 
     @Override
     public Domicilio guardar(Domicilio domicilio) {

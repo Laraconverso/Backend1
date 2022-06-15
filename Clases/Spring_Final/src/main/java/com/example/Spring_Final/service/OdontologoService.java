@@ -2,7 +2,9 @@ package com.example.Spring_Final.service;
 
 
 import com.example.Spring_Final.dao.IDao;
+import com.example.Spring_Final.dao.impl.OdontologoDaoH2;
 import com.example.Spring_Final.model.Odontologo;
+import com.example.Spring_Final.model.Paciente;
 
 
 import java.util.List;
@@ -21,6 +23,14 @@ public class OdontologoService {
 
     public Odontologo buscar(int id){
         return odontologoDao.buscar(id);
+    }
+
+    public Odontologo actualizar(Odontologo p) {
+        return odontologoDao.actualizar(p);
+    }
+
+    public void eliminar(Integer id) {
+        odontologoDao.eliminar(id);
     }
 
     public List<Odontologo> buscarTodos(){

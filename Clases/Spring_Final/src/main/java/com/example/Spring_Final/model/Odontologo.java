@@ -6,7 +6,11 @@ public class Odontologo {
     private int matricula;
     private String nombre;
     private String apellido;
-    private int id;
+    private Integer id;
+
+    public Odontologo(){
+
+    }
 
     //Constructor
     public Odontologo(int matricula, String nombre, String apellido) {
@@ -15,7 +19,7 @@ public class Odontologo {
         this.apellido = apellido;
     }
 
-    public Odontologo(int id, int matricula, String nombre, String apellido) {
+    public Odontologo(Integer id, int matricula, String nombre, String apellido) {
         this.id = id;
         this.matricula = matricula;
         this.nombre = nombre;
@@ -47,11 +51,11 @@ public class Odontologo {
         this.apellido = apellido;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

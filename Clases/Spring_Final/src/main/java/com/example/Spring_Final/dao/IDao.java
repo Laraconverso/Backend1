@@ -10,5 +10,4 @@ public interface IDao<T> {
      List<T> buscarTodos();
      T actualizar(T t);
 
-
 }

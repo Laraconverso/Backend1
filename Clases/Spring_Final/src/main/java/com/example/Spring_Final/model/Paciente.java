@@ -9,7 +9,7 @@ public class Paciente {
     private String apellido;
     private String dni;
     private Date fechaIngreso;
-    private com.example.Spring_Final.model.Domicilio domicilio;
+    private Domicilio domicilio;
 
     public Paciente() {
     }
