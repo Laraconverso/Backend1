@@ -47,3 +47,94 @@
    - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
    - Odontologo{id=4, matricula=125, nombre='Marcela', apellido='Dimaria'}
    - Odontologo{id=5, matricula=145, nombre='Otro', apellido='Odonto'}
+[2022-06-1521:25:11] [INFO ] [OdontologoDaoH2:140] Odontologos encontrados: 6
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+   - Odontologo{id=4, matricula=125, nombre='Marcela', apellido='Dimaria'}
+   - Odontologo{id=5, matricula=145, nombre='Otro', apellido='Odonto'}
+   - Odontologo{id=6, matricula=1234, nombre='Lara', apellido='CROFT'}
+[2022-06-1521:25:23] [INFO ] [OdontologoDaoH2:140] Odontologos encontrados: 7
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+   - Odontologo{id=4, matricula=125, nombre='Marcela', apellido='Dimaria'}
+   - Odontologo{id=5, matricula=145, nombre='Otro', apellido='Odonto'}
+   - Odontologo{id=6, matricula=1234, nombre='Lara', apellido='CROFT'}
+   - Odontologo{id=7, matricula=124, nombre='Lara', apellido='Croft'}
+[2022-06-1521:25:27] [INFO ] [OdontologoDaoH2:140] Odontologos encontrados: 7
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+   - Odontologo{id=4, matricula=125, nombre='Marcela', apellido='Dimaria'}
+   - Odontologo{id=5, matricula=145, nombre='Otro', apellido='Odonto'}
+   - Odontologo{id=6, matricula=1234, nombre='Lara', apellido='CROFT'}
+   - Odontologo{id=7, matricula=124, nombre='Lara', apellido='Croft'}
+[2022-06-1521:26:29] [INFO ] [OdontologoDaoH2:140] Odontologos encontrados: 7
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+   - Odontologo{id=4, matricula=125, nombre='Marcela', apellido='Dimaria'}
+   - Odontologo{id=5, matricula=145, nombre='Otro', apellido='Odonto'}
+   - Odontologo{id=6, matricula=1234, nombre='Lara', apellido='CROFT'}
+   - Odontologo{id=7, matricula=124, nombre='Lara', apellido='Croft'}
+[2022-06-1521:27:23] [INFO ] [OdontologoDaoH2:140] Odontologos encontrados: 8
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+   - Odontologo{id=4, matricula=125, nombre='Marcela', apellido='Dimaria'}
+   - Odontologo{id=5, matricula=145, nombre='Otro', apellido='Odonto'}
+   - Odontologo{id=6, matricula=1234, nombre='Lara', apellido='CROFT'}
+   - Odontologo{id=7, matricula=124, nombre='Lara', apellido='Croft'}
+   - Odontologo{id=8, matricula=123, nombre='Lara', apellido='Converso'}
+[2022-06-1521:27:24] [INFO ] [OdontologoDaoH2:140] Odontologos encontrados: 8
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+   - Odontologo{id=4, matricula=125, nombre='Marcela', apellido='Dimaria'}
+   - Odontologo{id=5, matricula=145, nombre='Otro', apellido='Odonto'}
+   - Odontologo{id=6, matricula=1234, nombre='Lara', apellido='CROFT'}
+   - Odontologo{id=7, matricula=124, nombre='Lara', apellido='Croft'}
+   - Odontologo{id=8, matricula=123, nombre='Lara', apellido='Converso'}
+[2022-06-1521:28:00] [INFO ] [OdontologoDaoH2:140] Odontologos encontrados: 8
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+   - Odontologo{id=4, matricula=125, nombre='Marcela', apellido='Dimaria'}
+   - Odontologo{id=5, matricula=145, nombre='Otro', apellido='Odonto'}
+   - Odontologo{id=6, matricula=1234, nombre='Lara', apellido='CROFT'}
+   - Odontologo{id=7, matricula=124, nombre='Lara', apellido='Croft'}
+   - Odontologo{id=8, matricula=123, nombre='Lara', apellido='Converso'}
+[2022-06-1521:32:50] [INFO ] [OdontologoDaoH2:140] Odontologos encontrados: 9
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+   - Odontologo{id=4, matricula=125, nombre='Marcela', apellido='Dimaria'}
+   - Odontologo{id=5, matricula=145, nombre='Otro', apellido='Odonto'}
+   - Odontologo{id=6, matricula=1234, nombre='Lara', apellido='CROFT'}
+   - Odontologo{id=7, matricula=124, nombre='Lara', apellido='Croft'}
+   - Odontologo{id=8, matricula=123, nombre='Lara', apellido='Converso'}
+   - Odontologo{id=9, matricula=123, nombre='Mac', apellido='Cheese'}
+[2022-06-1521:35:32] [INFO ] [OdontologoDaoH2:140] Odontologos encontrados: 10
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+   - Odontologo{id=4, matricula=125, nombre='Marcela', apellido='Dimaria'}
+   - Odontologo{id=5, matricula=145, nombre='Otro', apellido='Odonto'}
+   - Odontologo{id=6, matricula=1234, nombre='Lara', apellido='CROFT'}
+   - Odontologo{id=7, matricula=124, nombre='Lara', apellido='Croft'}
+   - Odontologo{id=8, matricula=123, nombre='Lara', apellido='Converso'}
+   - Odontologo{id=9, matricula=123, nombre='Mac', apellido='Cheese'}
+   - Odontologo{id=10, matricula=1234, nombre='1', apellido='1'}
+[2022-06-1521:37:59] [INFO ] [OdontologoDaoH2:140] Odontologos encontrados: 11
+   - Odontologo{id=1, matricula=145, nombre='Rene', apellido='Favaloro'}
+   - Odontologo{id=2, matricula=208, nombre='Pablo', apellido='Chaw'}
+   - Odontologo{id=3, matricula=320, nombre='Lihuen', apellido='Aprile'}
+   - Odontologo{id=4, matricula=125, nombre='Marcela', apellido='Dimaria'}
+   - Odontologo{id=5, matricula=145, nombre='Otro', apellido='Odonto'}
+   - Odontologo{id=6, matricula=1234, nombre='Lara', apellido='CROFT'}
+   - Odontologo{id=7, matricula=124, nombre='Lara', apellido='Croft'}
+   - Odontologo{id=8, matricula=123, nombre='Lara', apellido='Converso'}
+   - Odontologo{id=9, matricula=123, nombre='Mac', apellido='Cheese'}
+   - Odontologo{id=10, matricula=1234, nombre='1', apellido='1'}
+   - Odontologo{id=11, matricula=2, nombre='2', apellido='2'}
