@@ -38,11 +38,20 @@ public class TurnoRepository implements IDao<Turno> {
 
     @Override
     public List<Turno> buscarTodos() {
-        return null;
+        return turnos;
     }
 
     @Override
-    public Turno actualizar(Turno turno) {
+    public Turno actualizar(Turno t) {
+        for(Turno turno: turnos){
+            if(turno.getId().equals(t.getId())){
+//                turnos.remove(turno);
+//                turnos.add(t);
+//                break;
+                turno = t;
+                return turno;
+            }
+        }
         return null;
     }
 }

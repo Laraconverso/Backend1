@@ -30,7 +30,7 @@ public class TurnoService {
         return turnoRepository.actualizar(t);
     }
 
-    public Paciente buscar(Integer id) {
+    public Turno buscar(Integer id) {
         return turnoRepository.buscar(id);
     }
 

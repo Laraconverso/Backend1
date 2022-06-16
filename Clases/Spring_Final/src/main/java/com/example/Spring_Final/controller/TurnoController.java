@@ -41,12 +41,12 @@ public class TurnoController {
     }
 
     @PutMapping
-    public ResponseEntity<Tur> actualizar(@RequestBody Paciente paciente) {
+    public ResponseEntity<Turno> actualizar(@RequestBody Turno turno) {
         //return pacienteService.actualizar(paciente);
-        ResponseEntity<Paciente> response;
-        //Verificar si el ID es distinto de NULL y si el paciente existe
-        if (paciente.getId() != null && pacienteService.buscar(paciente.getId()) != null) {
-            response = ResponseEntity.ok(pacienteService.actualizar(paciente));
+        ResponseEntity<Turno> response;
+        //Verificar si el ID es distinto de NULL y si el turno existe
+        if (turno.getId() != null && turnoService.buscar(turno.getId()) != null) {
+            response = ResponseEntity.ok(turnoService.actualizar(turno));
         } else {
             response = ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }
