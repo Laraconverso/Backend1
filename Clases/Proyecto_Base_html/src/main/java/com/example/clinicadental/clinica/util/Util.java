@@ -1,4 +1,4 @@
-package com.example.Spring_Final.util;
+package com.example.clinicadental.clinica.util;
 
 import java.sql.Timestamp;
 import java.util.Date;
