@@ -174,3 +174,80 @@
    - Odontologo{id=10, matricula=1234, nombre='1', apellido='1'}
    - Odontologo{id=11, matricula=2, nombre='2', apellido='2'}
    - Odontologo{id=12, matricula=2345, nombre='NA', apellido='CHI'}
+[2022-06-1720:48:51] [INFO ] [OdontologoDaoH2:141] Odontologos encontrados: 6
+   - Odontologo{id=5, matricula=145, nombre='Otro', apellido='Odonto'}
+   - Odontologo{id=9, matricula=123, nombre='Mac', apellido='Cheese'}
+   - Odontologo{id=10, matricula=1234, nombre='1', apellido='1'}
+   - Odontologo{id=11, matricula=2, nombre='2', apellido='2'}
+   - Odontologo{id=12, matricula=2345, nombre='NA', apellido='CHI'}
+   - Odontologo{id=13, matricula=1123, nombre='Hola', apellido='Chau'}
+[2022-06-1720:48:55] [INFO ] [OdontologoDaoH2:141] Odontologos encontrados: 5
+   - Odontologo{id=9, matricula=123, nombre='Mac', apellido='Cheese'}
+   - Odontologo{id=10, matricula=1234, nombre='1', apellido='1'}
+   - Odontologo{id=11, matricula=2, nombre='2', apellido='2'}
+   - Odontologo{id=12, matricula=2345, nombre='NA', apellido='CHI'}
+   - Odontologo{id=13, matricula=1123, nombre='Hola', apellido='Chau'}
+[2022-06-1720:49:13] [INFO ] [OdontologoDaoH2:141] Odontologos encontrados: 1
+   - Odontologo{id=14, matricula=1234, nombre='uno', apellido='uno'}
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:17] cargando un nuevo turno
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:19] nuevo turno ingresado: com.example.Spring_Final.model.Turno@6236eb5f
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:25] buscando un nuevo turno con id: 1
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:28] turno con id: 1 encontrado com.example.Spring_Final.model.Turno@6236eb5f
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:17] cargando un nuevo turno
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:19] nuevo turno ingresado: com.example.Spring_Final.model.Turno@60015ef5
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:17] cargando un nuevo turno
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:19] nuevo turno ingresado: com.example.Spring_Final.model.Turno@2f54a33d
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:46] buscando todos los turnos
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:47] econtramos todos los turnos [com.example.Spring_Final.model.Turno@60015ef5, com.example.Spring_Final.model.Turno@2f54a33d]
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:46] buscando todos los turnos
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:47] econtramos todos los turnos [com.example.Spring_Final.model.Turno@60015ef5, com.example.Spring_Final.model.Turno@2f54a33d]
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:38] eliminando turno con id: 3
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:25] buscando un nuevo turno con id: 3
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:28] turno con id: 3 encontrado com.example.Spring_Final.model.Turno@60015ef5
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:41] turno eliminado con id: 3
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:38] eliminando turno con id: 4
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:25] buscando un nuevo turno con id: 4
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:28] turno con id: 4 encontrado com.example.Spring_Final.model.Turno@2f54a33d
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:41] turno eliminado con id: 4
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:17] cargando un nuevo turno
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:19] nuevo turno ingresado: com.example.Spring_Final.model.Turno@ba54932
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:38] eliminando turno con id: 2
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:25] buscando un nuevo turno con id: 2
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:28] turno con id: 2 encontrado com.example.Spring_Final.model.Turno@ba54932
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:41] turno eliminado con id: 2
+[2022-06-1721:19:40] [INFO ] [OdontologoDaoH2:25] buscando un nuevo turno con id: 2
+[2022-06-1721:19:40] [ERROR] [OdontologoDaoH2:32] turno no encontrado
+[2022-06-1721:20:06] [INFO ] [OdontologoDaoH2:141] Odontologos encontrados: 9
+   - Odontologo{id=14, matricula=1234, nombre='uno', apellido='uno'}
+   - Odontologo{id=15, matricula=1, nombre='Martin', apellido='Rodriguez'}
+   - Odontologo{id=16, matricula=1, nombre='Martin', apellido='Rodriguez'}
+   - Odontologo{id=17, matricula=1, nombre='Martin', apellido='Rodriguez'}
+   - Odontologo{id=18, matricula=1, nombre='Martin', apellido='Rodriguez'}
+   - Odontologo{id=19, matricula=1, nombre='Martin', apellido='Rodriguez'}
+   - Odontologo{id=20, matricula=1, nombre='Martin', apellido='Rodriguez'}
+   - Odontologo{id=22, matricula=2, nombre='Nicolas', apellido='Avigliano'}
+   - Odontologo{id=23, matricula=3, nombre='Violeta', apellido='Matorras'}
+[2022-06-1721:20:06] [INFO ] [OdontologoDaoH2:141] Odontologos encontrados: 9
+   - Odontologo{id=14, matricula=1234, nombre='uno', apellido='uno'}
+   - Odontologo{id=15, matricula=1, nombre='Martin', apellido='Rodriguez'}
+   - Odontologo{id=16, matricula=1, nombre='Martin', apellido='Rodriguez'}
+   - Odontologo{id=17, matricula=1, nombre='Martin', apellido='Rodriguez'}
+   - Odontologo{id=18, matricula=1, nombre='Martin', apellido='Rodriguez'}
+   - Odontologo{id=19, matricula=1, nombre='Martin', apellido='Rodriguez'}
+   - Odontologo{id=20, matricula=1, nombre='Martin', apellido='Rodriguez'}
+   - Odontologo{id=22, matricula=2, nombre='Nicolas', apellido='Avigliano'}
+   - Odontologo{id=23, matricula=3, nombre='Violeta', apellido='Matorras'}
+[2022-06-1721:27:05] [INFO ] [OdontologoDaoH2:141] Odontologos encontrados: 8
+   - Odontologo{id=14, matricula=1234, nombre='uno', apellido='uno'}
+   - Odontologo{id=15, matricula=1, nombre='Martin', apellido='Rodriguez'}
+   - Odontologo{id=16, matricula=1, nombre='Martin', apellido='Rodriguez'}
+   - Odontologo{id=17, matricula=1, nombre='Martin', apellido='Rodriguez'}
+   - Odontologo{id=18, matricula=1, nombre='Martin', apellido='Rodriguez'}
+   - Odontologo{id=19, matricula=1, nombre='Martin', apellido='Rodriguez'}
+   - Odontologo{id=20, matricula=1, nombre='Martin', apellido='Rodriguez'}
+   - Odontologo{id=25, matricula=234, nombre='lolo', apellido='ruggero'}
+[2022-06-1721:27:23] [INFO ] [OdontologoDaoH2:141] Odontologos encontrados: 1
+   - Odontologo{id=14, matricula=1234, nombre='uno', apellido='uno'}
+[2022-06-1721:27:33] [INFO ] [OdontologoDaoH2:141] Odontologos encontrados: 2
+   - Odontologo{id=14, matricula=1234, nombre='uno', apellido='uno'}
+   - Odontologo{id=26, matricula=13452, nombre='sadlf', apellido='sfbb'}

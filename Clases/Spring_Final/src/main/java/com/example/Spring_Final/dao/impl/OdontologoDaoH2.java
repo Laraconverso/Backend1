@@ -2,6 +2,7 @@ package com.example.Spring_Final.dao.impl;
 
 
 import com.example.Spring_Final.dao.IDao;
+import com.example.Spring_Final.dao.configuracion.ConfiguracionJDBC;
 import com.example.Spring_Final.model.Odontologo;
 import org.apache.log4j.Logger;
 

@@ -2,7 +2,7 @@ package com.example.Spring_Final.dao.impl;
 
 import com.example.Spring_Final.dao.IDao;
 import com.example.Spring_Final.model.Domicilio;
-import com.example.Spring_Final.dao.impl.ConfiguracionJDBC;
+import com.example.Spring_Final.dao.configuracion.ConfiguracionJDBC;
 
 import java.sql.*;
 import java.util.ArrayList;

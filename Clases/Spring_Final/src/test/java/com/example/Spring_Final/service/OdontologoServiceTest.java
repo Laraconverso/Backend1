@@ -1,41 +1,53 @@
 package com.example.Spring_Final.service;
 
+
 import com.example.Spring_Final.dao.impl.OdontologoDaoH2;
 import com.example.Spring_Final.model.Odontologo;
 import org.junit.Assert;
 import org.junit.Test;
-import org.junit.jupiter.api.Order;
 
 
 public class OdontologoServiceTest {
+    OdontologoService odontologoService = new OdontologoService(new OdontologoDaoH2());
 
-    OdontologoService odontologoService= new OdontologoService(new OdontologoDaoH2());
-    @Order(1)
     @Test
-    public void guardarTest() {
+    public void agregarYBuscarOdontologosTest() {
+        System.out.println("==============================");
+        System.out.println("TEST AGREGAR Y BUSCAR ODONTOLOGO");
+        System.out.println("==============================");
+        Odontologo odontologo = odontologoService.guardar(new Odontologo(001, "Martin", "Rodriguez"));
 
-        Odontologo od = new Odontologo(1,125, "Marcela", "Dimaria");
-
-        Assert.assertNotNull(odontologoService.guardar(od));
+        Assert.assertNotNull(odontologoService.buscar(odontologo.getId()));
+        odontologoService.eliminar(odontologo.getId());
     }
 
-    @Order(2)
     @Test
-    public void listarTodosTest() {
+    public void eliminarOdontologoTest() {
+        System.out.println("==============================");
+        System.out.println("TEST ELIMINAR ODONTOLOGO");
+        System.out.println("==============================");
+        Odontologo odontologo = odontologoService.guardar(new Odontologo(002, "Martin", "Rodriguez"));
+        odontologoService.eliminar(odontologo.getId());
+        Assert.assertTrue(odontologoService.buscar(odontologo.getId()) == null);
 
-        Odontologo od1 = new Odontologo(1,145,"Rene","Favaloro");
-        Odontologo od2= new Odontologo(2,208,"Pablo","Chaw");
-        Odontologo od3 = new Odontologo(3,320,"Lihuen","Aprile");
-        odontologoService.guardar(od1);
-        odontologoService.guardar(od2);
-        odontologoService.guardar(od3);
-
-        Assert.assertEquals(3, odontologoService.buscarTodos().size());
-        Assert.assertNotNull(odontologoService.buscarTodos());
     }
 
+    @Test
+    public void buscarTodosOdontologoTest() {
+        System.out.println("==============================");
+        System.out.println("TEST BUSCAR TODOS LOS ODONTOLOGOS");
+        System.out.println("==============================");
+        Odontologo odontologo1 = new Odontologo(002, "Nicolas", "Avigliano");
+        Odontologo odontologo2 = new Odontologo(003, "Violeta", "Matorras");
 
+        odontologoService.guardar(odontologo1);
+        odontologoService.guardar(odontologo2);
 
+        int tamanio = odontologoService.buscarTodos().size();
+        Assert.assertEquals(tamanio, odontologoService.buscarTodos().size());
 
+        odontologoService.eliminar(odontologo1.getId());
+        odontologoService.eliminar(odontologo2.getId());
+    }
 
 }

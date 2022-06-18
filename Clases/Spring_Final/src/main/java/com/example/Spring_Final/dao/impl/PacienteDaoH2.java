@@ -2,9 +2,9 @@ package com.example.Spring_Final.dao.impl;
 
 
 import com.example.Spring_Final.dao.IDao;
+import com.example.Spring_Final.dao.configuracion.ConfiguracionJDBC;
 import com.example.Spring_Final.model.Paciente;
 import com.example.Spring_Final.model.Domicilio;
-import com.example.Spring_Final.model.Paciente;
 import com.example.Spring_Final.util.Util;
 
 import java.sql.*;
@@ -21,7 +21,7 @@ public class PacienteDaoH2 implements IDao<Paciente> {
 
     private com.example.Spring_Final.dao.impl.DomicilioDaoH2 domicilioDaoH2 = new com.example.Spring_Final.dao.impl.DomicilioDaoH2();
 
-    private final static com.example.Spring_Final.dao.impl.ConfiguracionJDBC configuracionJDBC = new com.example.Spring_Final.dao.impl.ConfiguracionJDBC();
+    private final static ConfiguracionJDBC configuracionJDBC = new ConfiguracionJDBC();
 
     @Override
     public Paciente guardar(Paciente paciente) {
