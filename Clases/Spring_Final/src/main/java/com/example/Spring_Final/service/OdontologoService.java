@@ -1,39 +1,35 @@
 package com.example.Spring_Final.service;
 
-
 import com.example.Spring_Final.dao.IDao;
-import com.example.Spring_Final.dao.impl.OdontologoDaoH2;
 import com.example.Spring_Final.model.Odontologo;
-import com.example.Spring_Final.model.Paciente;
-
 
 import java.util.List;
 
 public class OdontologoService {
 
-    private IDao<Odontologo> odontologoDao;
+    private IDao<Odontologo> odontologoIDao;
 
     public OdontologoService(IDao<Odontologo> odontologoDao) {
-        this.odontologoDao = odontologoDao;
+        this.odontologoIDao = odontologoDao;
     }
 
     public Odontologo guardar(Odontologo od){
-        return odontologoDao.guardar(od);
+        return odontologoIDao.guardar(od);
     }
 
     public Odontologo buscar(int id){
-        return odontologoDao.buscar(id);
+        return odontologoIDao.buscar(id);
     }
 
     public Odontologo actualizar(Odontologo p) {
-        return odontologoDao.actualizar(p);
+        return odontologoIDao.actualizar(p);
     }
 
     public void eliminar(Integer id) {
-        odontologoDao.eliminar(id);
+        odontologoIDao.eliminar(id);
     }
 
     public List<Odontologo> buscarTodos(){
-        return odontologoDao.buscarTodos();
+        return odontologoIDao.buscarTodos();
     }
 }

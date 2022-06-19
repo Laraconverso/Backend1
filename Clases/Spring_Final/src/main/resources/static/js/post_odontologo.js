@@ -12,10 +12,9 @@ window.addEventListener('load', function () {
             nombre: document.querySelector('#nombre').value,
             apellido: document.querySelector('#apellido').value,
             matricula: document.querySelector('#matricula').value,
-
         };
-        //invocamos utilizando la función fetch la API peliculas con el método POST que guardará
-        //la película que enviaremos en formato JSON
+        //invocamos utilizando la función fetch la API odontologo con el método POST que guardará
+        //el odontologo que enviaremos en formato JSON
         const url = '/odontologos';
         const settings = {
             method: 'POST',
@@ -32,12 +31,11 @@ window.addEventListener('load', function () {
                  //se agrego bien
                  let successAlert = '<div class="alert alert-success alert-dismissible">' +
                      '<button type="button" class="close" data-dismiss="alert">&times;</button>' +
-                     '<strong></strong> Odontologo agregado </div>'
+                     '<strong>Odontologo agregado</strong></div>'
 
                  document.querySelector('#response').innerHTML = successAlert;
                  document.querySelector('#response').style.display = "block";
                  resetUploadForm();
-
             })
             .catch(error => {
                     //Si hay algun error se muestra un mensaje diciendo que el odontologo
@@ -56,8 +54,7 @@ window.addEventListener('load', function () {
     function resetUploadForm(){
         document.querySelector('#nombre').value = "";
         document.querySelector('#apellido').value = "";
-         document.querySelector('#matricula').value = "";
-
+        document.querySelector('#matricula').value = "";
     }
 
     (function(){

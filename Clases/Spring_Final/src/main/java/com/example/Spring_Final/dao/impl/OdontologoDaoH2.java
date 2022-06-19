@@ -1,9 +1,9 @@
 package com.example.Spring_Final.dao.impl;
 
-
 import com.example.Spring_Final.dao.IDao;
 import com.example.Spring_Final.dao.configuracion.ConfiguracionJDBC;
 import com.example.Spring_Final.model.Odontologo;
+
 import org.apache.log4j.Logger;
 
 import java.sql.*;
@@ -12,176 +12,169 @@ import java.util.List;
 
 public class OdontologoDaoH2 implements IDao<Odontologo> {
 
-    private static final Logger logger= Logger.getLogger(OdontologoDaoH2.class);
+    private final static Logger logger = Logger.getLogger(OdontologoDaoH2.class);
 
-//    //Realizo conexion
-//    private final static String DB_JDBC_DRIVER = "org.h2.Driver";
-//    //con la instruccion INIT=RUNSCRIPT cuando se conecta a la base ejecuta el script de sql que esta en dicho archivo
-//    private final static String DB_URL = "jdbc:h2:~/BD_clinica;INIT=RUNSCRIPT FROM 'create.sql'";
-//    private final static String DB_USER ="sa";
-//    private final static String DB_PASSWORD = "sa";
+    private ConfiguracionJDBC configuracionJDBC = new ConfiguracionJDBC();
+    private Connection connection = null;
 
-    private final static ConfiguracionJDBC configuracionJDBC = new ConfiguracionJDBC();
 
-    @Override
+   @Override
     public Odontologo guardar(Odontologo odontologo) {
-        Connection connection= configuracionJDBC.conectarConBaseDeDatos();
-        PreparedStatement preparedStatement = null;
+
+       PreparedStatement preparedStatement = null;
 
         try {
-            //1 Levantar el driver y Conectarnos
-//            Class.forName(DB_JDBC_DRIVER);
-//            connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
-//            logger.info("Conexion con la BD establecida.");
+            connection = configuracionJDBC.conectarConBaseDeDatos();
+            logger.info("cargando un nuevo odontologo");
 
-            //2 Crear una sentencia especificando que el ID lo auto incrementa la base de datos y que nos devuelva esa Key es decir ID
-            preparedStatement = connection.prepareStatement("INSERT INTO odontologos(matricula,nombre,apellido) VALUES(?,?,?)",Statement.RETURN_GENERATED_KEYS);
-            //No le vamos a pasar el ID ya que hicimos que fuera autoincremental en la base de datos
-            //preparedStatement.setInt(1,domicilio.getId());
-            preparedStatement.setInt(1, odontologo.getMatricula());
-            preparedStatement.setString(2, odontologo.getNombre());
+            preparedStatement= connection.prepareStatement("INSERT INTO odontologos (MATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?)", Statement.RETURN_GENERATED_KEYS);
+            preparedStatement.setInt(1,odontologo.getMatricula());
+            preparedStatement.setString(2,odontologo.getNombre());
             preparedStatement.setString(3, odontologo.getApellido());
 
-            //3 Ejecutar una sentencia SQL y obtener los ID que se autogeneraron en la base de datos
             preparedStatement.executeUpdate();
             ResultSet keys = preparedStatement.getGeneratedKeys();
             if(keys.next())
                 odontologo.setId(keys.getInt(1));
 
+            logger.info("nuevo odontologo ingresado: " + odontologo);
+            preparedStatement.close();
+            connection.close();
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+        return odontologo;
+    }
+
+    @Override
+    public void eliminar(Integer id) {
+        PreparedStatement preparedStatement = null;
+
+        try {
+            connection = configuracionJDBC.conectarConBaseDeDatos();
+            logger.info("eliminando un odontologo");
+
+            preparedStatement = connection.prepareStatement("DELETE FROM odontologos where id = ?");
+            preparedStatement.setInt(1,id);
+
+            preparedStatement.executeUpdate();
+            logger.info("se elimino el odontologo con id: " +  id);
             preparedStatement.close();
 
         } catch (SQLException throwables) {
             throwables.printStackTrace();
-            logger.error("Error en la insercion de registro en la base de datos.");
+        }finally {
+            try{
+                connection.close();
+            }catch (Exception e){
+                e.printStackTrace();
+            }
         }
-        return odontologo;
     }
 
     @Override
     public Odontologo buscar(Integer id) {
-        Connection connection = configuracionJDBC.conectarConBaseDeDatos();
         PreparedStatement preparedStatement = null;
         Odontologo odontologo = null;
+
         try {
-            //1 Levantar el driver y Conectarnos
-//            Class.forName(DB_JDBC_DRIVER);
-//            connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
+            connection = configuracionJDBC.conectarConBaseDeDatos();
+            logger.info("buscando un odontologo con id: " + id);
 
-            //2 Crear una sentencia
-            preparedStatement = connection.prepareStatement("SELECT id,matricula,nombre,apellido FROM odontologos where id = ?");
-            preparedStatement.setInt(1,id);
+            preparedStatement = connection.prepareStatement("SELECT * FROM odontologos where id = ?");
+            preparedStatement.setInt(1, id);
 
-            //3 Ejecutar una sentencia SQL
             ResultSet result = preparedStatement.executeQuery();
 
-            //4 Obtener resultados
             while (result.next()) {
-                odontologo = crearOdontologo(result);
+                Integer idOdontologo = result.getInt(1);
+                int matricula = result.getInt(2);
+                String nombre = result.getString(3);
+                String apellido = result.getString(4);
+
+                odontologo = new Odontologo(idOdontologo, matricula, nombre, apellido);
             }
-
+            logger.info("odontologo encontrado: " + odontologo);
             preparedStatement.close();
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
-        }
 
+        }catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }finally {
+            try{
+                connection.close();
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+        }
         return odontologo;
-    }
-
-    @Override
-    public void eliminar(Integer id) {
-        Connection connection = configuracionJDBC.conectarConBaseDeDatos();
-        PreparedStatement preparedStatement = null;
-        try {
-            //1 Levantar el driver y Conectarnos
-//            Class.forName(DB_JDBC_DRIVER);
-//            connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
-
-            //2 Crear una sentencia
-            preparedStatement = connection.prepareStatement("DELETE FROM odontologos where id = ?");
-            preparedStatement.setInt(1,id);
-
-            //3 Ejecutar una sentencia SQL
-            preparedStatement.executeUpdate();
-            preparedStatement.close();
-
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
-        }
-
     }
 
     @Override
     public List<Odontologo> buscarTodos() {
-        Connection connection = configuracionJDBC.conectarConBaseDeDatos();
+
         PreparedStatement preparedStatement = null;
-        Odontologo odontologo;
-        List<Odontologo> listaOdontologos = null;
+        List<Odontologo> odontologos = new ArrayList();
 
         try {
-//            Class.forName(DB_JDBC_DRIVER);
-//            connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
-//            logger.info("Conexion con la BD establecida.");
+            connection = configuracionJDBC.conectarConBaseDeDatos();
+            logger.info("buscamos todos los odontologos");
 
-            listaOdontologos = new ArrayList<>();
-            String SQL_SELECT_ALL = "SELECT * FROM odontologos";
-            preparedStatement= connection.prepareStatement(SQL_SELECT_ALL);
-            ResultSet rs = preparedStatement.executeQuery();
+            preparedStatement =connection.prepareStatement("SELECT * FROM odontologos");
+            ResultSet rs= preparedStatement.executeQuery();
+
             while(rs.next()){
-                odontologo = crearOdontologo(rs);
-                listaOdontologos.add(odontologo);
+                Integer id = rs.getInt(1);
+                int matricula = rs.getInt(2);
+                String nombre = rs.getString(3);
+                String apellido = rs.getString(4);
+                odontologos.add(new Odontologo(id,matricula,nombre,apellido));
             }
 
-            String mensaje_logger = "Odontologos encontrados: " + listaOdontologos.size();
-
-            for(Odontologo od : listaOdontologos){
-                System.out.println(od);
-                mensaje_logger += "\n   - " + od.toString();
-            }
-
-            logger.info(mensaje_logger);
-
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
-            logger.error("Error al enlistar todos los odontologos.");
-        }
-
-        return listaOdontologos;
-    }
-
-    @Override
-    public Odontologo actualizar(Odontologo odontologo) {
-       Connection connection = configuracionJDBC.conectarConBaseDeDatos();
-        PreparedStatement preparedStatement = null;
-
-        try {
-            //1 Levantar el driver y Conectarnos
-//            Class.forName(DB_JDBC_DRIVER);
-//            connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
-
-            preparedStatement = connection.prepareStatement("UPDATE odontologos SET matricula = ?, nombre = ? ,apellido = ?");
-            //No le vamos a pasar el ID ya que hicimos que fuera autoincremental en la base de datos
-            //preparedStatement.setInt(1,domicilio.getId());
-            preparedStatement.setInt(1, odontologo.getMatricula());
-            preparedStatement.setString(2, odontologo.getNombre());
-            preparedStatement.setString(3, odontologo.getApellido());
-
-            //3 Ejecutar una sentencia SQL y obtener los ID que se autogeneraron en la base de datos
-            preparedStatement.executeUpdate();
+            logger.info("lista de odontologos: " + odontologos);
             preparedStatement.close();
 
         } catch (SQLException throwables) {
             throwables.printStackTrace();
+        } finally {
+            try {
+                connection.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
-        return odontologo;
+        return odontologos;
     }
 
-    private Odontologo crearOdontologo(ResultSet rs) throws SQLException {
-        int idOdontologo= rs.getInt("id");
-        int matricula = rs.getInt("matricula");
-        String nombre = rs.getString("nombre");
-        String apellido = rs.getString("apellido");
+    @Override
+    public Odontologo actualizar(Odontologo odontologo) {
 
-        Odontologo odontologo = new Odontologo(idOdontologo, matricula, nombre, apellido);
-        return  odontologo;
+       PreparedStatement preparedStatement= null;
+
+        try {
+            connection = configuracionJDBC.conectarConBaseDeDatos();
+            logger.info("actualizando odontologo");
+
+            preparedStatement = connection.prepareStatement("UPDATE odontologos SET matricula = ?, nombre = ? ,apellido = ?  WHERE id = ?");
+
+            preparedStatement.setInt(1, odontologo.getMatricula());
+            preparedStatement.setString(2, odontologo.getNombre());
+            preparedStatement.setString(3, odontologo.getApellido());
+            preparedStatement.setInt(4, odontologo.getId());
+
+            preparedStatement.executeUpdate();
+            logger.info("odontologo actualizado " + odontologo);
+            preparedStatement.close();
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }finally {
+            try{
+                connection.close();
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+        }
+        return odontologo;
     }
 }

@@ -6,7 +6,7 @@ window.addEventListener('load', function () {
     const formulario = document.querySelector('#update_odontologo_form');
 
     formulario.addEventListener('submit', function (event) {
-        let peliculaId = document.querySelector('#odontologo_id').value;
+        let odontologoId = document.querySelector('#odontologo_id').value;
 
         //creamos un JSON que tendrá los datos del odontologo
         //a diferencia de un odontologo nuevo en este caso enviamos el id
@@ -29,31 +29,31 @@ window.addEventListener('load', function () {
             },
             body: JSON.stringify(formData)
         }
-          fetch(url,settings)
-          .then(response => response.json())
+        fetch(url,settings)
+            .then(response => response.json())
 
     })
- })
+})
 
-    //Es la funcion que se invoca cuando se hace click sobre el id de un odontologo del listado
-    //se encarga de llenar el formulario con los datos del odontologo
-    //que se desea modificar
-    function findBy(id) {
-          const url = '/odontologos'+"/"+id;
-          const settings = {
-              method: 'GET'
-          }
-          fetch(url,settings)
-          .then(response => response.json())
-          .then(data => {
-              let odontologo = data;
-              document.querySelector('#odontologo_id').value = odontologo.id;
-              document.querySelector('#nombre').value = odontologo.nombre;
-              document.querySelector('#apellido').value = odontologo.apellido;
-              document.querySelector('#matricula').value = odontologo.matricula;
-              //el formulario por default esta oculto y al editar se habilita
-              document.querySelector('#div_odontologo_updating').style.display = "block";
-          }).catch(error => {
-              alert("Error: " + error);
-          })
-      }
+//Es la funcion que se invoca cuando se hace click sobre el id de un odontologo del listado
+//se encarga de llenar el formulario con los datos del odontologo
+//que se desea modificar
+function findBy(id) {
+    const url = '/odontologos'+"/"+id;
+    const settings = {
+        method: 'GET'
+    }
+    fetch(url,settings)
+        .then(response => response.json())
+        .then(data => {
+            let odontologo = data;
+            document.querySelector('#odontologo_id').value = odontologo.id;
+            document.querySelector('#nombre').value = odontologo.nombre;
+            document.querySelector('#apellido').value = odontologo.apellido;
+            document.querySelector('#matricula').value = odontologo.matricula;
+            //el formulario por default esta oculto y al editar se habilita
+            document.querySelector('#div_odontologo_updating').style.display = "block";
+        }).catch(error => {
+        alert("Error: " + error);
+    })
+}
