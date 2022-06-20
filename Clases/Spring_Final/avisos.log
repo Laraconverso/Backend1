@@ -586,3 +586,23 @@
 [2022-06-1914:48:30] [INFO ] [OdontologoDaoH2:134] lista de odontologos: [Odontologo{id=1, matricula=1, nombre='uno', apellido='uno'}, Odontologo{id=2, matricula=2, nombre='dos', apellido='dos'}, Odontologo{id=3, matricula=3, nombre='tres', apellido='tres'}, Odontologo{id=4, matricula=4040, nombre='prueba', apellido='edicion'}, Odontologo{id=5, matricula=5, nombre='cinco', apellido='cinco'}, Odontologo{id=6, matricula=6, nombre='seis', apellido='seis'}]
 [2022-06-1914:49:36] [INFO ] [OdontologoDaoH2:121] buscamos todos los odontologos
 [2022-06-1914:49:36] [INFO ] [OdontologoDaoH2:134] lista de odontologos: [Odontologo{id=1, matricula=1, nombre='uno', apellido='uno'}, Odontologo{id=2, matricula=2, nombre='dos', apellido='dos'}, Odontologo{id=3, matricula=3, nombre='tres', apellido='tres'}, Odontologo{id=4, matricula=4040, nombre='prueba', apellido='edicion'}, Odontologo{id=5, matricula=5, nombre='cinco', apellido='cinco'}, Odontologo{id=6, matricula=6, nombre='seis', apellido='seis'}]
+[2022-06-1914:54:18] [INFO ] [OdontologoDaoH2:121] buscamos todos los odontologos
+[2022-06-1914:54:18] [INFO ] [OdontologoDaoH2:134] lista de odontologos: [Odontologo{id=1, matricula=1, nombre='uno', apellido='uno'}, Odontologo{id=2, matricula=2, nombre='dos', apellido='dos'}, Odontologo{id=3, matricula=3, nombre='tres', apellido='tres'}, Odontologo{id=4, matricula=4040, nombre='prueba', apellido='edicion'}, Odontologo{id=5, matricula=5, nombre='cinco', apellido='cinco'}, Odontologo{id=6, matricula=6, nombre='seis', apellido='seis'}]
+[2022-06-1914:54:43] [INFO ] [OdontologoDaoH2:28] cargando un nuevo odontologo
+[2022-06-1914:54:43] [INFO ] [OdontologoDaoH2:40] nuevo odontologo ingresado: Odontologo{id=7, matricula=2, nombre='f', apellido='f'}
+[2022-06-1914:54:45] [INFO ] [OdontologoDaoH2:121] buscamos todos los odontologos
+[2022-06-1914:54:45] [INFO ] [OdontologoDaoH2:134] lista de odontologos: [Odontologo{id=1, matricula=1, nombre='uno', apellido='uno'}, Odontologo{id=2, matricula=2, nombre='dos', apellido='dos'}, Odontologo{id=3, matricula=3, nombre='tres', apellido='tres'}, Odontologo{id=4, matricula=4040, nombre='prueba', apellido='edicion'}, Odontologo{id=5, matricula=5, nombre='cinco', apellido='cinco'}, Odontologo{id=6, matricula=6, nombre='seis', apellido='seis'}, Odontologo{id=7, matricula=2, nombre='f', apellido='f'}]
+[2022-06-1914:54:52] [INFO ] [OdontologoDaoH2:83] buscando un odontologo con id: 3
+[2022-06-1914:54:52] [INFO ] [OdontologoDaoH2:98] odontologo encontrado: Odontologo{id=3, matricula=3, nombre='tres', apellido='tres'}
+[2022-06-1914:54:52] [INFO ] [OdontologoDaoH2:56] eliminando un odontologo
+[2022-06-1914:54:52] [INFO ] [OdontologoDaoH2:62] se elimino el odontologo con id: 3
+[2022-06-1914:54:53] [INFO ] [OdontologoDaoH2:121] buscamos todos los odontologos
+[2022-06-1914:54:53] [INFO ] [OdontologoDaoH2:134] lista de odontologos: [Odontologo{id=1, matricula=1, nombre='uno', apellido='uno'}, Odontologo{id=2, matricula=2, nombre='dos', apellido='dos'}, Odontologo{id=4, matricula=4040, nombre='prueba', apellido='edicion'}, Odontologo{id=5, matricula=5, nombre='cinco', apellido='cinco'}, Odontologo{id=6, matricula=6, nombre='seis', apellido='seis'}, Odontologo{id=7, matricula=2, nombre='f', apellido='f'}]
+[2022-06-1914:54:56] [INFO ] [OdontologoDaoH2:83] buscando un odontologo con id: 7
+[2022-06-1914:54:56] [INFO ] [OdontologoDaoH2:98] odontologo encontrado: Odontologo{id=7, matricula=2, nombre='f', apellido='f'}
+[2022-06-1914:55:07] [INFO ] [OdontologoDaoH2:156] actualizando odontologo
+[2022-06-1914:55:07] [INFO ] [OdontologoDaoH2:166] odontologo actualizado Odontologo{id=7, matricula=234, nombre='fa', apellido='f'}
+[2022-06-1914:55:07] [INFO ] [OdontologoDaoH2:121] buscamos todos los odontologos
+[2022-06-1914:55:07] [INFO ] [OdontologoDaoH2:134] lista de odontologos: [Odontologo{id=1, matricula=1, nombre='uno', apellido='uno'}, Odontologo{id=2, matricula=2, nombre='dos', apellido='dos'}, Odontologo{id=4, matricula=4040, nombre='prueba', apellido='edicion'}, Odontologo{id=5, matricula=5, nombre='cinco', apellido='cinco'}, Odontologo{id=6, matricula=6, nombre='seis', apellido='seis'}, Odontologo{id=7, matricula=234, nombre='fa', apellido='f'}]
+[2022-06-1914:55:18] [INFO ] [OdontologoDaoH2:121] buscamos todos los odontologos
+[2022-06-1914:55:18] [INFO ] [OdontologoDaoH2:134] lista de odontologos: [Odontologo{id=1, matricula=1, nombre='uno', apellido='uno'}, Odontologo{id=2, matricula=2, nombre='dos', apellido='dos'}, Odontologo{id=4, matricula=4040, nombre='prueba', apellido='edicion'}, Odontologo{id=5, matricula=5, nombre='cinco', apellido='cinco'}, Odontologo{id=6, matricula=6, nombre='seis', apellido='seis'}, Odontologo{id=7, matricula=234, nombre='fa', apellido='f'}]
