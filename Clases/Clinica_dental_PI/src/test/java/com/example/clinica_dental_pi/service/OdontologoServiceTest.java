@@ -1,8 +1,6 @@
 package com.example.clinica_dental_pi.service;
 
-import com.example.clinica_dental_pi.model.Domicilio;
 import com.example.clinica_dental_pi.model.Odontologo;
-import com.example.clinica_dental_pi.model.Paciente;
 import org.junit.Assert;
 import org.junit.FixMethodOrder;
 import org.junit.Test;

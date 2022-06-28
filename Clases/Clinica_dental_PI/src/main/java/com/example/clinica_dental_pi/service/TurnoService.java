@@ -1,7 +1,7 @@
 package com.example.clinica_dental_pi.service;
 
 
-import com.example.clinica_dental_pi.Repository.impl.TurnoRepository;
+import com.example.clinica_dental_pi.Repository.TurnoRepository;
 import com.example.clinica_dental_pi.model.Turno;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

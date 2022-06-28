@@ -1,9 +1,8 @@
 package com.example.clinica_dental_pi.service;
 
 
-import com.example.clinica_dental_pi.Repository.impl.OdontologoRepository;
+import com.example.clinica_dental_pi.Repository.OdontologoRepository;
 import com.example.clinica_dental_pi.model.Odontologo;
-import com.example.clinica_dental_pi.model.Paciente;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
