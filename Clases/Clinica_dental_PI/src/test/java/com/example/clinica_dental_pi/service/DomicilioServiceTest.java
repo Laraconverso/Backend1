@@ -28,25 +28,25 @@ public class DomicilioServiceTest {
     }
 
     @Test
-    public void agregarYBuscarPacienteTest() {
+    public void agregarYBuscarDomicilioTest() {
         this.cargarDataSet();
         Domicilio domicilio = new Domicilio("Calle", "123", "Temperley", "Buenos Aires");
         Assert.assertNotNull(domicilioService.buscar(domicilio.getId()));
     }
 
     @Test
-    public void eliminarPacienteTest() {
+    public void eliminarDomicilioTest() {
         domicilioService.eliminar(1);
         Assert.assertTrue(domicilioService.buscar(1) == null);
     }
 
     @Test
-    public void traerTodos() {
+    public void traerTodosDomicilios() {
         List<Domicilio> domicilios = domicilioService.buscarTodos();
         Assert.assertTrue(!domicilios.isEmpty());
         Assert.assertTrue(domicilios.size() > 0);
         System.out.println(domicilios);
     }
 
-
+    //falta actualizar
 }
