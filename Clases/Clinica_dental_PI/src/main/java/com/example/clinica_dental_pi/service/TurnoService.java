@@ -3,14 +3,16 @@ package com.example.clinica_dental_pi.service;
 
 import com.example.clinica_dental_pi.Repository.impl.TurnoRepository;
 import com.example.clinica_dental_pi.model.Turno;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class TurnoService {
 
-    //private IDao<Turno> turnoRepository;
+    @Autowired
     private TurnoRepository turnoRepository;
 
     public TurnoService(TurnoRepository turnoRepository) {
@@ -34,7 +36,12 @@ public class TurnoService {
     }
 
     public Turno buscar(Integer id) {
-        return turnoRepository.findById(id).get();
+        Turno turno = null;
+        Optional<Turno> optionalTurno= turnoRepository.findById(id);
+        if (optionalTurno.isPresent()){
+            turno= optionalTurno.get();
+        }
+        return turno;
     }
 
 }

@@ -42,12 +42,10 @@ public class OdontologoController {
 
     }
 
-
     @GetMapping
     public ResponseEntity<List<Odontologo>> buscarTodos(){
         return ResponseEntity.ok(odontologoService.buscarTodos());
     }
-
 
     @PostMapping
     public ResponseEntity<Odontologo> guardar(@RequestBody Odontologo odontologo){

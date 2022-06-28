@@ -2,10 +2,12 @@ package com.example.clinica_dental_pi.service;
 
 import com.example.clinica_dental_pi.Repository.impl.DomicilioRepository;
 import com.example.clinica_dental_pi.model.Domicilio;
+import com.example.clinica_dental_pi.model.Odontologo;
 import org.springframework.stereotype.Service;
 
 
 import java.util.List;
+import java.util.Optional;
 
 
 @Service
@@ -29,17 +31,19 @@ public class DomicilioService {
     }
 
     public Domicilio buscar(Integer id){
-        //return domicilioDao.buscar(id);
-        return domicilioRepository.findById(id).get();
+        Domicilio domicilio = null;
+        Optional<Domicilio> optionalDomicilio= domicilioRepository.findById(id);
+        if (optionalDomicilio.isPresent()){
+            domicilio= optionalDomicilio.get();
+        }
+        return domicilio;
     }
 
     public List<Domicilio> buscarTodos(){
-        //return domicilioDao.buscarTodos();
         return domicilioRepository.findAll();
     }
 
     public void eliminar(Integer id){
-        //domicilioDao.eliminar(id);
         domicilioRepository.deleteById(id);
     }
 

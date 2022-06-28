@@ -31,7 +31,6 @@ public class Paciente {
     }
 
     public Paciente(String nombre, String apellido, String dni, Date fechaIngreso, Domicilio domicilio) {
-
         this.nombre = nombre;
         this.apellido = apellido;
         this.dni = dni;

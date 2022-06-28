@@ -46,11 +46,10 @@ public class PacienteServiceTest {
         Assert.assertNotNull(pacienteService.buscar(p.getId()));
     }
 
-    //NO FUNCIONA
     @Test
     public void eliminarPacienteTest() {
         pacienteService.eliminar(1);
-        Assert.assertNull(pacienteService.buscar(1));
+        Assert.assertTrue(pacienteService.buscar(1) == null);
     }
 
     @Test

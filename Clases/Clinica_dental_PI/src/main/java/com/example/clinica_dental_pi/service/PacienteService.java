@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class PacienteService {
@@ -29,8 +30,12 @@ public class PacienteService {
     }
 
     public Paciente buscar(Integer id) {
-        //return pacienteIDao.buscar(id);
-        return pacienteRepository.findById(id).get();
+        Paciente paciente = null;
+        Optional<Paciente> optionaPaciente= pacienteRepository.findById(id);
+            if (optionaPaciente.isPresent()){
+                paciente= optionaPaciente.get();
+            }
+        return paciente;
     }
 
     public List<Paciente> buscarTodos() {

@@ -37,7 +37,7 @@ public class OdontologoServiceTest {
         Assert.assertNotNull(odontologoService.buscar(o.getId()));
     }
 
-    //NO FUNCIONA
+
     @Test
     public void eliminarOodntologoTest() {
         Assert.assertNotNull(odontologoService.buscar(1));

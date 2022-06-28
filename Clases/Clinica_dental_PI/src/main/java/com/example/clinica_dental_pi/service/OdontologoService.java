@@ -3,21 +3,16 @@ package com.example.clinica_dental_pi.service;
 
 import com.example.clinica_dental_pi.Repository.impl.OdontologoRepository;
 import com.example.clinica_dental_pi.model.Odontologo;
+import com.example.clinica_dental_pi.model.Paciente;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class OdontologoService {
 
-    //private IDao<Odontologo> odontologoIDao;
     private OdontologoRepository odontologoRepository;
-
-
-//    public OdontologoService(IDao<Odontologo> odontologoDao) {
-//        this.odontologoIDao = odontologoDao;
-//    }
-
 
     public OdontologoService(OdontologoRepository odontologoRepository) {
         this.odontologoRepository = odontologoRepository;
@@ -28,7 +23,12 @@ public class OdontologoService {
     }
 
     public Odontologo buscar(int id){
-        return odontologoRepository.findById(id).get();
+        Odontologo odontologo = null;
+        Optional<Odontologo> optionalOdontologo= odontologoRepository.findById(id);
+        if (optionalOdontologo.isPresent()){
+            odontologo= optionalOdontologo.get();
+        }
+        return odontologo;
     }
 
     public Odontologo actualizar(Odontologo p) {
