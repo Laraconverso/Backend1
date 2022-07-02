@@ -21,45 +21,61 @@ import java.util.List;
 @SpringBootTest
 public class PacienteServiceTest {
 
-    //private static PacienteService pacienteService = new PacienteService(new PacienteDaoH2());
     @Autowired
     private PacienteService pacienteService;
 
-    //private DomicilioService domicilioService = new DomicilioService(new DomicilioDaoH2());
     @Autowired
     private DomicilioService domicilioService;
 
 
     //@BeforeClass
     public void cargarDataSet() {
-        Domicilio domicilio = new Domicilio("Av PaseoColon", "850", "CABA", "Buenos Aires");
+        Domicilio domicilio = domicilioService.guardar(new Domicilio("Av PaseoColon", "850", "CABA", "Buenos Aires"));
         Paciente p = pacienteService.guardar(new Paciente("Santiago", "Paz", "88888888", new Date(), domicilio));
-        Domicilio domicilio1 = new Domicilio("Av 9 de Julio", "1", "CABA", "Buenos Aires");
+        Domicilio domicilio1 = domicilioService.guardar(new Domicilio("Av 9 de Julio", "1", "CABA", "Buenos Aires"));
         Paciente p1 = pacienteService.guardar(new Paciente("Bianca", "Perez", "99999999", new Date(), domicilio1));
     }
 
 
     @Test
     public void agregarYBuscarPacienteTest() {
+        System.out.println("-------- Test agregar y buscar paciente --------\n");
+        System.out.println("------------------------------------------------\n");
         this.cargarDataSet();
-        Domicilio domicilio = new Domicilio("Calle", "123", "Temperley", "Buenos Aires");
+        Domicilio domicilio = domicilioService.guardar(new Domicilio("Calle", "123", "Temperley", "Buenos Aires"));
         Paciente p = pacienteService.guardar(new Paciente("Tomas", "Pereyra", "12345678", new Date(), domicilio));
         Assert.assertNotNull(pacienteService.buscar(p.getId()));
     }
 
     @Test
     public void eliminarPacienteTest() throws ResourceNotFoundException {
+        System.out.println("-------- Test eliminar paciente --------\n");
+        System.out.println("----------------------------------------\n");
         pacienteService.eliminar(1);
         Assert.assertTrue(pacienteService.buscar(1) == null);
     }
 
     @Test
-    public void traerTodos() {
+    public void traerTodosTest() {
+        System.out.println("-------- Test traer todos los paciente --------\n");
+        System.out.println("-----------------------------------------------\n");
         List<Paciente> pacientes = pacienteService.buscarTodos();
         Assert.assertTrue(!pacientes.isEmpty());
         Assert.assertTrue(pacientes.size() > 0);
         System.out.println(pacientes);
     }
 
-    //falta actualizar
+    @Test
+    public void actualizarPacienteTest(){
+        System.out.println("-------- Test actualizar paciente --------\n");
+        System.out.println("------------------------------------------\n");
+        Domicilio d = new Domicilio("Av. Las Heras","1200","Capital", "Bs.As.");
+        Paciente p = pacienteService.guardar(new Paciente("Belena", "Perez", "1234563", new Date(), d));
+        Paciente p_nuevo = new Paciente(p.getId(), "Belen", "Perez", "1234563", new Date(), d);
+        p_nuevo = pacienteService.actualizar(p_nuevo);
+
+        Assert.assertEquals(pacienteService.buscar(p_nuevo.getId()).getNombre(), "Belen");
+        System.out.println(p_nuevo);
+
+    }
 }

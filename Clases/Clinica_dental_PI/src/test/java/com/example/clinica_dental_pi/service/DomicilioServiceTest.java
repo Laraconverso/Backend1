@@ -31,6 +31,7 @@ public class DomicilioServiceTest {
     public void agregarYBuscarDomicilioTest() {
         this.cargarDataSet();
         Domicilio domicilio = new Domicilio("Calle", "123", "Temperley", "Buenos Aires");
+        domicilioService.guardar(domicilio);
         Assert.assertNotNull(domicilioService.buscar(domicilio.getId()));
     }
 

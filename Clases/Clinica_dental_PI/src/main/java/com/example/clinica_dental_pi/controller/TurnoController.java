@@ -54,7 +54,7 @@ public class TurnoController {
     public ResponseEntity<Turno> actualizar(@RequestBody Turno turno){
         ResponseEntity<Turno> response;
         if(turno.getId() != null && turnoService.buscar(turno.getId()) != null){
-            response =  ResponseEntity.ok(turnoService.actualizar(turno));
+            response = ResponseEntity.ok(turnoService.actualizar(turno));
         }else{
             response = ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }
