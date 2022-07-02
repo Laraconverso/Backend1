@@ -14,10 +14,9 @@ public class Paciente {
     private String dni;
     private Date fechaIngreso;
 
-    @OneToOne(cascade = CascadeType.ALL)
+    @OneToOne(cascade = CascadeType.MERGE)
     @JoinColumn(name = "domicilio_id")
     private Domicilio domicilio;
-
 
     public Paciente() {}
 

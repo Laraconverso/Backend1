@@ -1,6 +1,7 @@
 package com.example.clinica_dental_pi.service;
 
 import com.example.clinica_dental_pi.Repository.PacienteRepository;
+import com.example.clinica_dental_pi.exceptions.ResourceNotFoundException;
 import com.example.clinica_dental_pi.model.Paciente;
 import org.springframework.stereotype.Service;
 
@@ -36,7 +37,9 @@ public class PacienteService {
         return pacienteRepository.findAll();
     }
 
-    public void eliminar(Integer id) {
+    public void eliminar(Integer id) throws ResourceNotFoundException {
+        if(buscar(id)==null)
+            throw new ResourceNotFoundException("No existe un paciente con el ID: "+ id);
         pacienteRepository.deleteById(id);
     }
 

@@ -1,5 +1,7 @@
 package com.example.clinica_dental_pi.service;
 
+import com.example.clinica_dental_pi.exceptions.BadRequestException;
+import com.example.clinica_dental_pi.exceptions.ResourceNotFoundException;
 import com.example.clinica_dental_pi.model.Domicilio;
 import com.example.clinica_dental_pi.model.Odontologo;
 import com.example.clinica_dental_pi.model.Paciente;
@@ -32,7 +34,7 @@ public class TurnoServiceTest {
 
 
     @Test
-    public void agregarYBuscarTurnoTest() {
+    public void agregarYBuscarTurnoTest() throws BadRequestException {
         Domicilio domicilio = new Domicilio("Calle", "123", "Temperley", "Buenos Aires");
         Paciente p = pacienteService.guardar(new Paciente("Julian", "Alvarez", "12345678", new Date(), domicilio));
         Odontologo o = odontologoService.guardar(new Odontologo(19034, "Juan", "Dentista"));
@@ -41,7 +43,7 @@ public class TurnoServiceTest {
     }
 
     @Test
-    public void eliminarTurnoTest() {
+    public void eliminarTurnoTest() throws ResourceNotFoundException {
         Assert.assertNotNull(turnoService.buscar(1));
         turnoService.eliminarTurno(1);
         Assert.assertTrue(turnoService.buscar(1)==null);

@@ -1,5 +1,6 @@
 package com.example.clinica_dental_pi.service;
 
+import com.example.clinica_dental_pi.exceptions.ResourceNotFoundException;
 import com.example.clinica_dental_pi.model.Odontologo;
 import org.junit.Assert;
 import org.junit.FixMethodOrder;
@@ -37,7 +38,7 @@ public class OdontologoServiceTest {
 
 
     @Test
-    public void eliminarOodntologoTest() {
+    public void eliminarOodntologoTest() throws ResourceNotFoundException {
         Assert.assertNotNull(odontologoService.buscar(1));
         odontologoService.eliminar(1);
         Assert.assertTrue(odontologoService.buscar(1)==null);

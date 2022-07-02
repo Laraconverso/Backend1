@@ -2,6 +2,7 @@ package com.example.clinica_dental_pi.service;
 
 
 import com.example.clinica_dental_pi.Repository.OdontologoRepository;
+import com.example.clinica_dental_pi.exceptions.ResourceNotFoundException;
 import com.example.clinica_dental_pi.model.Odontologo;
 import org.springframework.stereotype.Service;
 
@@ -34,8 +35,13 @@ public class OdontologoService {
         return odontologoRepository.save(p);
     }
 
-    public void eliminar(Integer id) {
-        odontologoRepository.deleteById(id);
+    public void eliminar(Integer id) throws ResourceNotFoundException {
+        //odontologoRepository.deleteById(id);
+        if (this.buscar(id)==null){
+            throw new ResourceNotFoundException("No existe un odontologo con el ID: " +id);
+        } else{
+            odontologoRepository.deleteById(id);
+        }
     }
 
     public List<Odontologo> buscarTodos(){

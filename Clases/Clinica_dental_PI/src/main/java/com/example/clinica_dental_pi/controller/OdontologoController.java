@@ -1,6 +1,7 @@
 package com.example.clinica_dental_pi.controller;
 
 
+import com.example.clinica_dental_pi.exceptions.ResourceNotFoundException;
 import com.example.clinica_dental_pi.model.Odontologo;
 import com.example.clinica_dental_pi.service.OdontologoService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,8 +14,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/odontologos")
 public class OdontologoController {
-
-   // private OdontologoService odontologoService = new OdontologoService(new OdontologoDaoH2());
 
     @Autowired
     private OdontologoService odontologoService;
@@ -30,17 +29,23 @@ public class OdontologoController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<String> eliminar(@PathVariable Integer id){
-        ResponseEntity<String> response;
+    public ResponseEntity<String> eliminar(@PathVariable Integer id) throws ResourceNotFoundException {
+       /* ResponseEntity<String> response;
         if (odontologoService.buscar(id) != null){
             odontologoService.eliminar(id);
             response = ResponseEntity.status(HttpStatus.OK).body("Eliminado");
         }else{
             response = ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }
-        return response;
-
+        return response;*/
+        odontologoService.eliminar(id);
+        return ResponseEntity.ok().body("Eliminado");
     }
+
+//    @ExceptionHandler({ResourceNotFoundException.class})
+//    public ResponseEntity<String> tratarErrorNotFound(ResourceNotFoundException e){
+//        return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
+//    }
 
     @GetMapping
     public ResponseEntity<List<Odontologo>> buscarTodos(){
