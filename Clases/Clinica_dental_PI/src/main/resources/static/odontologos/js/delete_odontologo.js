@@ -7,7 +7,7 @@ window.addEventListener('load', function () {
         };
 
         fetch(url, settings).then((response) => {
-          alert('usuario eliminado correctamente');
+          alert('odontologo eliminado correctamente');
           location.reload();
         });
       }

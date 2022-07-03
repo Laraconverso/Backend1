@@ -1,6 +1,6 @@
 window.addEventListener('load', function () {
     (function () {
-      const url = '/odontologos';
+      const url = '/pacientes';
       const settings = {
         method: 'GET',
       };
@@ -8,21 +8,21 @@ window.addEventListener('load', function () {
       fetch(url, settings)
         .then((response) => response.json())
         .then((data) => {
-          for (odontologo of data) {
-            var table = document.getElementById('odontologoTable');
-            var odontologoRow = table.insertRow();
-            let tr_id = 'tr_' + odontologo.id;
-            odontologoRow.id = tr_id;
+          for (paciente of data) {
+            var table = document.getElementById('pacienteTable');
+            var pacienteRow = table.insertRow();
+            let tr_id = 'tr_' + paciente.id;
+            pacienteRow.id = tr_id;
 
             let deleteButton =
               '<button' +
               ' id=' +
               '"' +
               'btn_delete_' +
-              odontologo.id +
+              paciente.id +
               '"' +
               ' type="button" onclick="deleteBy(' +
-              odontologo.id +
+              paciente.id +
               ')"' +
               'class="btn btn-danger btn_delete">' +
               '&times' +
@@ -36,25 +36,25 @@ window.addEventListener('load', function () {
                 "✏️"  +
               '"' +
               ' type="button" onclick="findBy(' +
-              odontologo.id +
+              paciente.id +
               ')"' +
               ' class="btn btn-info btn_id">' +
-              odontologo.id +
+              paciente.id +
               '</button>';
 
-            odontologoRow.innerHTML =
+            pacienteRow.innerHTML =
               '<td>' + updateButton + '</td>' +
-              '<td class="td_id">' + odontologo.id + '</td>' +
-              '<td class="td_nombre">' + odontologo.nombre.toUpperCase() + '</td>' +
-              '<td class="td_apellido">' + odontologo.apellido.toUpperCase() + '</td>' +
-              '<td class="td_matricula">' + odontologo.matricula + '</td>' +
+              '<td class="td_id">' + paciente.id + '</td>' +
+              '<td class="td_nombre">' + paciente.nombre.toUpperCase() + '</td>' +
+              '<td class="td_apellido">' + paciente.apellido.toUpperCase() + '</td>' +
+              '<td class="td_dni">' + paciente.dni + '</td>' +
               '<td>' + deleteButton + '</td>';
           }
         });
     })(function () {
       let pathname = window.location.pathname;
 
-      if (pathname == '/odontologoList.html') {
+      if (pathname == '/pacienteList.html') {
         document.querySelector('.nav .nav-item a:last').addClass('active');
       }
     });

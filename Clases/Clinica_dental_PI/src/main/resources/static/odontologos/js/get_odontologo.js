@@ -32,14 +32,13 @@ window.addEventListener('load', function () {
               '<button' +
               ' id=' +
               '"' +
-              'btn_id_' +
-                "✏️"  +
+              'btn_id_' + odontologo.id  +
               '"' +
               ' type="button" onclick="findBy(' +
               odontologo.id +
               ')"' +
               ' class="btn btn-info btn_id">' +
-              odontologo.id +
+              "✏️" +
               '</button>';
 
             odontologoRow.innerHTML =
