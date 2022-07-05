@@ -81,7 +81,7 @@ public class TurnoController {
 
     @ExceptionHandler({BadRequestException.class})
     public ResponseEntity<String> tratarErrorNotFound(BadRequestException e){
-        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage()+ " -GLOBAL");
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
     }
 
 }

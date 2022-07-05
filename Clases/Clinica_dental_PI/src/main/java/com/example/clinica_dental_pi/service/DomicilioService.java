@@ -13,7 +13,7 @@ import java.util.Optional;
 @Service
 public class DomicilioService {
 
-    @Autowired
+    //@Autowired
     private DomicilioRepository domicilioRepository;
 
     public DomicilioService(DomicilioRepository domicilioRepository) {

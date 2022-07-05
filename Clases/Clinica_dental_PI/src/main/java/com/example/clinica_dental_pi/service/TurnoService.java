@@ -1,6 +1,5 @@
 package com.example.clinica_dental_pi.service;
 
-
 import com.example.clinica_dental_pi.Repository.OdontologoRepository;
 import com.example.clinica_dental_pi.Repository.PacienteRepository;
 import com.example.clinica_dental_pi.Repository.TurnoRepository;
@@ -16,11 +15,11 @@ import java.util.Optional;
 @Service
 public class TurnoService {
 
-    @Autowired
+   // @Autowired
     private TurnoRepository turnoRepository;
-    @Autowired
+    //@Autowired
     private PacienteRepository pacienteRepository;
-    @Autowired
+   // @Autowired
     private OdontologoRepository odontologoRepository;
 
     public TurnoService(TurnoRepository turnoRepository) {
@@ -37,6 +36,14 @@ public class TurnoService {
         } else if (odontologoRepository.findById(turno.getOdontologo().getId())== null){
             throw new BadRequestException("No existe ningun odontologo con ese id: "+ turno.getOdontologo().getId());
         }
+
+//        if (turno.getPaciente().getId() == null || turno.getOdontologo().getId() == null){
+//            throw new BadRequestexception("el odontologo o paciente no es valido");
+//
+//        }else{
+//            turno.setFecha(new Date());
+//            return turnoRepository.save(turno);
+//        }
         return turnoRepository.save(turno);
     }
 
