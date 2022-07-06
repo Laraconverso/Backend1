@@ -15,11 +15,11 @@ import java.util.Optional;
 @Service
 public class TurnoService {
 
-   // @Autowired
+    @Autowired
     private TurnoRepository turnoRepository;
-    //@Autowired
+    @Autowired
     private PacienteRepository pacienteRepository;
-   // @Autowired
+    @Autowired
     private OdontologoRepository odontologoRepository;
 
     public TurnoService(TurnoRepository turnoRepository) {

@@ -2,7 +2,9 @@ package com.example.clinica_dental_pi.service;
 
 import com.example.clinica_dental_pi.exceptions.ResourceNotFoundException;
 import com.example.clinica_dental_pi.model.Domicilio;
+import com.example.clinica_dental_pi.model.Odontologo;
 import com.example.clinica_dental_pi.model.Paciente;
+import com.example.clinica_dental_pi.model.Turno;
 import org.junit.Assert;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
@@ -39,12 +41,14 @@ public class PacienteServiceTest {
 
     @Test
     public void agregarYBuscarPacienteTest() {
+        //Este test solo pasa si la cascade que relaciona pacientes con domicilios es del tipo MERGE
         System.out.println("-------- Test agregar y buscar paciente --------\n");
         System.out.println("------------------------------------------------\n");
         this.cargarDataSet();
-        Domicilio domicilio = domicilioService.guardar(new Domicilio("Calle", "123", "Temperley", "Buenos Aires"));
-        Paciente p = pacienteService.guardar(new Paciente("Tomas", "Pereyra", "12345678", new Date(), domicilio));
-        Assert.assertNotNull(pacienteService.buscar(p.getId()));
+        Domicilio domicilio = new Domicilio("Calle", "123", "Belgrano", "Buenos Aires");
+        Paciente paciente = pacienteService.guardar(new Paciente("Alba", "Blanca", "12345678", new Date(), domicilio));
+
+        Assert.assertNotNull(pacienteService.buscar(paciente.getId()));
     }
 
     @Test
@@ -69,7 +73,7 @@ public class PacienteServiceTest {
     public void actualizarPacienteTest(){
         System.out.println("-------- Test actualizar paciente --------\n");
         System.out.println("------------------------------------------\n");
-        Domicilio d = new Domicilio("Av. Las Heras","1200","Capital", "Bs.As.");
+        Domicilio d = domicilioService.guardar(new Domicilio("Av. Las Heras","1200","Capital", "Bs.As."));
         Paciente p = pacienteService.guardar(new Paciente("Belena", "Perez", "1234563", new Date(), d));
         Paciente p_nuevo = new Paciente(p.getId(), "Belen", "Perez", "1234563", new Date(), d);
         p_nuevo = pacienteService.actualizar(p_nuevo);

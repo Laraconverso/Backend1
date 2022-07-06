@@ -31,54 +31,75 @@ public class TurnoServiceTest {
     private OdontologoService odontologoService;
     @Autowired
     private PacienteService pacienteService;
-
+    @Autowired
+    private DomicilioService domicilioService;
 
     @Test
     public void agregarYBuscarTurnoTest() throws BadRequestException {
         System.out.println("-------- Test agregar y buscar paciente --------\n");
         System.out.println("------------------------------------------------\n");
         Domicilio domicilio = new Domicilio("Calle", "123", "Temperley", "Buenos Aires");
-        Paciente p = pacienteService.guardar(new Paciente("Julian", "Alvarez", "12345678", new Date(), domicilio));
-        Odontologo o = odontologoService.guardar(new Odontologo(19034, "Juan", "Dentista"));
-        Turno turno = turnoService.registrarTurno(new Turno(p, o, new Date()));
+        Paciente paciente = pacienteService.guardar(new Paciente("Tomas", "Pereyra", "12345678", new Date(), domicilio));
+        Odontologo odontologo = odontologoService.guardar(new Odontologo(001, "Martin", "Rodriguez"));
+        Turno turno = turnoService.registrarTurno(new Turno(paciente,odontologo,new Date()));
+
         Assert.assertNotNull(turnoService.buscar(turno.getId()));
     }
 
     @Test
-    public void eliminarTurnoTest() throws ResourceNotFoundException {
+    public void eliminarTurnoTest() throws ResourceNotFoundException, BadRequestException {
         System.out.println("-------- Test eliminar paciente --------\n");
         System.out.println("----------------------------------------\n");
-        Assert.assertNotNull(turnoService.buscar(1));
-        turnoService.eliminarTurno(1);
-        Assert.assertTrue(turnoService.buscar(1)==null);
+        Domicilio domicilio = new Domicilio("Calle", "123", "Boedo", "Buenos Aires");
+        Paciente paciente = pacienteService.guardar(new Paciente("Tomas", "Calacc", "12345678", new Date(), domicilio));
+        Odontologo odontologo = odontologoService.guardar(new Odontologo(001, "Martin", "Rodriguez"));
+        Turno turno = turnoService.registrarTurno(new Turno(paciente,odontologo,new Date()));
+
+        turnoService.eliminarTurno(turno.getId());
+        Assert.assertTrue(turnoService.buscar(turno.getId()) == null);
+
     }
 
     @Test
-    public void traerTodosLosTurnos() {
+    public void traerTodosLosTurnos() throws BadRequestException, ResourceNotFoundException {
         System.out.println("-------- Test traer turnos --------\n");
         System.out.println("-----------------------------------\n");
+        Domicilio domicilio = new Domicilio("Calle", "123", "Temperley", "Buenos Aires");
+        Paciente paciente = pacienteService.guardar(new Paciente("Tomas", "Pereyra", "12345678", new Date(), domicilio));
+        Odontologo odontologo = odontologoService.guardar(new Odontologo(1256, "Martin", "Rodriguez"));
+        Turno turno = turnoService.registrarTurno(new Turno(paciente,odontologo,new Date()));
+
+        Domicilio domicilio2 = new Domicilio("Calle", "123", "Temperley", "Buenos Aires");
+        Paciente paciente2 = pacienteService.guardar(new Paciente("Tomas", "Pereyra", "12345678", new Date(), domicilio2));
+        Odontologo odontologo2 = odontologoService.guardar(new Odontologo(1, "Martin", "Rodriguez"));
+        Turno turno2 = turnoService.registrarTurno(new Turno(paciente2,odontologo2,new Date()));
+
         List<Turno> turnos = turnoService.buscarTodos();
         Assert.assertTrue(!turnos.isEmpty());
         Assert.assertTrue(turnos.size() > 0);
+        System.out.println(turnos);
+
+        turnoService.eliminarTurno(turno.getId());
+        turnoService.eliminarTurno(turno2.getId());
         System.out.println(turnos);
     }
 
     @Test
     public void actualizarTurnoTest() throws BadRequestException {
+        //error de detached entity --> par aque funcione se cambia el cascade type to merge
         System.out.println("\n---------------------------------------\n");
         System.out.println("-------- Test actualizar Turno --------\n");
         System.out.println("---------------------------------------\n");
-        Domicilio d = new Domicilio("Av. Las Heras","1200","Capital", "Bs.As.");
-        Paciente p = new Paciente(1,"Virginia", "Perez", "1234563", new Date(), d);
-        Odontologo o = new Odontologo(1,235, "Blancas", "Perlas");
-        Turno t = turnoService.registrarTurno(new Turno(34, p ,o, new Date()));
-        Odontologo o2 = new Odontologo(100, "Odolito", "Dental");
+        Domicilio d = domicilioService.guardar(new Domicilio("Av. Las Heras","1200","Capital", "Bs.As."));
+        Paciente p = pacienteService.guardar(new Paciente("Belena", "Perez", "1234563", new Date(), d));
+        Odontologo o = odontologoService.guardar(new Odontologo(1,235, "Blancas", "Perlas"));
+        Turno t = turnoService.registrarTurno(new Turno(p ,o, new Date()));
+        Odontologo o2 = odontologoService.guardar(new Odontologo(100, "Odolito", "Dental"));
         Turno t2 = new Turno(t.getId(),p, o2, new Date());
 
-        t = turnoService.actualizar(t2);
+        t2 = turnoService.actualizar(t2);
 
-        Assert.assertEquals(turnoService.buscar(t.getId()).getOdontologo().getNombre(), "Odolito");
-        System.out.println(p);
+        Assert.assertEquals(turnoService.buscar(t2.getId()).getOdontologo().getNombre(), "Odolito");
+        System.out.println(t2);
     }
-
 }
