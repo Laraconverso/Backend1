@@ -1,8 +1,7 @@
 package com.example.clinica_dental_pi.service;
 
-import com.example.clinica_dental_pi.Repository.DomicilioRepository;
+import com.example.clinica_dental_pi.repository.DomicilioRepository;
 import com.example.clinica_dental_pi.model.Domicilio;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 

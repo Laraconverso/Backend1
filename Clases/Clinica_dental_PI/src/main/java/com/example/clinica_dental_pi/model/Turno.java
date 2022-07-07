@@ -19,6 +19,7 @@ public class Turno{
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "odontologo_id")
     private Odontologo odontologo;
+
     private Date fecha;
 
     public Turno() {}

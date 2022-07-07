@@ -9,6 +9,7 @@ public class Paciente {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "paciente_secuencia")
     private Integer id;
+
     private String nombre;
     private String apellido;
     private String dni;

@@ -1,8 +1,9 @@
 package com.example.clinica_dental_pi.service;
 
-import com.example.clinica_dental_pi.Repository.PacienteRepository;
+import com.example.clinica_dental_pi.repository.PacienteRepository;
 import com.example.clinica_dental_pi.exceptions.ResourceNotFoundException;
 import com.example.clinica_dental_pi.model.Paciente;
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 
 
@@ -14,6 +15,8 @@ import java.util.Optional;
 public class PacienteService {
 
     private PacienteRepository pacienteRepository;
+    private static final Logger logger = Logger.getLogger(PacienteService.class);
+
 
     public PacienteService(PacienteRepository pacienteRepository) {
         this.pacienteRepository = pacienteRepository;
@@ -38,8 +41,10 @@ public class PacienteService {
     }
 
     public void eliminar(Integer id) throws ResourceNotFoundException {
-        if(buscar(id)==null)
-            throw new ResourceNotFoundException("No existe un paciente con el ID: "+ id);
+        if (buscar(id) == null){
+            logger.error("Se quiere eliminar un paciente con un id inexistente en la base de datos.");
+            throw new ResourceNotFoundException("No existe un paciente con el ID: " + id);
+        }
         pacienteRepository.deleteById(id);
     }
 

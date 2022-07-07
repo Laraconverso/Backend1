@@ -1,4 +1,4 @@
-package com.example.clinica_dental_pi.Repository;
+package com.example.clinica_dental_pi.repository;
 
 import com.example.clinica_dental_pi.model.Paciente;
 import org.springframework.data.jpa.repository.JpaRepository;

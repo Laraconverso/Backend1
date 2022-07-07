@@ -15,7 +15,6 @@ import java.util.List;
 @RequestMapping("/pacientes")
 public class PacienteController {
 
-    //private PacienteService pacienteService = new PacienteService(new PacienteDaoH2());
     @Autowired
     private PacienteService pacienteService;
 
@@ -31,9 +30,9 @@ public class PacienteController {
 
     @PutMapping
     public ResponseEntity<Paciente> actualizar(@RequestBody Paciente paciente) {
-        //return pacienteService.actualizar(paciente);
+
         ResponseEntity<Paciente> response;
-        //Verificar si el ID es distinto de NULL y si el paciente existe
+
         if (paciente.getId() != null && pacienteService.buscar(paciente.getId()) != null) {
             response = ResponseEntity.ok(pacienteService.actualizar(paciente));
         } else {
@@ -46,7 +45,6 @@ public class PacienteController {
     public ResponseEntity<String> eliminar(@PathVariable Integer id) throws ResourceNotFoundException {
         ResponseEntity<String> response;
         pacienteService.eliminar(id);
-
         response = ResponseEntity.status(HttpStatus.OK).body("Eliminado");
         return response;
     }

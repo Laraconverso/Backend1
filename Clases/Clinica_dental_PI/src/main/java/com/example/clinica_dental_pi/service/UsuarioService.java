@@ -1,6 +1,6 @@
 package com.example.clinica_dental_pi.service;
 
-import com.example.clinica_dental_pi.Repository.UsuarioRepository;
+import com.example.clinica_dental_pi.repository.UsuarioRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

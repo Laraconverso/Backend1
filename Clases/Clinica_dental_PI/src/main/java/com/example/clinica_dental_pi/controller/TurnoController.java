@@ -21,10 +21,6 @@ public class TurnoController {
 
     @Autowired
     private TurnoService turnoService;
-    @Autowired
-    private PacienteService pacienteService;
-    @Autowired
-    private OdontologoService odontologoService;
 
     @GetMapping("/{id}")
     public ResponseEntity<Turno> buscar(@PathVariable Integer id){
@@ -39,19 +35,12 @@ public class TurnoController {
     @DeleteMapping("/{id}")
     public ResponseEntity<String> eliminar(@PathVariable Integer id) throws ResourceNotFoundException{
         ResponseEntity<String> response;
-//        if (turnoService.buscar(id) != null){
-//            turnoService.eliminarTurno(id);
-//            response = ResponseEntity.status(HttpStatus.OK).body("Eliminado");
-//        }else{
-//            response = ResponseEntity.status(HttpStatus.NOT_FOUND).build();
-//        }
-//        return response;
         turnoService.eliminarTurno(id);
         return response = ResponseEntity.status(HttpStatus.OK).body("Eliminado");
     }
 
     @PutMapping
-    public ResponseEntity<Turno> actualizar(@RequestBody Turno turno){
+    public ResponseEntity<Turno> actualizar(@RequestBody Turno turno) throws ResourceNotFoundException {
         ResponseEntity<Turno> response;
         if(turno.getId() != null && turnoService.buscar(turno.getId()) != null){
             response = ResponseEntity.ok(turnoService.actualizar(turno));
@@ -68,14 +57,6 @@ public class TurnoController {
 
     @PostMapping
     public ResponseEntity<Turno> guardar(@RequestBody Turno turno)throws BadRequestException {
-//        ResponseEntity<Turno> response;
-//        if(pacienteService.buscar(turno.getPaciente().getId()) != null && odontologoService.buscar(turno.getOdontologo().getId()) != null){
-//            response = ResponseEntity.ok(turnoService.registrarTurno(turno));
-//        }else{
-//            response = ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
-//        }
-//        return response;
-
         return ResponseEntity.ok(turnoService.registrarTurno(turno));
     }
 

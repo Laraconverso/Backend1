@@ -1,6 +1,6 @@
 package com.example.clinica_dental_pi.service;
 
-import com.example.clinica_dental_pi.Repository.UsuarioRepository;
+import com.example.clinica_dental_pi.repository.UsuarioRepository;
 import com.example.clinica_dental_pi.model.Usuario;
 import com.example.clinica_dental_pi.model.UsuarioRol;
 import org.springframework.boot.ApplicationArguments;
