@@ -1,0 +1,24 @@
+[2022-07-0701:55:22] [INFO ] [DomicilioServiceTest:38] Se guardo el domicilio con el id: 3
+[2022-07-0701:55:23] [INFO ] [DomicilioServiceTest:53] Se buscan todos los domicilios.
+[2022-07-0702:01:50] [INFO ] [DomicilioServiceTest:45] Se elimino el domicilio con el id: 1
+[2022-07-0702:03:20] [INFO ] [DomicilioServiceTest:37] Se guardo el domicilio con el id: 3
+[2022-07-0702:03:21] [INFO ] [DomicilioServiceTest:45] Se elimino el domicilio con el id: 4
+[2022-07-0702:03:21] [INFO ] [DomicilioServiceTest:52] Se buscan todos los domicilios.
+[2022-07-0702:07:37] [INFO ] [OdontologoService:74] Se guarda el odontologo con el id: 1
+[2022-07-0702:07:38] [INFO ] [OdontologoService:77] Se actualiza el odontologo.
+[2022-07-0702:07:38] [INFO ] [OdontologoService:40] Se guardo el odontologo con el id: 4
+[2022-07-0702:07:38] [INFO ] [OdontologoService:50] Se agrego el odontologo con el id: 5
+[2022-07-0702:07:38] [INFO ] [OdontologoService:53] Se elimina el odontologo con el id: 5
+[2022-07-0702:07:39] [INFO ] [OdontologoService:63] Se buscan todos los odontologos en la base de datos.
+[2022-07-0702:09:45] [INFO ] [OdontologoService:74] Se guarda el odontologo con el id: 1nombre: ODONTOGOLOapellido: Paezmatricula: 124
+[2022-07-0702:09:45] [INFO ] [OdontologoService:77] Se actualiza el odontologocon con el id: 1nombre: Odontologoapellido: Paezmatricula: 124
+[2022-07-0702:11:40] [INFO ] [OdontologoService:74] Se guarda el odontologo con el id: 1 nombre: ODONTOGOLO apellido: Paez matricula: 124
+[2022-07-0702:11:40] [INFO ] [OdontologoService:77] Se actualiza el odontologocon con el id: 1 nombre:  Odontologo apellido: Paez matricula: 124
+[2022-07-0702:12:27] [INFO ] [OdontologoService:74] Se guarda el odontologo con el id: 1 nombre: ODONTOGOLO apellido: Paez matricula: 124
+[2022-07-0702:12:27] [INFO ] [OdontologoService:77] Se actualiza el odontologocon con el id: 1 nombre: Odontologo apellido: Paez matricula: 124
+[2022-07-0702:18:21] [INFO ] [PacienteServiceTest:93] Se actualiza el paciente con el id:1 Nombre: Belena Apellido: Perez DNI: 1234563
+[2022-07-0702:18:21] [INFO ] [PacienteServiceTest:96] Se actualiza el paciente con el id:1 Nombre: Belen Apellido: Perez DNI: 1234563
+[2022-07-0702:18:21] [INFO ] [PacienteServiceTest:54] Se guarda el paciente con el id: 4
+[2022-07-0702:18:21] [INFO ] [PacienteServiceTest:65] Se guarda el paciente con el id: 5
+[2022-07-0702:18:21] [INFO ] [PacienteServiceTest:67] Se elimina el paciente con el id: 5
+[2022-07-0702:18:21] [INFO ] [PacienteServiceTest:81] Se buscan todos los pacientes en la base de datos.
