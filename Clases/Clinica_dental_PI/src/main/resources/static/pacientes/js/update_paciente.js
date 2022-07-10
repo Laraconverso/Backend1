@@ -15,8 +15,13 @@ window.addEventListener('load', function () {
             id: document.querySelector('#paciente_id').value,
             nombre: document.querySelector('#nombre').value,
             apellido: document.querySelector('#apellido').value,
-            matricula: document.querySelector('#matricula').value,
-
+            dni: document.querySelector('#dni').value,
+            domicilio: {
+                calle: document.querySelector('#calle').value,
+                numero: document.querySelector('#numero').value,
+                localidad: document.querySelector('#localidad').value,
+                provincia: document.querySelector('#provincia').value
+            }
         };
 
         //invocamos utilizando la función fetch la API pacientes con el método PUT que modificará
@@ -50,7 +55,11 @@ function findBy(id) {
             document.querySelector('#paciente_id').value = paciente.id;
             document.querySelector('#nombre').value = paciente.nombre;
             document.querySelector('#apellido').value = paciente.apellido;
-            document.querySelector('#matricula').value = paciente.matricula;
+            document.querySelector('#dni').value = paciente.dni;
+            document.querySelector('#calle').value = paciente.domicilio.calle;
+            document.querySelector('#numero').value = paciente.domicilio.numero;
+            document.querySelector('#localidad').value = paciente.domicilio.localidad;
+            document.querySelector('#provincia').value = paciente.domicilio.provincia;
             //el formulario por default esta oculto y al editar se habilita
             document.querySelector('#div_paciente_updating').style.display = "block";
         }).catch(error => {

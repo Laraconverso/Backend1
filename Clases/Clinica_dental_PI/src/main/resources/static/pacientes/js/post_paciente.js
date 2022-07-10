@@ -12,11 +12,16 @@ window.addEventListener('load', function () {
             nombre: document.querySelector('#nombre').value,
             apellido: document.querySelector('#apellido').value,
             dni: document.querySelector('#dni').value,
-           // domicilio: document.querySelector('#domicilio').value,
+            domicilio: {
+                calle: document.querySelector('#calle').value,
+                numero: document.querySelector('#numero').value,
+                localidad: document.querySelector('#localidad').value,
+                provincia: document.querySelector('#provincia').value
+            }
         };
         //invocamos utilizando la función fetch la API paciente con el método POST que guardará
         //el paciente que enviaremos en formato JSON
-        const url = '/paciente';
+        const url = '/pacientes';
         const settings = {
             method: 'POST',
             headers: {
@@ -55,7 +60,11 @@ window.addEventListener('load', function () {
     function resetUploadForm(){
         document.querySelector('#nombre').value = "";
         document.querySelector('#apellido').value = "";
-        document.querySelector('#matricula').value = "";
+        document.querySelector('#dni').value = "";
+        document.querySelector('#calle').value = "";
+        document.querySelector('#numero').value = "";
+        document.querySelector('#localidad').value = "";
+        document.querySelector('#provincia').value = "";
     }
 
     (function(){

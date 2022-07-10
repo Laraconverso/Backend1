@@ -32,14 +32,13 @@ window.addEventListener('load', function () {
               '<button' +
               ' id=' +
               '"' +
-              'btn_id_' +
-                "✏️"  +
+              'btn_id_' + paciente.id  +
               '"' +
               ' type="button" onclick="findBy(' +
               paciente.id +
               ')"' +
               ' class="btn btn-info btn_id">' +
-              paciente.id +
+                "✏️" +
               '</button>';
 
             pacienteRow.innerHTML =
@@ -48,6 +47,10 @@ window.addEventListener('load', function () {
               '<td class="td_nombre">' + paciente.nombre.toUpperCase() + '</td>' +
               '<td class="td_apellido">' + paciente.apellido.toUpperCase() + '</td>' +
               '<td class="td_dni">' + paciente.dni + '</td>' +
+              '<td class="td_calle">' + paciente.domicilio.calle.toUpperCase() + '</td>' +
+              '<td class="td_numero">' + paciente.domicilio.numero + '</td>' +
+              '<td class="td_localidad">' + paciente.domicilio.localidad.toUpperCase() + '</td>' +
+              '<td class="td_provincia">' + paciente.domicilio.provincia.toUpperCase() + '</td>' +
               '<td>' + deleteButton + '</td>';
           }
         });

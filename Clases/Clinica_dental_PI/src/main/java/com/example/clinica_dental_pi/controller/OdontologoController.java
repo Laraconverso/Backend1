@@ -30,22 +30,10 @@ public class OdontologoController {
 
     @DeleteMapping("/{id}")
     public ResponseEntity<String> eliminar(@PathVariable Integer id) throws ResourceNotFoundException {
-       /* ResponseEntity<String> response;
-        if (odontologoService.buscar(id) != null){
-            odontologoService.eliminar(id);
-            response = ResponseEntity.status(HttpStatus.OK).body("Eliminado");
-        }else{
-            response = ResponseEntity.status(HttpStatus.NOT_FOUND).build();
-        }
-        return response;*/
         odontologoService.eliminar(id);
         return ResponseEntity.ok().body("Eliminado");
     }
 
-//    @ExceptionHandler({ResourceNotFoundException.class})
-//    public ResponseEntity<String> tratarErrorNotFound(ResourceNotFoundException e){
-//        return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
-//    }
 
     @GetMapping
     public ResponseEntity<List<Odontologo>> buscarTodos(){

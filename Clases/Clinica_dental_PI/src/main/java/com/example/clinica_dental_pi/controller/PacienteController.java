@@ -1,6 +1,7 @@
 package com.example.clinica_dental_pi.controller;
 
 import com.example.clinica_dental_pi.exceptions.ResourceNotFoundException;
+import com.example.clinica_dental_pi.model.Odontologo;
 import com.example.clinica_dental_pi.model.Paciente;
 import com.example.clinica_dental_pi.service.PacienteService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -51,7 +52,12 @@ public class PacienteController {
 
     @GetMapping("/{id}")
     public ResponseEntity<Paciente> buscarPorId(@PathVariable Integer id) {
-        return ResponseEntity.ok(pacienteService.buscar(id));
+        Paciente paciente = pacienteService.buscar(id);
+        if(paciente != null){
+            return ResponseEntity.ok(paciente);
+        }else{
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        }
     }
 
 }

@@ -22,3 +22,43 @@
 [2022-07-0702:18:21] [INFO ] [PacienteServiceTest:65] Se guarda el paciente con el id: 5
 [2022-07-0702:18:21] [INFO ] [PacienteServiceTest:67] Se elimina el paciente con el id: 5
 [2022-07-0702:18:21] [INFO ] [PacienteServiceTest:81] Se buscan todos los pacientes en la base de datos.
+[2022-07-0820:38:49] [INFO ] [OdontologoServiceTest:74] Se guarda el odontologo con el id: 1 nombre: ODONTOGOLO apellido: Paez matricula: 124
+[2022-07-0820:38:50] [INFO ] [OdontologoServiceTest:77] Se actualiza el odontologocon con el id: 1 nombre: Odontologo apellido: Paez matricula: 124
+[2022-07-0820:38:50] [INFO ] [OdontologoServiceTest:40] Se guardo el odontologo con el id: 4
+[2022-07-0820:38:50] [INFO ] [OdontologoServiceTest:50] Se agrego el odontologo con el id: 5
+[2022-07-0820:38:50] [INFO ] [OdontologoServiceTest:53] Se elimina el odontologo con el id: 5
+[2022-07-0820:38:50] [INFO ] [OdontologoServiceTest:63] Se buscan todos los odontologos en la base de datos.
+[2022-07-0820:38:58] [INFO ] [TurnoServiceTest:102] Se actualizo el turno.
+[2022-07-0820:38:58] [INFO ] [TurnoServiceTest:49] Se registra el turno con el id: 53
+[2022-07-0820:38:58] [INFO ] [TurnoServiceTest:61] Se registra el turno con el id: 54
+[2022-07-0820:38:58] [INFO ] [TurnoServiceTest:63] Se elimina el turno con el id: 54
+[2022-07-0820:38:58] [INFO ] [TurnoServiceTest:82] Se buscan los turnos con en la base de datos
+[2022-07-0820:39:00] [INFO ] [DomicilioServiceTest:37] Se guardo el domicilio con el id: 59
+[2022-07-0820:39:00] [INFO ] [DomicilioServiceTest:45] Se elimino el domicilio con el id: 60
+[2022-07-0820:39:00] [INFO ] [DomicilioServiceTest:52] Se buscan todos los domicilios.
+[2022-07-0820:39:00] [INFO ] [PacienteServiceTest:93] Se actualiza el paciente con el id:57 Nombre: Belena Apellido: Perez DNI: 1234563
+[2022-07-0820:39:00] [INFO ] [PacienteServiceTest:96] Se actualiza el paciente con el id:57 Nombre: Belen Apellido: Perez DNI: 1234563
+[2022-07-0820:39:00] [INFO ] [PacienteServiceTest:54] Se guarda el paciente con el id: 60
+[2022-07-0820:39:00] [INFO ] [PacienteServiceTest:65] Se guarda el paciente con el id: 61
+[2022-07-0820:39:00] [INFO ] [PacienteServiceTest:67] Se elimina el paciente con el id: 61
+[2022-07-0820:39:01] [INFO ] [PacienteServiceTest:81] Se buscan todos los pacientes en la base de datos.
+[2022-07-0900:10:59] [INFO ] [OdontologoServiceTest:74] Se guarda el odontologo con el id: 1 nombre: ODONTOGOLO apellido: Paez matricula: 124
+[2022-07-0900:10:59] [INFO ] [OdontologoServiceTest:77] Se actualiza el odontologocon con el id: 1 nombre: Odontologo apellido: Paez matricula: 124
+[2022-07-0900:10:59] [INFO ] [OdontologoServiceTest:40] Se guardo el odontologo con el id: 4
+[2022-07-0900:10:59] [INFO ] [OdontologoServiceTest:50] Se agrego el odontologo con el id: 5
+[2022-07-0900:10:59] [INFO ] [OdontologoServiceTest:53] Se elimina el odontologo con el id: 5
+[2022-07-0900:10:59] [INFO ] [OdontologoServiceTest:63] Se buscan todos los odontologos en la base de datos.
+[2022-07-0900:11:02] [INFO ] [TurnoServiceTest:102] Se actualizo el turno.
+[2022-07-0900:11:02] [INFO ] [TurnoServiceTest:49] Se registra el turno con el id: 53
+[2022-07-0900:11:02] [INFO ] [TurnoServiceTest:61] Se registra el turno con el id: 54
+[2022-07-0900:11:02] [INFO ] [TurnoServiceTest:63] Se elimina el turno con el id: 54
+[2022-07-0900:11:02] [INFO ] [TurnoServiceTest:82] Se buscan los turnos con en la base de datos
+[2022-07-0900:11:03] [INFO ] [DomicilioServiceTest:37] Se guardo el domicilio con el id: 59
+[2022-07-0900:11:03] [INFO ] [DomicilioServiceTest:45] Se elimino el domicilio con el id: 60
+[2022-07-0900:11:03] [INFO ] [DomicilioServiceTest:52] Se buscan todos los domicilios.
+[2022-07-0900:11:03] [INFO ] [PacienteServiceTest:93] Se actualiza el paciente con el id:57 Nombre: Belena Apellido: Perez DNI: 1234563
+[2022-07-0900:11:03] [INFO ] [PacienteServiceTest:96] Se actualiza el paciente con el id:57 Nombre: Belen Apellido: Perez DNI: 1234563
+[2022-07-0900:11:03] [INFO ] [PacienteServiceTest:54] Se guarda el paciente con el id: 60
+[2022-07-0900:11:03] [INFO ] [PacienteServiceTest:65] Se guarda el paciente con el id: 61
+[2022-07-0900:11:03] [INFO ] [PacienteServiceTest:67] Se elimina el paciente con el id: 61
+[2022-07-0900:11:03] [INFO ] [PacienteServiceTest:81] Se buscan todos los pacientes en la base de datos.
