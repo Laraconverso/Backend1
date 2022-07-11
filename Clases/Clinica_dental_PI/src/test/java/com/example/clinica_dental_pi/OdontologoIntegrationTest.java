@@ -38,6 +38,8 @@ public class OdontologoIntegrationTest {
 
     @Test
     public void buscarTodosLosOdontologos() throws Exception {
+        System.out.println("-------- Test Integracion buscar todos los odontologos --------\n");
+        System.out.println("---------------------------------------------------------------\n");
         //Cargar odontologos
         this.cargarDataSet();
         //Se debe llamar al endpoint correspondiente del controller usando MockMvc
@@ -49,6 +51,8 @@ public class OdontologoIntegrationTest {
 
     @Test
     public void buscarOdontologoPorId() throws Exception {
+        System.out.println("-------- Test Integracion buscar odontologos por id --------\n");
+        System.out.println("------------------------------------------------------------\n");
         //Cargar un paciente
         this.cargarDataSet();
         //Se debe llamar al endpoint correspondiente del controller usando MockMvc
@@ -62,6 +66,8 @@ public class OdontologoIntegrationTest {
 
     @Test
     public void registrarOdontologo() throws Exception {
+        System.out.println("-------- Test Integracion registrar odontologos --------\n");
+        System.out.println("--------------------------------------------------------\n");
         //Crea un nuevo objeto Odontologo
         Odontologo odontologo = new Odontologo(2312, "Ramirez", "Juan");
         //Ahora se debe convertir el objeto a un String Json para enviarlo al REQUEST
@@ -81,6 +87,8 @@ public class OdontologoIntegrationTest {
 
     @Test
     public void actualizarOdontologo() throws Exception{
+        System.out.println("-------- Test Integracion actualizar odontologos --------\n");
+        System.out.println("---------------------------------------------------------\n");
         Odontologo odontologo = odontologoService.guardar(new Odontologo(001, "Martin", "Rodriguez"));
         Odontologo odontologoAct = (new Odontologo(odontologo.getId(),002, "Martin", "Rodriguez"));
 

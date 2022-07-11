@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Alta Turno</title>
+    <title>Nuevo Turno</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -23,31 +23,31 @@
     </ul>
     <div class="row">
         <div class="col-sm-7" style="background-color:#e6fffa; padding:10px; border-radius:3px">
-            <h3>Agregar Turno</h3>
-            <form id="add_new_turno">
+            <h3>Add Turn</h3>
+            <form id="add_new_turn">
                 <div class="form-group">
-                    <label class="control-label" for="nombre">Nombre:</label>
-                    <input type="text" class="form-control" id="nombre"
-                           placeholder="Ingrese el nombre"
-                           name="nombre" required></input>
+                    <label class="control-label" for="paciente">Paciente ID:</label>
+                    <input type="number" class="form-control" id="paciente"
+                           placeholder="Agregar paciente"
+                           name="paciente" required></input>
                 </div>
                 <div class="form-group">
-                    <label class="control-label" for="apellido">Apellido:</label>
-                    <input type="text" class="form-control" id="apellido"
-                           placeholder="Ingrese el apellido"
-                           name="apellido" required></input>
+                    <label class="control-label" for="odontologo">Odontologo ID:</label>
+                    <input type="number" class="form-control" id="odontologo"
+                           placeholder="Agregar odontologo"
+                           name="odontologo" required></input>
                 </div>
 
                 <div class="form-group">
-                    <label class="control-label" for="matricula">Matricula:</label>
-                    <input type="text" class="form-control" id="matricula"
-                           placeholder="Ingrese la matricula"
-                           name="matricula" required></input>
+                    <label class="control-label" for="fecha">Fecha:</label>
+                    <input type="datetime" class="form-control" id="fecha"
+                           placeholder="Agregar fecha"
+                           name="fecha" required></input>
                 </div>
 
 
                 <button type="submit" class="btn btn-danger"
-                        id="btn-add-new-turno">Guardar</button>
+                        id="btn-add-new-turn">Guardar</button>
             </form>
             <div id="response" style="display:none; margin-top:10px">
             </div>

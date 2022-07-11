@@ -22,12 +22,14 @@ public class OdontologoService {
     }
 
     public Odontologo guardar(Odontologo od){
+        logger.info("Se guarda el odontologo con el id: " + od.getId());
         return odontologoRepository.save(od);
     }
 
     public Odontologo buscar(int id){
         Odontologo odontologo = null;
         Optional<Odontologo> optionalOdontologo= odontologoRepository.findById(id);
+        logger.info("Se busca el odontologo con el id: " + id);
         if (optionalOdontologo.isPresent()){
             odontologo= optionalOdontologo.get();
         }
@@ -35,11 +37,12 @@ public class OdontologoService {
     }
 
     public Odontologo actualizar(Odontologo p) {
+        logger.info("Se actualiza el domicilio con el id: " + p.getId());
         return odontologoRepository.save(p);
     }
 
     public void eliminar(Integer id) throws ResourceNotFoundException {
-        //odontologoRepository.deleteById(id);
+            logger.info("Se elimina el odontologo con el id: " +id);
         if (this.buscar(id)==null){
             logger.error("Se quiere eliminar un odontologo con un id inexistente en la base de datos.");
             throw new ResourceNotFoundException("No existe un odontologo con el ID: " +id);
@@ -49,6 +52,7 @@ public class OdontologoService {
     }
 
     public List<Odontologo> buscarTodos(){
+        logger.info("Se buscan todos los odontologos");
         return odontologoRepository.findAll();
     }
 }

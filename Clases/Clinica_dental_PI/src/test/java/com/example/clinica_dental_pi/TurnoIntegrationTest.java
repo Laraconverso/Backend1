@@ -59,6 +59,8 @@ public class TurnoIntegrationTest {
 
     @Test
     public void listarTurnos() throws Exception{
+        System.out.println("-------- Test Integracion listar turnos --------\n");
+        System.out.println("------------------------------------------------\n");
         //Carga un turno
         this.cargarDataSet();
         //Se debe llamar al endpoint correspondiente del controller usando MockMvc
@@ -71,6 +73,8 @@ public class TurnoIntegrationTest {
 
     @Test
     public void buscarTurnoPorId() throws Exception {
+        System.out.println("-------- Test Integracion buscar turno por id --------\n");
+        System.out.println("------------------------------------------------------\n");
         //Cargar un paciente
         Domicilio domicilio = new Domicilio("Av Santa fe", "444", "CABA", "Buenos Aires");
         Paciente p = pacienteService.guardar(new Paciente("Santiago", "Paz", "88888888", new Date(), domicilio));
@@ -87,6 +91,8 @@ public class TurnoIntegrationTest {
 
     @Test
     public void registrarTurno() throws Exception {
+        System.out.println("-------- Test Integracion registrar Turno --------\n");
+        System.out.println("---------------------------------------------------------\n");
         //Crea un nuevo objeto Turno
         Odontologo odontologo = odontologoService.guardar(new Odontologo(2312, "Ramirez", "Juan"));
         Domicilio domicilio = new Domicilio("Av Santa fe", "00", "CABA", "Buenos Aires");
@@ -108,7 +114,9 @@ public class TurnoIntegrationTest {
     }
 
     @Test
-    public void actualizarOdontologo() throws Exception{
+    public void actualizarTurno() throws Exception{
+        System.out.println("-------- Test Integracion actualizar turno --------\n");
+        System.out.println("---------------------------------------------------\n");
         Odontologo odontologo = odontologoService.guardar(new Odontologo(2312, "Ramirez", "Juan"));
         Domicilio domicilio =  new Domicilio("Av Santa fe", "00", "CABA", "Buenos Aires");
         Paciente p = pacienteService.guardar(new Paciente("Juanchoz", "Perez", "88888888", new Date(), domicilio));

@@ -23,13 +23,16 @@ public class PacienteService {
     }
 
     public Paciente guardar(Paciente p) {
+
         p.setFechaIngreso(new Date());
+        logger.info("Se guarda un paciente con el id: " + p.getId());
         return pacienteRepository.save(p);
     }
 
     public Paciente buscar(Integer id) {
         Paciente paciente = null;
         Optional<Paciente> optionaPaciente= pacienteRepository.findById(id);
+        logger.info("Se busca un paciente con el id: " + id);
             if (optionaPaciente.isPresent()){
                 paciente= optionaPaciente.get();
             }
@@ -37,10 +40,12 @@ public class PacienteService {
     }
 
     public List<Paciente> buscarTodos() {
+        logger.info("Se buscan todos los paciente");
         return pacienteRepository.findAll();
     }
 
     public void eliminar(Integer id) throws ResourceNotFoundException {
+        logger.info("Se elimina un paciente con el id: " + id);
         if (buscar(id) == null){
             logger.error("Se quiere eliminar un paciente con un id inexistente en la base de datos.");
             throw new ResourceNotFoundException("No existe un paciente con el ID: " + id);
@@ -49,6 +54,7 @@ public class PacienteService {
     }
 
     public Paciente actualizar(Paciente p) {
+        logger.info("Se actualiza el paciente con el id: "+ p.getId());
         return pacienteRepository.save(p);
     }
 }

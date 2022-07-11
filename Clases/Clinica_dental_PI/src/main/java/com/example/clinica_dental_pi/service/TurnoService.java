@@ -25,10 +25,12 @@ public class TurnoService {
     private static final Logger logger = Logger.getLogger(PacienteService.class);
 
     public TurnoService(TurnoRepository turnoRepository) {
+
         this.turnoRepository = turnoRepository;
     }
 
     public List<Turno> buscarTodos(){
+        logger.info("Se buscan todos los turnos.");
         return turnoRepository.findAll();
     }
 
@@ -40,6 +42,7 @@ public class TurnoService {
             logger.error("Se quiere crear un turno con un odontologo inexistente en la base de datos.");
             throw new BadRequestException("No existe ningun odontologo con ese id: "+ turno.getOdontologo().getId());
         }
+        logger.info("Se registra el turno con el id:" + turno.getId());
         return turnoRepository.save(turno);
     }
 
@@ -62,6 +65,7 @@ public class TurnoService {
     public Turno buscar(Integer id) {
         Turno turno = null;
         Optional<Turno> optionalTurno= turnoRepository.findById(id);
+        logger.info("Se busca el turno con el id: " + id);
         if (optionalTurno.isPresent()){
             turno= optionalTurno.get();
         }

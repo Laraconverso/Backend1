@@ -35,7 +35,7 @@ public class PacienteServiceTest {
     private static final Logger logger = Logger.getLogger(PacienteServiceTest.class);
 
 
-    //@BeforeClass
+
     public void cargarDataSet() {
         Domicilio domicilio = domicilioService.guardar(new Domicilio("Av PaseoColon", "850", "CABA", "Buenos Aires"));
         Paciente p = pacienteService.guardar(new Paciente("Santiago", "Paz", "88888888", new Date(), domicilio));

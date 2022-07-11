@@ -25,7 +25,7 @@ public class OdontologoServiceTest {
 
     private static final Logger logger = Logger.getLogger(OdontologoServiceTest.class);
 
-    //@BeforeClass
+
     public void cargarDataSet() {
         Odontologo odontologo = odontologoService.guardar(new Odontologo(19034, "Juan", "Dentista"));
         Odontologo odontologo1 = odontologoService.guardar(new Odontologo(2345, "Perla", "Blancas"));

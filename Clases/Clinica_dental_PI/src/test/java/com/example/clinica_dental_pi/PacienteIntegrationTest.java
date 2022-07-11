@@ -48,6 +48,8 @@ public class PacienteIntegrationTest {
 
     @Test
     public void buscarTodosLosPacientes() throws Exception {
+        System.out.println("-------- Test Integracion buscar pacientes --------\n");
+        System.out.println("---------------------------------------------------\n");
         //Cargar pacientes
         this.cargarDataSet();
         //Se debe llamar al endpoint correspondiente del controller usando MockMvc
@@ -59,6 +61,8 @@ public class PacienteIntegrationTest {
 
     @Test
     public void buscarPacientePorId() throws Exception {
+        System.out.println("-------- Test Integracion buscar paciente por id --------\n");
+        System.out.println("---------------------------------------------------------\n");
         //Cargar un paciente
         Domicilio domicilio = new Domicilio("Av Santa fe", "444", "CABA", "Buenos Aires");
         Paciente p = pacienteService.guardar(new Paciente("Santiago", "Paz", "88888888", new Date(), domicilio));
@@ -73,6 +77,8 @@ public class PacienteIntegrationTest {
 
     @Test
     public void crearPaciente() throws Exception {
+        System.out.println("-------- Test Integracion crear paciente --------\n");
+        System.out.println("-------------------------------------------------\n");
         Domicilio domicilio = new Domicilio("Calle", "123", "Temperley", "Buenos Aires");
         Paciente p = pacienteService.guardar(new Paciente("Tomas", "Pereyra", "12345678", new Date(), domicilio));
         ObjectWriter writer = new ObjectMapper()
@@ -92,6 +98,8 @@ public class PacienteIntegrationTest {
 
     @Test
     public void actualizarPaciente() throws Exception{
+        System.out.println("-------- Test Integracion actualizar paciente --------\n");
+        System.out.println("------------------------------------------------------\n");
         Domicilio domicilio = new Domicilio("Av Santa fe", "444", "CABA", "Buenos Aires");
         Paciente p = pacienteService.guardar(new Paciente("Santiago", "Paz", "88888888", new Date(), domicilio));
         Paciente p2 = (new Paciente(p.getId(), "Sebastian", "Paz", "88888888", new Date(), domicilio));

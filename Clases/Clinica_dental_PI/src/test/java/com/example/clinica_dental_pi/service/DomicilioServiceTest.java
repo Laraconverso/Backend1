@@ -24,7 +24,7 @@ public class DomicilioServiceTest {
     private static final Logger logger = Logger.getLogger(DomicilioServiceTest.class);
 
 
-    //@BeforeClass
+
     public void cargarDataSet() {
         Domicilio domicilio = domicilioService.guardar(new Domicilio("Mi casa", "1", "CABA", "Buenos Aires"));
         Domicilio domicilio1 = domicilioService.guardar(new Domicilio("Tu casa", "12", "CABA", "Buenos Aires"));
@@ -32,6 +32,8 @@ public class DomicilioServiceTest {
 
     @Test
     public void agregarYBuscarDomicilioTest() {
+        System.out.println("-------- Test agregar y buscar domicilios --------\n");
+        System.out.println("--------------------------------------------------\n");
         this.cargarDataSet();
         Domicilio domicilio = domicilioService.guardar(new Domicilio("Calle", "123", "Temperley", "Buenos Aires"));
         logger.info("Se guardo el domicilio con el id: " + domicilio.getId());
@@ -40,6 +42,8 @@ public class DomicilioServiceTest {
 
     @Test
     public void eliminarDomicilioTest() {
+        System.out.println("-------- Test eliminar domicilios --------\n");
+        System.out.println("------------------------------------------\n");
         Domicilio domicilio = domicilioService.guardar(new Domicilio("Para Borrar", "124", "ALLA", "Buenos Aires"));
         domicilioService.eliminar(domicilio.getId());
         logger.info("Se elimino el domicilio con el id: " + domicilio.getId());
@@ -48,6 +52,8 @@ public class DomicilioServiceTest {
 
     @Test
     public void traerTodosDomicilios() {
+        System.out.println("-------- Test enlistar domicilios --------\n");
+        System.out.println("------------------------------------------\n");
         List<Domicilio> domicilios = domicilioService.buscarTodos();
         logger.info("Se buscan todos los domicilios.");
         Assert.assertTrue(!domicilios.isEmpty());

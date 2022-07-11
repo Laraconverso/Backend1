@@ -1,13 +1,13 @@
 window.addEventListener('load', function () {
     window.deleteBy = (id) => {
       if (window.confirm('Desea eliminar este odontologo?')) {
-        const url = '/odontologos/'+ id;
+        const url = '/turnos/'+ id;
         const settings = {
           method: 'DELETE',
         };
 
         fetch(url, settings).then((response) => {
-          alert('usuario eliminado correctamente');
+          alert('turno eliminado correctamente');
           location.reload();
         });
       }

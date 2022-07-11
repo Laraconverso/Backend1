@@ -19,7 +19,7 @@
             <a class="nav-link" href="index.html">HOME</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="turnoAlta.html">Agregar nuevo</a>
+            <a class="nav-link" href="turnoAlta.html">Agregar turno</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="turnoList.html">Todos</a>
@@ -28,15 +28,14 @@
 
     <div id="div_turno_table">
         <h1>Turnos</h1>
-        <div class="row col-md-6 table-responsive">
-            <table id="turnosTable" class="table table-striped">
+        <div class="row col-md-12 table-responsive">
+            <table id="turnoTable" class="table table-striped">
                 <thead>
                 <tr>
                     <th></th>
-                    <th>Id</th>
-                    <th>Nombre</th>
-                    <th>Apellido</th>
-                    <th>Matricula</th>
+                    <th>Paciente Id</th>
+                    <th>Odontologo Id</th>
+                    <th>Fecha</th>
                     <th></th>
                 </tr>
                 </thead>
@@ -47,27 +46,22 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-6" style="display: none;
+        <div class="col-sm-12" style="display: none;
 											background-color:#e6fffa; padding:10px; border-radius:3px"
              id="div_turnos_updating">
             <form id="update_turnos_form">
                 <div class="form-group">
-                    <label >Id:</label>
-                    <input type="text" class="form-control" id="turnos_id" readonly>
+                    <label >Paciente Id:</label>
+                    <input type="number" class="form-control" id="paciente" readonly>
                 </div>
                 <div class="form-group">
-                    <label >Nombre:</label>
-                    <input type="text" class="form-control" placeholder="nombre" id="nombre">
+                    <label>Odontologo Id:</label>
+                    <input type="number" class="form-control" placeholder="odontologo" id="odontologo">
                 </div>
                 <div class="form-group">
-                    <label >Apellido:</label>
-                    <input type="text" class="form-control" placeholder="apellido" id="apellido">
+                    <label>Fecha</label>
+                    <input type="datetime" class="form-control" placeholder="fecha" id="fecha">
                 </div>
-                <div class="form-group">
-                    <label >Matricula:</label>
-                    <input type="text" class="form-control" placeholder="matricula" id="matricula">
-                </div>
-
 
                 <button type="submit" class="btn btn-primary">Modificar</button>
             </form>

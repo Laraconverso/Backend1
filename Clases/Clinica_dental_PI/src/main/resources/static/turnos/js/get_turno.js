@@ -1,61 +1,62 @@
 window.addEventListener('load', function () {
-    (function () {
-      const url = '/odontologos';
-      const settings = {
-        method: 'GET',
-      };
+  (function () {
+    const url = '/turnos';
+    const settings = {
+      method: 'GET',
+    };
 
-      fetch(url, settings)
+    fetch(url, settings)
         .then((response) => response.json())
         .then((data) => {
-          for (odontologo of data) {
-            var table = document.getElementById('odontologoTable');
-            var odontologoRow = table.insertRow();
-            let tr_id = 'tr_' + odontologo.id;
-            odontologoRow.id = tr_id;
+          console.log(data)
+
+          for (turno of data) {
+            var table = document.getElementById('turnoTable');
+            var turnoRow = table.insertRow();
+            let tr_id = 'tr_' + turno.id;
+            turnoRow.id = tr_id;
 
             let deleteButton =
-              '<button' +
-              ' id=' +
-              '"' +
-              'btn_delete_' +
-              odontologo.id +
-              '"' +
-              ' type="button" onclick="deleteBy(' +
-              odontologo.id +
-              ')"' +
-              'class="btn btn-danger btn_delete">' +
-              '&times' +
-              '</button>';
+                '<button' +
+                ' id=' +
+                '"' +
+                'btn_delete_' +
+                turno.id +
+                '"' +
+                ' type="button" onclick="deleteBy(' +
+                turno.id +
+                ')"' +
+                'class="btn btn-danger btn_delete">' +
+                '&times' +
+                '</button>';
 
             let updateButton =
-              '<button' +
-              ' id=' +
-              '"' +
-              'btn_id_' +
-                "✏️"  +
-              '"' +
-              ' type="button" onclick="findBy(' +
-              odontologo.id +
-              ')"' +
-              ' class="btn btn-info btn_id">' +
-              odontologo.id +
-              '</button>';
+                '<button' +
+                ' id=' +
+                '"' +
+                'btn_id_' +
+                turno.id  +
+                '"' +
+                ' type="button" onclick="findBy(' +
+                turno.id +
+                ')"' +
+                ' class="btn btn-info btn_id">' +
+                "✏️" +
+                '</button>';
 
-            odontologoRow.innerHTML =
-              '<td>' + updateButton + '</td>' +
-              '<td class="td_id">' + odontologo.id + '</td>' +
-              '<td class="td_nombre">' + odontologo.nombre.toUpperCase() + '</td>' +
-              '<td class="td_apellido">' + odontologo.apellido.toUpperCase() + '</td>' +
-              '<td class="td_matricula">' + odontologo.matricula + '</td>' +
-              '<td>' + deleteButton + '</td>';
+            turnoRow.innerHTML =
+                '<td>' + updateButton + '</td>' +
+                '<td class="td_odontologo">' + turno.paciente.id+ '</td>' +
+                '<td class="td_paciente">' + turno.odontologo.id + '</td>' +
+                '<td class="td_fecha">' + turno.fecha + '</td>' +
+                '<td>' + deleteButton + '</td>';
           }
         });
-    })(function () {
-      let pathname = window.location.pathname;
+  })(function () {
+    let pathname = window.location.pathname;
 
-      if (pathname == '/odontologoList.html') {
-        document.querySelector('.nav .nav-item a:last').addClass('active');
-      }
-    });
+    if (pathname == '/turnoList.html') {
+      document.querySelector('.nav .nav-item a:last').addClass('active');
+    }
   });
+});
